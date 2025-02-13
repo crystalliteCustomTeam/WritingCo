@@ -1,0 +1,52 @@
+.landingBanner {
+    height: 837px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .banenrContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        .bannerImg {
+            flex: 0 0 440px;
+            margin-right: 40px;
+
+            img {
+                height: auto;
+                width: 440px;
+            }
+        }
+
+        .bannerTxt {
+            flex: 0 0 calc(100% - 480px);
+
+            h1 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 75px;
+                line-height: 88px;
+                letter-spacing: -0.304476px;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color: #fff;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            .logoImg {
+                margin-top: 30px;
+
+                img {
+                    width: auto;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

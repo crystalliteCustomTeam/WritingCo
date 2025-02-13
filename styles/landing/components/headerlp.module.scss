@@ -1,0 +1,55 @@
+.headerLp {
+    position: absolute;
+    left: 0px;
+    height: 120px;
+    width: 100%;
+
+    .logoSec {
+        svg {
+            height: 60px;
+            width: auto;
+
+            path {
+                &:nth-child(3) {
+                    fill: #fff;
+                }
+
+                &:nth-child(4) {
+                    fill: #fff;
+                }
+            }
+
+        }
+    }
+
+    .headerBtn {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+
+        div {
+            height: 60px;
+            border-radius: 100px;
+            padding: 0px 30px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: -0.165px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            background: #FF7F3E;
+            color: #fff;
+
+            &:hover {
+                background: #FFF6E9;
+                color: #FF7F3E;
+                transition: background 0.3s ease, transform 0.3s ease;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.contentSection {
+    background: #F8F8F8;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        li {
+            flex: 0 0 calc(50% - 20px);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.23166px;
+            color: #000;
+            margin-bottom: 15px;
+            margin-right: 10px;
+
+            svg {
+                height: 20px;
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &.alternetSec {
+        background: #000;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        ul {
+            li {
+                color: #fff;
+            }
+        }
+    }
+}

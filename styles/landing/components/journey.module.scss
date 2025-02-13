@@ -1,0 +1,95 @@
+.journeySection {
+    background: #000;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        content: '';
+        background: #000;
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .journeyContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+
+
+        .contentSection {
+            flex: 0 0 40%;
+            margin-right: 10%;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+
+            h2 {
+                color: #fff;
+            }
+
+            p {
+                color: #717171;
+            }
+        }
+
+        .sliderSection {
+            flex: 0 0 calc(55% - 10%);
+            position: relative;
+
+            .embla {
+                height: 100%;
+
+                .embla__viewport {
+                    overflow: visible;
+                    height: 100%;
+                    position: relative;
+
+                    .embla__container {
+                        display: flex;
+                        touch-action: pan-y pinch-zoom;
+                        justify-content: space-between;
+                        margin-left: calc(50px * -1);
+
+                        .embla__slide {
+                            flex: 0 0 740px;
+                            padding-left: 50px;
+                            overflow: hidden;
+
+                            .imgBox {
+                                width: 100%;
+                                height: 460px;
+                                border-radius: 35px;
+                                position: relative;
+                                margin-bottom: 20px;
+
+                                img {
+                                    border-radius: 35px;
+                                    object-fit: cover;
+                                }
+                            }
+
+                            .txtBox {
+                                h4 {
+                                    color: #fff;
+                                }
+
+                                p {
+                                    font-size: 25px;
+                                    color: #717171;
+                                    line-height: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

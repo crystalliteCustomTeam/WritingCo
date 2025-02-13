@@ -1,0 +1,430 @@
+.Contactbox {
+    border-radius: 20px;
+    padding: 0px 0px 0px;
+    max-width: 570px;
+    margin: auto;
+
+    .contactItem {
+        margin-bottom: 10px;
+
+        input {
+            height: 55px;
+            background: #fff;
+            border-radius: 15px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            color: #73858F;
+            width: 100%;
+            border: 0px;
+            outline: none;
+            padding: 0px 20px;
+
+        }
+
+        textarea {
+            height: 140px;
+            background: #fff;
+            border-radius: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #73858F;
+            width: 100%;
+            border: 0px;
+            outline: none;
+            padding: 10px 20px;
+        }
+    }
+
+    .para {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.165px;
+        color: #000000;
+        margin-bottom: 25px;
+
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration-line: underline;
+            color: #000000;
+
+            &:hover {
+                color: #FF7F3E;
+            }
+        }
+    }
+
+    .contactBtn {
+        button {
+            border: 0px;
+            width: 200px;
+            font-size: 17px;
+            height: 55px;
+
+            &:hover {
+                border: 2px solid #FF7F3E;
+                color: #FF7F3E;
+            }
+        }
+    }
+
+    &.verticalFrom {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        max-width: 100%;
+        margin: auto;
+        justify-content: center;
+
+        .contactItem {
+            flex: 0 0 calc(33.33% - 10px);
+
+            input {
+                background: #fff;
+                border-radius: 10px;
+                border: 2px solid #FF7F3E;
+            }
+
+        }
+
+        .contactBtn {
+            flex: 0 0 100%;
+
+            button {
+                width: 100%;
+
+            }
+        }
+
+    }
+
+    &.lp2From {
+        .contactItem {
+            flex: 0 0 calc(50% - 10px);
+
+            &:nth-child(3) {
+                flex: 0 0 calc(100% - 10px);
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .Contactbox {
+        max-width: 570px;
+
+        .contactItem {
+            margin-bottom: 10px;
+
+            input {
+                height: 50px;
+                font-size: 14px;
+                line-height: 24px;
+                padding: 0px 20px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 110px;
+                font-size: 14px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 15px;
+
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 200px;
+                font-size: 16px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .Contactbox {
+        max-width: 570px;
+
+        .contactItem {
+            margin-bottom: 10px;
+
+            input {
+                height: 45px;
+                font-size: 14px;
+                line-height: 24px;
+                padding: 0px 20px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 110px;
+                font-size: 14px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 15px;
+
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 200px;
+                font-size: 16px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .Contactbox {
+        max-width: 570px;
+
+        .contactItem {
+            margin-bottom: 10px;
+
+            input {
+                height: 40px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 0px 20px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 100px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 15px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 130px;
+                font-size: 15px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .Contactbox {
+        max-width: 570px;
+
+        .contactItem {
+            margin-bottom: 5px;
+
+            input {
+                height: 40px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 0px 20px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 15px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 130px;
+                font-size: 15px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .Contactbox {
+        max-width: 570px;
+
+        .contactItem {
+            margin-bottom: 5px;
+
+            input {
+                height: 45px;
+                font-size: 12px;
+                line-height: 24px;
+                padding: 0px 15px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 80px;
+                font-size: 12px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 130px;
+                font-size: 15px;
+                height: 45px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .Contactbox {
+        max-width: 570px;
+        padding-bottom: 20px;
+
+        .contactItem {
+            margin-bottom: 5px;
+
+
+            input {
+                height: 40px;
+                font-size: 12px;
+                line-height: 24px;
+                padding: 0px 15px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 90px;
+                font-size: 12px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        .para {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 130px;
+                font-size: 15px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .Contactbox {
+        max-width: 570px;
+        padding-bottom: 20px;
+
+        .contactItem {
+            margin-bottom: 5px;
+
+
+            input {
+                height: 45px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 0px 15px;
+                border-radius: 10px;
+            }
+
+            textarea {
+                height: 110px;
+                font-size: 13px;
+                line-height: 24px;
+                padding: 10px 20px;
+            }
+        }
+
+        &.verticalFrom {
+            .contactItem {
+                flex: 0 0 100%;
+            }
+        }
+
+        .para {
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+
+            a {
+                font-size: 13px;
+            }
+        }
+
+        .contactBtn {
+            button {
+                width: 130px;
+                font-size: 15px;
+                height: 40px;
+            }
+        }
+    }
+}

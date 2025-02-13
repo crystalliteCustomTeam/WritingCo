@@ -1,0 +1,345 @@
+.blogsSection {
+    .blogItem {
+        margin-top: 40px;
+
+        .blogImg {
+            position: relative;
+            height: 300px;
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 20px;
+
+
+            img {
+                border-radius: 20px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+        }
+
+        .blogTxt {
+            padding: 0px 10px;
+
+            .categoryItem {
+                margin-bottom: 15px;
+                border: 1px solid #73858F;
+                border-radius: 100px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 57px;
+                display: inline-flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.133269px;
+                color: #657985;
+                padding: 0px 20px;
+                height: 40px;
+
+            }
+
+            h5 {
+                margin-bottom: 10px;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                color: #000000;
+            }
+
+            .datatime {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: -0.165px;
+                color: #73858F;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #000;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 30px;
+
+            .blogImg {
+                height: 260px;
+
+                img {
+                    border-radius: 20px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 10px;
+
+                .categoryItem {
+                    font-size: 13px;
+                    line-height: 50px;
+                    padding: 0px 20px;
+                    height: 40px;
+                }
+
+                h5 {
+                    margin-bottom: 10px;
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+
+                .datatime {
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 230px;
+
+                img {
+                    border-radius: 18px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 10px;
+
+                .categoryItem {
+                    font-size: 12px;
+                    line-height: 45px;
+                    padding: 0px 20px;
+                    height: 35px;
+                }
+
+                h5 {
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+
+                .datatime {
+                    font-size: 13px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 220px;
+
+                img {
+                    border-radius: 15px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 10px;
+
+                .categoryItem {
+                    font-size: 12px;
+                    line-height: 22px;
+                    padding: 0px 20px;
+                    height: 35px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+
+                .datatime {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 220px;
+
+                img {
+                    border-radius: 15px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 10px;
+
+                .categoryItem {
+                    font-size: 12px;
+                    line-height: 22px;
+                    padding: 0px 20px;
+                    height: 35px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+
+                .datatime {
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 220px;
+
+                img {
+                    border-radius: 15px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 0px;
+
+                .categoryItem {
+                    font-size: 11px;
+                    line-height: 22px;
+                    padding: 0px 15px;
+                    height: 30px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    line-height: 24px;
+                }
+
+                .datatime {
+                    font-size: 11px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 220px;
+
+                img {
+                    border-radius: 15px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 0px;
+
+                .categoryItem {
+                    font-size: 11px;
+                    line-height: 22px;
+                    padding: 0px 15px;
+                    height: 30px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    line-height: 24px;
+                }
+
+                .datatime {
+                    font-size: 11px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .blogsSection {
+        .blogItem {
+            margin-top: 20px;
+
+            .blogImg {
+                height: 220px;
+
+                img {
+                    border-radius: 15px;
+                }
+
+            }
+
+            .blogTxt {
+                padding: 0px 0px;
+
+                .categoryItem {
+                    font-size: 11px;
+                    line-height: 22px;
+                    padding: 0px 15px;
+                    height: 30px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 17px;
+                    line-height: 24px;
+                }
+
+                .datatime {
+                    font-size: 11px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
