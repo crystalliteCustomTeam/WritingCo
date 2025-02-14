@@ -1,13 +1,13 @@
 import BannerImg from "media/services/book-publishing-services/bannerImage.webp"
 export const BannerData = {
-    title: "Make Your Book Stand Out with Our Book Publishing Services",
-    txt: "Our Book Publishing Services provide everything you need to publish professionally—without frustration. From editing and design to ISBN registration and global distribution, we handle every detail. Whether you’re a first-time author or an experienced writer, we make the process simple, transparent, and effective. With our team by your side, your book will not only be published—it will be positioned for success.",
+    title: "Create Magical Stories with Our Professional Children Book Publication Services",
+    txt: "We provide comprehensive support to turn your ideas into beautifully published books.",
     img: BannerImg.src
 }
 
 export const InnerServicesData = {
-    title: "Choosing the Right Publishing Path Matters",
-    txt: "The book publishing process is filled with many options, but not all of them work in an author’s best interest. Some publishing routes come with hidden costs, rights issues, or limited distribution. Choosing the right path is critical to ensuring your book’s success. We help you understand these decisions by offering tailored Book Publishing Services that fit your goals.  Your vision stays intact while we handle the complexities. No unexpected fees, no restrictive contracts—just a publishing experience designed for your success.",
+    title: "Why Publishing A Book Is Life Changing",
+    txt: "Publishing your book is more than just printing words on paper—it’s about sharing your story with the world. With our book publishing services, you gain access to global distribution, expert guidance, and tailored strategies to maximize your book’s reach and impact. From ISBN assignment to seamless distribution across platforms like Amazon, Barnes & Noble, and beyond, we handle every detail.",
     InnerServicesItem: [
         {
             title: "How can I publish my book?",
@@ -28,8 +28,8 @@ export const InnerServicesData = {
     ]
 }
 export const BestSellerData = {
-    title: "The Latest Addition to Our Publishing Portfolio",
-    txt: "Make Your Next Book Shine with Our Book Publishing Services"
+    title: "The Latest Addition to Our Publication Portfolio",
+    txt: "Make Your Next Book Shine with Our Book Publication Services"
 }
 //Services
 import Image01 from "media/services/book-marketing-services/services/img01.webp"
@@ -40,11 +40,11 @@ import Image04 from "media/services/book-marketing-services/services/img04.webp"
 
 export const ServicesData = {
     subtitle: "Why Choose",
-    title: "Why We’re the Perfect Partner for Your Book Project",
-    txt: "",
+    title: (<>End-to-End Book Publishing <br />Services for Your Book</>),
+    txt: "We provide a complete range of Book Publishing Services tailored to meet different publishing needs. Whether you're self-publishing or looking for full-service assistance, we’ve got you covered. Our core publishing services include:",
     ServicesItem: [
         {
-            title: "Maximizing Reach & Reader Engagement",
+            title: "Why We’re the Perfect Partner for Your Book Project",
             txt: (<>
                 <p>A book’s reach extends far beyond its launch. Proper distribution, marketing, and ongoing support ensure it continues to sell and grow in visibility. Too often, authors publish their books only to see them disappear into digital shelves, unnoticed.</p>
                 <p>We do more than publish—we position your book for long-term success. Through global distribution, keyword optimization, and reader-focused strategies, your book reaches the right audience. Whether it’s paperback, hardcover, eBook, or audiobook, we ensure it’s available where readers are looking. Your book isn’t just another listing—it’s a brand. And we help you build it.</p>
@@ -52,33 +52,23 @@ export const ServicesData = {
             img: Image01.src
         },
         {
-            title: "Diverse Voices, Boundless Stories: Genres That We Master",
+            title: "Diverse Voices, Boundless Stories – We Publish All Genres",
             txt: (<>
-                <p>We believe every book has a place in the market. Our Book Publishing Services cater to a wide range of genres and formats, ensuring your work reaches the right audience. Whether you are a fiction writer, a business author, or a poet, we have the expertise to bring your vision to life. We publish various genres, including:</p>
-                <ul className="CustomUl">
-                    <li><CheckedIcon />Fiction (Mystery, Romance, Thriller, Fantasy, and more)</li>
-                    <li><CheckedIcon />Non-fiction (Business, Self-Help, Biographies, and more)</li>
-                    <li><CheckedIcon />Academic and Educational Books</li>
-                    <li><CheckedIcon />Children's Books and Graphic Novels</li>
-                </ul>
-                <p>Your book deserves to be seen, and we make sure it reaches the right readers.</p>
+                <p>We believe every book has a place in the market, and our book publishing services cater to a wide range of genres and formats to ensure your work reaches the right audience. Whether you're a fiction writer crafting thrilling mysteries, heartwarming romances, or captivating fantasies, or a non-fiction author sharing business insights, self-help strategies, or inspiring biographies, we have the expertise to bring your vision to life. We also specialize in academic and educational books, children's literature, and graphic novels. No matter the genre, we ensure your book gets the recognition it deserves and connects with the right readers.</p>
             </>),
             img: Image02.src
         },
         {
-            title: "Time To Talk About Your Book",
+            title: "Unlimited Printing with On-Demand Publishing",
             txt: (<>
-                <p>Publishing is a journey, and we want to walk this path with you. What’s your book about? Who do you want to reach? What’s your biggest challenge in getting published?</p>
-                <p>We understand the excitement and concerns that come with publishing a book. Whether you're looking for full support or just need help with a specific aspect, our Book Publishing Services are tailored to fit your needs.</p>
-                <p>Let’s discuss your book and explore how we can turn your manuscript into a published success. Contact us today to start your publishing journey.</p>
-
+                <p>With our on-demand book publishing services, there are no minimum print requirements—you decide how many copies to publish. We set up your account with Amazon Kindle Direct Publishing (KDP) and other platforms, giving you complete control over the printing process. Whether you need a single copy or thousands, we ensure high-quality, cost-effective printing and seamless distribution. Plus, our services include shipping and handling across the state, making publishing more convenient than eve.</p>
             </>),
             img: Image03.src
         },
         {
             title: "Maximizing Your Book’s Reach with Our Marketing Expertise",
             txt: (<>
-                <p>A well-written book deserves a strong marketing strategy.We ensure your book gets noticed through effective promotion across multiple platforms.Our marketing services include Amazon and online store optimization to enhance visibility, social media campaigns for audience engagement, press releases for media outreach, and book launch strategies to maximize sales.We ensure that your book is seen, sold, and read by the right audience.</p>
+                <p>A well-written book deserves a strong marketing strategy. We ensure your book gets noticed through effective promotion across multiple platforms. Our marketing services include Amazon and online store optimization to enhance visibility, social media campaigns for audience engagement, press releases for media outreach, and book launch strategies to maximize sales. We ensure that your book is seen, sold, and read by the right audience.</p>
             </>),
             img: Image04.src
         }
@@ -110,7 +100,7 @@ export const OfferData = {
 }
 
 import BookImg from "media/companylogo.webp"
-import { CheckedIcon } from "../../app-constants"
+
 export const ProcessData = {
     subtitle: "Our Process",
     title: "What is Our Book Publishing Process?",
@@ -118,7 +108,7 @@ export const ProcessData = {
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Manuscript Assessment ",
+            title: "Manuscript Assessment",
             txt: "Our team thoroughly evaluates your manuscript to ensure it aligns with industry standards. We provide feedback on areas of improvement and help you refine the content before moving to the next stage."
         },
         {

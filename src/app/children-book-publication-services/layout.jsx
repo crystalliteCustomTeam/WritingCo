@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "",
-    description: "",
+    title: "Children book publication services  to tell your story the right way.",
+    description: "Looking for expert Children Book Publication Services? Our Publication Agency helps authors publish high-quality children's books with stunning illustrations and global distribution.",
     //===== OG Tags =====
     openGraph: {
-        title: "",
-        description: "",
-        url: '/book-writing-services',
+        title: "Children book publication services  to tell your story the right way.",
+        description: "Looking for expert Children Book Publication Services? Our Publication Agency helps authors publish high-quality children's books with stunning illustrations and global distribution.",
+        url: '/children-book-publication-services',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
         images: "",
     },
     //===== Canonical =====
-    alternates: { canonical: '/book-writing-services' },
+    alternates: { canonical: '/children-book-publication-services' },
 }
 
 

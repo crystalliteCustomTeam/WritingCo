@@ -8,7 +8,7 @@ const ServicesBox = ({ data }) => {
         <section className={`${styles.servicesBox} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={12} className="text-center">
+                    <Col md={10} lg={8} className="text-center m-auto">
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>

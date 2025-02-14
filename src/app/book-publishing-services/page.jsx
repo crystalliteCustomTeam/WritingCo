@@ -13,7 +13,7 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm title="Get Your Personalized Publishing Estimate Today" />
+            <ServicesForm title="Discover Your Book Potential with a Free Quote" />
             <BestSeller innerPage={true} data={BestSellerData} />
             <InnerServices data={InnerServicesData} />
             <ServicesBox data={ServicesData} />

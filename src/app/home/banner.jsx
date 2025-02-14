@@ -12,8 +12,8 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={8} lg={6} className="my-auto">
                         <div className={styles.bannerTxt}>
-                            <h1>Book Writing Company That Commits To Writing Excellence!</h1>
-                            <p>Your wish to bring your dream/ideas to life, let our book writers make it come true. Fulfilling your self-publishing needs.</p>
+                            <h1>Book Writing Company Behind Tomorrow’s Bestsellers!</h1>
+                            <p>Turn your dream into a Bestselling book with our expert writers. We transform your vision into reality and support your publishing journey.</p>
                         </div>
                         <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
                         <div className={styles.bannerLogo}>

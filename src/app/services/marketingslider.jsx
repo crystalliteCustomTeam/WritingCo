@@ -51,8 +51,8 @@ const MarketingSlider = () => {
         <section className={`${styles.marketingSection} pt-100`}>
             <Container><Row>
                 <Col md={8}>
-                    <h2>Our Latest Book Marketing Projects</h2>
-                    <p>Let Our Book Marketing Team Help You</p>
+                    <h2>The Latest Addition to Our Book Marketing Portfolio</h2>
+                    <p>Make Your Next Book Shine with Our Book Marketing Services</p>
                 </Col>
                 <Col md={4} className="mt-auto d-none d-md-block">
                     <SliderArrow
