@@ -21,9 +21,10 @@ const ServicesForm = ({ bg, txt, title, lp2 }) => {
                                 {bg ? (
                                     <div dangerouslySetInnerHTML={{ __html: title }} />
                                 ) : (
-                                    "Request A Free Quote"
+                                    title || "Get a No- Obligation Quote for Your Publishing Project"
                                 )}
                             </h2>
+
                             <ContactFrom vertical={true} txt={txt} lp2={lp2} />
                         </div>
                     </Col>

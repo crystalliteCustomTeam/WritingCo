@@ -103,7 +103,8 @@ const BestSeller = ({ innerPage, landing, data }) => {
                     <Col md={8} className={landing ? "text-center m-auto" : ""}>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>
-                    </Col>    {!landing ?
+                    </Col>
+                    {!landing ?
                         <Col md={4} className="mt-auto d-none d-md-block">
 
                             <SliderArrow

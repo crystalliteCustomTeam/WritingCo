@@ -1,13 +1,13 @@
 import BannerImg from "media/services/book-publishing-services/bannerImage.webp"
 export const BannerData = {
-    title: "Book Publishing Services Giving You The Creative Control You Deserve!",
-    txt: "Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve. Discuss with our expert book publishers the creative control you deserve.",
+    title: "Make Your Book Stand Out with Our Book Publishing Services",
+    txt: "Our Book Publishing Services provide everything you need to publish professionally—without frustration. From editing and design to ISBN registration and global distribution, we handle every detail. Whether you’re a first-time author or an experienced writer, we make the process simple, transparent, and effective. With our team by your side, your book will not only be published—it will be positioned for success.",
     img: BannerImg.src
 }
 
 export const InnerServicesData = {
-    title: "Why Book Publishing?",
-    txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss inside our heads. However, some ideas/stories and visions are meant for the world to read and study. The ideas develop once you write, but the important aspect is to let the world to see your work and change mindsets!",
+    title: "Choosing the Right Publishing Path Matters",
+    txt: "The book publishing process is filled with many options, but not all of them work in an author’s best interest. Some publishing routes come with hidden costs, rights issues, or limited distribution. Choosing the right path is critical to ensuring your book’s success. We help you understand these decisions by offering tailored Book Publishing Services that fit your goals.  Your vision stays intact while we handle the complexities. No unexpected fees, no restrictive contracts—just a publishing experience designed for your success.",
     InnerServicesItem: [
         {
             title: "How can I publish my book?",
@@ -28,8 +28,8 @@ export const InnerServicesData = {
     ]
 }
 export const BestSellerData = {
-    title: "Our Latest Book Publishing Projects",
-    txt: "Let Our Book Publishing Team Help You"
+    title: "The Latest Addition to Our Publishing Portfolio",
+    txt: "Make Your Next Book Shine with Our Book Publishing Services"
 }
 //Services
 import Image01 from "media/services/book-marketing-services/services/img01.webp"
@@ -40,98 +40,106 @@ import Image04 from "media/services/book-marketing-services/services/img04.webp"
 
 export const ServicesData = {
     subtitle: "Why Choose",
-    title: "Why Choose Our Self Publishing Services?",
+    title: "Why We’re the Perfect Partner for Your Book Project",
     txt: "",
     ServicesItem: [
         {
-            title: "How Do I Publish My Book?",
+            title: "Maximizing Reach & Reader Engagement",
             txt: (<>
-                <p>Our experience enables us to craft captivating stories. Short or long – your manuscript gets the attention it deserves! Every word we polish is prepared for the impact on the readers and infused with care. From beginning to end, our book publishers and book editing experts take on every project, because no task is too big or difficult when you have people like us working together as part of such a one-stop solution.</p>
-                <p>We ensure everything from page-turners to nail-biting finishes feels masterfully controlled so each reader can find a perfect read. Our book editing team eagerly waits for their next project to be proofread and edited.</p>
+                <p>A book’s reach extends far beyond its launch. Proper distribution, marketing, and ongoing support ensure it continues to sell and grow in visibility. Too often, authors publish their books only to see them disappear into digital shelves, unnoticed.</p>
+                <p>We do more than publish—we position your book for long-term success. Through global distribution, keyword optimization, and reader-focused strategies, your book reaches the right audience. Whether it’s paperback, hardcover, eBook, or audiobook, we ensure it’s available where readers are looking. Your book isn’t just another listing—it’s a brand. And we help you build it.</p>
             </>),
             img: Image01.src
         },
         {
-            title: "What Type Of Books Do We Publish?",
+            title: "Diverse Voices, Boundless Stories: Genres That We Master",
             txt: (<>
-                <p>We write, edit, publish and market all genres of books. Also, we provide similar services to self publish ebooks. So, we can also help you with self publishing.</p>
-                <p>Benefit from our wide-ranging array of book publication formats and forms and book your place as a Book Writing. We are ranked among the top book publishing companies including children’s book publishers and Amazon publishing services providers.</p>
+                <p>We believe every book has a place in the market. Our Book Publishing Services cater to a wide range of genres and formats, ensuring your work reaches the right audience. Whether you are a fiction writer, a business author, or a poet, we have the expertise to bring your vision to life. We publish various genres, including:</p>
+                <ul className="CustomUl">
+                    <li><CheckedIcon />Fiction (Mystery, Romance, Thriller, Fantasy, and more)</li>
+                    <li><CheckedIcon />Non-fiction (Business, Self-Help, Biographies, and more)</li>
+                    <li><CheckedIcon />Academic and Educational Books</li>
+                    <li><CheckedIcon />Children's Books and Graphic Novels</li>
+                </ul>
+                <p>Your book deserves to be seen, and we make sure it reaches the right readers.</p>
             </>),
             img: Image02.src
         },
         {
-            title: "How Many Copies Of Your Book Will Be Published?",
+            title: "Time To Talk About Your Book",
             txt: (<>
-                <p>We publish/print books on demand. We set up your account with Amazon and other places, which allows us to have no set values for the minimum amount of copies that can be published/printed. We will print as many and as little as you want.</p>
-                <p>Providing the Highest quality and cost-effective kindle direct publishing and printing services to our clients, with shipping and handling across the state.</p>
+                <p>Publishing is a journey, and we want to walk this path with you. What’s your book about? Who do you want to reach? What’s your biggest challenge in getting published?</p>
+                <p>We understand the excitement and concerns that come with publishing a book. Whether you're looking for full support or just need help with a specific aspect, our Book Publishing Services are tailored to fit your needs.</p>
+                <p>Let’s discuss your book and explore how we can turn your manuscript into a published success. Contact us today to start your publishing journey.</p>
+
             </>),
             img: Image03.src
         },
         {
-            title: "How Will We Help You Market Your Book?",
+            title: "Maximizing Your Book’s Reach with Our Marketing Expertise",
             txt: (<>
-                <p>Our team of marketing experts are willing to provide their services to you. If you choose us for marketing, we ensure that you and your book gets maximum exposure. Our marketing professionals will assist your book and brand in reaching the success it deserves.</p>
-                <p>Our book marketing professionals will help your book and brand reach the success it deserves.</p>
+                <p>A well-written book deserves a strong marketing strategy.We ensure your book gets noticed through effective promotion across multiple platforms.Our marketing services include Amazon and online store optimization to enhance visibility, social media campaigns for audience engagement, press releases for media outreach, and book launch strategies to maximize sales.We ensure that your book is seen, sold, and read by the right audience.</p>
             </>),
             img: Image04.src
-        },
+        }
     ]
 }
 
 export const OfferData = {
     subtitle: "We Have To Offer",
-    title: "Book Publishing Services That We Have To Offer",
-    desc: "We offer a wide range of self publishing services. There are several options you can choose from and get a final product in your required time frame at very affordable prices! We have packages designed to cater to every budget, so your literary vision can turn into a reality!",
+    title: "End-to-End Book Publishing Services for Your Book",
+    desc: "We provide a complete range of Book Publishing Services tailored to meet different publishing needs. Whether you're self-publishing or looking for full-service assistance, we’ve got you covered.Our core publishing services include:",
     ServicesItem: [
         {
             title: "Self Publication",
-            txt: "This service is applicable for those looking to publish their creative pieces. We will be there to guide you through every step of the way! Our team of experts will provide you will necessary resources and assistance including marketing and distribution strategies so that you never have to feel overwhelmed by the burden of responsibility that comes with self publication. There will be zero intervention of any other party, you get to choose how you want your work to be published!"
+            txt: "This service gives authors complete creative and financial control over their books while receiving expert guidance from our team. We assist in the entire publishing process, from manuscript formatting and cover design to ISBN registration and metadata optimization. Authors retain full rights and 100% of their royalties, allowing them to decide on pricing, distribution channels, and marketing strategies."
         },
         {
             title: "Paperback Publication",
-            txt: "We believe in making your book available across the globe. We ensure that your book stays on-demand and readily available in hardcover and paperback formats. Our extensive marketing and distribution approaches make sure your book accessible on every platform. It enables the readers to find all that they need through one source. Our devoted team of top professionals."
+            txt: "We help authors publish high-quality print books that meet bookstore and online retailer standards. This service includes professional formatting, print-on-demand options, and distribution through platforms like Amazon KDP, IngramSpark, and Barnes & Noble. Whether you need a traditional paperback or a premium edition, we ensure your book is ready for global distribution."
         },
         {
             title: "Online Publication",
-            txt: "We pride ourselves in turning average writers into published authors by giving them control over every aspect of their creative concept and publishing objective for an eBook – from brainstorming through editing. We are more than just book publishers, we help bring out your marketing plan for a successful launch and greater returns!"
+            txt: "The eBook market is rapidly growing, and we optimize books for digital platforms such as Amazon Kindle, Apple Books, Google Play Books, and Kobo. Our team ensures flawless formatting, making your book compatible with multiple devices. We also assist in setting up digital rights management (DRM) protection and optimizing keywords for better discoverability."
         },
         {
             title: "Other Self Publishing Services",
-            txt: "Certified partners with the “Amazon Self Publishing Services”. Being Amazon's Self Publishing Partners gives us the edge to get the Fastest Turn around time to publish book on amazon.Self Publishing doesn’t necessarily mean that you will never be contacted by a Major Traditional Publishing House, elf Publishing gives you the freedom to control every aspect of the process as per your vision.Publish book on amazon."
+            txt: "Beyond publishing, we offer essential services like ISBN assignment, copyright registration, and legal compliance to protect your intellectual property. Additionally, we assist in securing book reviews, setting up author websites, and creating promotional materials to enhance your book’s visibility in the market."
         }
     ]
 }
 
 import BookImg from "media/companylogo.webp"
+import { CheckedIcon } from "../../app-constants"
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "What Is Our Book Publishing Process?",
-    txt: "We have devised an elaborate workflow process to maximize transparency while also making sure that the final product's quality does not suffer. We do this through an extensive process of asking for approvals and updating our customers at every project stage. This helps a customer understand where we're coming from and be aware of what's going on. Our self publishing process follows these six stages, as listed below.",
+    title: "What is Our Book Publishing Process?",
+    txt: "Our Book Publishing Services follow a structured, efficient, and author-friendly approach, ensuring that your book transitions smoothly from manuscript to a professionally published book. We handle every step carefully, eliminating stress and delays so that your work reaches the right audience without unnecessary roadblocks. Our expert team ensures quality at every phase, so your book stands out in the competitive market.",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Submission",
-            txt: "We request the Author to submit their manuscript, so that our Professional Publishing Team can review and discuss the goals and objectives for Publishing."
+            title: "Manuscript Assessment ",
+            txt: "Our team thoroughly evaluates your manuscript to ensure it aligns with industry standards. We provide feedback on areas of improvement and help you refine the content before moving to the next stage."
         },
         {
-            title: "Typesetting, Images, Illustrations",
-            txt: "Once with the content and text of the manuscript, we set the right Designs, include Images and Graphical illustrations, and Book Cover Design."
+            title: "Editing & Formatting ",
+            txt: "We refine your manuscript with professional editing, ensuring clarity, coherence, and grammatical accuracy. Once the editing is complete, our design team works on formatting the book to meet publishing standards for both print and digital versions."
         }
     ],
     ProcessDataItem2: [
         {
-            title: "Proofreading & Editing",
-            txt: "After receiving the draft, we thoroughly review, analyze, proofread, and edit the content as per the Publishing Standards."
+            title: "Cover Design & ISBN Registration",
+            txt: "A compelling book cover plays a crucial role in attracting readers. Our design experts craft a visually appealing cover that aligns with your book’s theme and target audience. Additionally, we handle ISBN registration, ensuring your book is officially recognized and cataloged in global databases."
         },
         {
-            title: "Book Cover Design",
-            txt: "We will design the book, keeping all important aspects in mind. All the books are designed with front and back covers, author bios, table of contents, etc."
+            title: "Publishing & Distribution",
+            txt: "Your book is prepared for publication in both print and digital formats. We publish it across major platforms, including Amazon KDP, IngramSpark, Apple Books, and Barnes & Noble, making it accessible to readers worldwide."
         }
     ],
     ProcessDataItem3: [
         {
-            title: "Publishing & Distribution",
-            txt: "After step 1 to step 4 are finalized, the manuscript is submitted for publishing in the clients' required formats, ensuring compliance with the Publishing Standards."
+            title: "Marketing & Promotion",
+            txt: "A successful book launch requires effective marketing. We create a tailored promotional plan, incorporating social media campaigns, press releases, Amazon optimization, and targeted advertising to maximize visibility and sales potential."
         }
     ]
 }

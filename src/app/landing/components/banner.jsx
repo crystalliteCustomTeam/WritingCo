@@ -11,15 +11,15 @@ const Banner = () => {
         <section className={styles.landingBanner} style={{ backgroundImage: `url(${bannerBg.src})` }}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={10} lg={11} className="mx-auto mt-auto">
+                    <Col md={12} lg={11} className="mx-auto mt-auto">
                         <div className={styles.banenrContainer}>
                             <div className={styles.bannerImg}>
                                 <Image src={BannerImage.src} alt="Banner Logo" width={577} height={1024} />
                             </div>
                             <div className={styles.bannerTxt}>
-                                <h1>Become a Best Seller</h1>
-                                <p>Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve.</p>
-                                <UniqueButton txt="Talk to a Specialist" />
+                                <h1>Your Story Is Unique Let’s Give It the Spotlight It Deserves</h1>
+                                <p>Our publishing experts provide everything you need, from professional editing and sleek cover designs to strategic marketing that ensures your book stands out. </p>
+                                <UniqueButton txt="Talk to Specialist" />
                                 <div className={styles.logoImg}>
                                     <Image src={Logo.src} alt="Banner Logo" width={2228} height={112} />
                                 </div>

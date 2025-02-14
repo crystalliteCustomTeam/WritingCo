@@ -9,6 +9,7 @@ const WhyChoose = ({ data }) => {
                 <Row>
                     <Col md={7} className="text-center mx-auto">
                         <h2>{data.title}</h2>
+                        <p>{data.txt}</p>
                     </Col>
                 </Row>
                 <Row>

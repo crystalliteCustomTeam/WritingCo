@@ -6,13 +6,13 @@ import BannerImage from "media/landing/lp2/bannerImg.webp"
 import bannerBg from "media/landing/lp1/bannerBg.webp"
 import Image from "next/image"
 
-const BannerLp2 = () => {
+const BannerLp2 = ({ lp2 }) => {
     return (
         <section className={styles.landingBanner} style={{ backgroundImage: `url(${bannerBg.src})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={10} lg={12} className="mx-auto mt-auto">
-                        <div className={styles.banenrContainer}>
+                        <div className={`${styles.banenrContainer} ${lp2 ? styles.bannerLp2 : ""}`}>
                             <div className={styles.bannerTxt}>
                                 <h1>Bestselling Books Start with Expert Ghostwriters.</h1>
                                 <p>Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve.</p>

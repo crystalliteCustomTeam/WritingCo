@@ -35,10 +35,51 @@ export const ServicesData = {
 
     ]
 }
+
+export const JourneyData = {
+    title: "Take Control of Your Story and Publish Your Bestseller",
+    desc: "Our team of experts is ready to guide you through every stage of the publishing process, ensuring your book reaches its fullest potential.",
+}
+import Img01 from "@/public/landing/lp1/slider/Img01.webp"
+import Img02 from "@/public/landing/lp1/slider/Img02.webp"
+import Img03 from "@/public/landing/lp1/slider/Img03.webp"
+
+export const JourneyData1 = {
+    title: "Your Path to Successful Self-Publishing ",
+    desc: "Self-publishing is an exciting journey, but without the right approach, it can feel overwhelming. We simplify the process into five essential steps, ensuring your book reaches readers in the most professional and effective way.",
+
+    JourneyItem: [
+        {
+            title: "Manuscript Preparation ",
+            txt: "A compelling book starts with a well-prepared manuscript. Our expert editors refine your writing by improving structure, readability, and grammar. We also format the text for digital and print compatibility, ensuring a seamless reading experience across all platforms.",
+            img: Img01.src,
+        },
+        {
+            title: "Cover Design & Interior Layout ",
+            txt: "A book’s cover is the first thing readers see, and a professionally designed one can make all the difference. Our designers craft visually striking covers that align with your book’s genre and target audience. Additionally, we format the book’s interior to enhance readability, ensuring a polished and professional presentation.",
+            img: Img02.src,
+        },
+        {
+            title: "Publishing & Distribution ",
+            txt: "Getting your book into readers’ hands is our priority. We guide you through the publishing process, ensuring your book is available on top platforms like Amazon KDP, Apple Books, IngramSpark, and more. From setting up author accounts to optimizing book metadata, we take care of every technical detail for smooth distribution.",
+            img: Img03.src,
+        },
+        {
+            title: "Marketing & Visibility Enhancement ",
+            txt: "Publishing a book is just the beginning—getting noticed is what truly matters. Our book marketing strategies include social media campaigns, Amazon ads, press releases, and targeted promotions to increase your book’s visibility. We also help with securing book reviews, enhancing credibility, and attracting potential readers.",
+            img: Img01.src,
+        },
+        {
+            title: "Post-Publishing Support & Growth ",
+            txt: "Even after launch, we continue to support you. Our post-publishing services include tracking book sales, analyzing marketing performance, and exploring new promotional opportunities. Whether it's expanding your book to new markets or enhancing your brand as an author, we ensure your success extends beyond just publishing.",
+            img: Img02.src,
+        }
+    ]
+}
 import IMG01 from "media/landing/lp1/Img01.webp"
 export const ContentBox1 = {
     title: (<>Book Publishing <br />Experts</>),
-    txt: "Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.",
+    txt: (<><p>Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.</p></>),
     img: IMG01.src,
     contentPoints: [
         "Oftentimes, we find",
@@ -51,7 +92,7 @@ export const ContentBox1 = {
 import IMG02 from "media/landing/lp1/Img02.webp"
 export const ContentBox2 = {
     title: (<>Global Book <br />Publishing Services</>),
-    txt: "Oftentimes, we find ourselves indulging in thoughts that others might fascinating. Most of them remain limited to the abyss.",
+    txt: (<><p>Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.</p></>),
     img: IMG02.src,
     contentPoints: [
         "Oftentimes, we find",
@@ -65,7 +106,7 @@ export const ContentBox2 = {
 import IMG03 from "media/landing/lp1/Img03.webp"
 export const ContentBox3 = {
     title: (<>Print-On-Demand <br />Publishing Services</>),
-    txt: "Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.",
+    txt: (<><p>Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.</p></>),
     img: IMG03.src,
     contentPoints: [
         "Oftentimes, we find",

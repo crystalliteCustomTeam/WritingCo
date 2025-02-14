@@ -101,6 +101,28 @@ body {
         margin-bottom: 20px;
     }
 
+    .CustomUl {
+        li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.167059px;
+            color: #73858F;
+            margin-bottom: 10px;
+
+            svg {
+                margin-right: 10px;
+                height: 15px;
+                width: auto;
+
+                path {
+                    fill: #393939;
+                }
+            }
+        }
+    }
+
     .subtitle {
         width: auto;
         height: 60px;

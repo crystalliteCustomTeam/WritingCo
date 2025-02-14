@@ -1,6 +1,6 @@
 import BannerLp2 from "@/src/app/landing/components/bannerlp2";
 import ServicesForm from "@/src/app/services/servicesform";
-import { ServicesData, BestSellerData, ContentBox1, ContentBox2, ContentBox3, ProcessData, ChooseUsData } from "@/src/app/landing/lp2/data/data";
+import { ServicesData, BestSellerData, ContentBox1, ContentBox2, ContentBox3, ProcessData, ChooseUsData, JourneyData, JourneyData1 } from "@/src/app/landing/lp2/data/data";
 import Services from "@/src/app/home/services";
 import Journey from "@/src/app/landing/components/journey";
 import ContentBox from "@/src/app/landing/components/content";
@@ -13,10 +13,10 @@ import GetQuote from "@/src/app/home/getquote";
 export default function Page() {
     return (
         <>
-            <BannerLp2 />
+            <BannerLp2 lp2={true} />
             <ServicesForm txt="Let’s Publish Your Book- Fill the Form Today!" />
             <Services data={ServicesData} />
-            <Journey />
+            <Journey data={JourneyData} data1={JourneyData1} />
             <ContentBox data={ContentBox1} />
             <ContentBox data={ContentBox2} alternet={true} />
             <ContentBox data={ContentBox3} />

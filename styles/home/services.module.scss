@@ -109,7 +109,7 @@
                     transform: scale(1);
 
                     &:hover {
-                        transform: scale(1.05);
+                        transform: scale(1.02);
                         box-shadow: 8px 12px 30px rgba(167, 187, 210, 0.5);
                         border: 2px solid #FF7F3E;
 
@@ -169,6 +169,19 @@
                 }
             }
 
+            &.landingService {
+                .servicesItem {
+                    flex: 0 0 calc(25% - 10px);
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 280px;
+                    }
+
+
+                }
+            }
+
         }
     }
 }
@@ -211,6 +224,18 @@
                 }
             }
 
+            &.landingService {
+                .servicesItem {
+                    flex: 0 0 calc(25% - 10px);
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 280px;
+                    }
+
+
+                }
+            }
         }
     }
 }
@@ -253,6 +278,25 @@
                 }
             }
 
+            &.landingService {
+                .servicesItem {
+                    flex: 0 0 calc(25% - 10px);
+
+
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 280px;
+
+                        .title {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+
+
+                }
+            }
         }
     }
 }
@@ -295,6 +339,27 @@
                 }
             }
 
+            &.landingService {
+                .servicesItem {
+                    flex: 0 0 calc(25% - 10px);
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 260px;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+
+                        &:hover {
+                            border: 1px solid #FF7F3E;
+                        }
+                    }
+
+
+                }
+            }
         }
     }
 }
@@ -337,6 +402,31 @@
                 }
             }
 
+            &.landingService {
+                justify-content: center;
+                gap: 10px;
+
+                .servicesItem {
+                    flex: 0 0 calc(33.33% - 10px);
+                    margin-bottom: 0px;
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 260px;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+
+                        &:hover {
+                            border: 1px solid #FF7F3E;
+                        }
+                    }
+
+
+                }
+            }
         }
     }
 }
@@ -379,6 +469,31 @@
                 }
             }
 
+            &.landingService {
+                justify-content: center;
+                gap: 10px;
+
+                .servicesItem {
+                    flex: 0 0 calc(50% - 10px);
+                    margin-bottom: 0px;
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: 260px;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+
+                        &:hover {
+                            border: 1px solid #FF7F3E;
+                        }
+                    }
+
+
+                }
+            }
         }
     }
 }
@@ -421,6 +536,31 @@
                 }
             }
 
+            &.landingService {
+                justify-content: center;
+                gap: 0px;
+
+                .servicesItem {
+                    flex: 0 0 calc(100% - 0px);
+                    margin-bottom: 20px;
+
+                    .servicesImage {
+                        padding: 20px;
+                        height: auto;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+
+                        &:hover {
+                            border: 1px solid #FF7F3E;
+                        }
+                    }
+
+
+                }
+            }
         }
     }
 }

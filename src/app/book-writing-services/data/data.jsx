@@ -1,13 +1,13 @@
 import BannerImg from "media/services/book-writing-services/bannerImage.webp"
 export const BannerData = {
-    title: "Turn Your Dream Of Becoming A Published Writer With Our Book Writing Services!",
-    txt: "Dream to become a published book writer? Then what are you waiting for? Avail our professional book writing services and manifest your dreams into reality. Talk to our book writing consultant today, and get it all started.",
+    title: "Stop Dreaming, Start Publishing: Our Writing Service Gets You There",
+    txt: "Every great book starts with a powerful idea, but turning that idea into a compelling manuscript requires skill, dedication, and expertise. That’s where our book writing agency comes in. We offer professional book writing services that cater to authors of all backgrounds, whether you're a first-time writer or a seasoned author seeking assistance. From brainstorming and outlining to writing and editing, our team of expert writers ensures that your book is crafted to perfection.",
     img: BannerImg.src
 }
 
 export const BestSellerData = {
-    title: "Our Book Writing Projects",
-    txt: "Let Our Book Writing Team Help You."
+    title: "The Latest Addition to Our Writing Portfolio",
+    txt: "Make Your Next Book Shine with Our Book Publishing Services"
 }
 
 export const InnerServicesData = {
