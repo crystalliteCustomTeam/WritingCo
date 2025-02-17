@@ -1,10 +1,10 @@
 import Img01 from "media/about/txtImage01.webp"
 
 export const ContentBox1 = {
-    title: "How do we come into being?",
+    title: "Our History",
     txt: (<>
-        <p>It calls for storytime! At first, it was just an idea to escape the daily 9 to 5 frustration and explore the storyteller hiding within. So after attempting multiple book writing projects, it convinced me of my storytelling destiny. Relaxing and solving the rubic’s cube, I came up with the name and booked the domain. It was my eureka moment!</p>
-        <p>So it is our story of inspiration and courage to do what we want. If you are inspired to write and put the courage to pen down a story, we are pretty sure you want it to be a bestseller? Why not let us be your guide in the journey from a writer to a bestseller?</p>
+        <p>Founded with a passion for storytelling, Our company started as a small team of writers and editors who believed in helping authors achieve their publishing dreams. Over the years, we have expanded our services, built a team of industry experts, and established ourselves as a leading book writing and publishing company.</p>
+        <p>With years of experience, we have worked with authors worldwide, delivering books that have garnered critical acclaim and commercial success. Our journey has been marked by innovation, dedication, and an unwavering commitment to excellence.</p>
     </>),
     image: Img01.src,
 }
@@ -12,22 +12,22 @@ export const ContentBox1 = {
 import Img02 from "media/about/txtImage02.webp"
 
 export const ContentBox2 = {
-    title: "Why Choose Book Writing?",
+    title: "Partner with Experts",
     txt: (<>
-        <p>Started as a small online organization, expanded the team from a few to a handful of people, and set the office. We put our skills, experience, and everything we knew of book writing, editing, publishing, and marketing to acquire a significant clientele. Soon, we got partnerships with publications houses, reputable editors, and experienced marketers—it was my dream come true!</p>
+        <p>We believe that every author deserves a dedicated team to bring their vision to life. Our professional ghostwriting and editing services ensure that your book is polished, engaging, and market-ready. Whether you need customized publishing solutions to align with your goals or strategic marketing support to enhance visibility, we offer tailored services to help your book succeed. Our collaborative approach keeps you involved throughout the journey, ensuring your voice remains at the heart of your story. With a proven track record of bestselling books and satisfied clients, we are committed to turning your ideas into impactful publications. Let’s work together to bring your story to the world</p>
     </>),
     image: Img02.src,
 }
 export const BestSellerData = {
-    title: "We make stories… happen!",
-    txt: "Let us help you tell it."
+    title: "Stories That Spark Change",
+    txt: "We Write Stories That Inspire Readers to Dream, Believe, and Act"
 }
 // CTA
 import CtaImage from "@/public/home/ctaImage.webp"
 export const CtaData = {
-    title: "Talk To Our Experts!",
+    title: "Let's Get Started",
     txt: (<>
-        <p>Call and get a free consultation, sample, & a price quote.</p>
+        <p>Are you ready to turn your idea into a published book? Our team is here to guide you through every step, from brainstorming to publishing and marketing. Take the first step today!</p>
     </>),
     bg: false,
     img: CtaImage.src

@@ -11,8 +11,8 @@ const GetQuote = () => {
             <Container className={styles.bgGrayColor}>
                 <Row>
                     <Col md={6} lg={6}>
-                        <h2>Request A Free Quote</h2>
-                        <p>Ready to write your book? Get in touch with us today and let’s bring your book to a targeted audience. If you’d like to chat about working on a project together, or learn more about working with us, get in touch!</p>
+                        <h2>Ready to Publish Your Book?</h2>
+                        <p>Take the next step in your publishing journey! Get in touch with our expert team today, and let’s bring your book to a targeted audience. Whether you need guidance on writing, editing, publishing, or marketing, we’re here to answer your questions and support you every step of the way.</p>
                         <Image src={ContactImg.src} alt="Contact Image" width={745} height={360} />
                     </Col>
                     <Col md={6} lg={6} xl={5} className="offset-xl-1">

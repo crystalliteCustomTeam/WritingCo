@@ -14,7 +14,7 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm title="Get Your Personalized Publishing Estimate Today" />
+            <ServicesForm title="Discover Your Book Potential with a Free Quote" />
             <BestSeller innerPage={true} data={BestSellerData} />
             <CTA data={CtaData} big={true} />
             <Services data={ServicesData} />

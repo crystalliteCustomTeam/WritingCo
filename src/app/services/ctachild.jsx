@@ -13,8 +13,8 @@ const CtaChild = () => {
                     <Col md={12} lg={12}>
                         <div className={styles.ctaContainer} >
                             <div className={styles.ctaTxt}>
-                                <h2>Talk To Us Today!</h2>
-                                <p>Your hows, whats, and whys of children’s book illustrations answered with our award-winning book illustration services customized to your needs</p>
+                                <h2>Feeling Stuck? Talking To Us Can Help You</h2>
+                                <p>Have questions about children's book illustrations? Our award-winning team is here to provide customized solutions tailored to your needs for your next bestseller.</p>
                                 <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
                             </div>
                             <div className={styles.ctaImg}>

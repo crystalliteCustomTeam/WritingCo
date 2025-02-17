@@ -10,8 +10,8 @@ const CtaContact = () => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.ctaTxt}>
-                            <h2>We Provide Everything You Need to Achieve Your Publishing Goals.</h2>
-                            <p>Let’s talk about how we can make your book a success.</p>
+                            <h2>Your Publishing Partner: From Manuscript to Market, We’ve Got You Covered</h2>
+                            <p>Ready to bring your literary vision to life? Contact us today to discover how our comprehensive publishing services can elevate your book to new heights. Let's make your publishing dreams a reality together.</p>
                             <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
                         </div>
                     </Col>

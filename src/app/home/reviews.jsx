@@ -7,7 +7,7 @@ import BookReviews from "./bookreview"
 
 
 
-const Reviews = () => {
+const Reviews = ({ lp2 }) => {
     const [activeReview, setActiveReview] = useState("book");
     return (
         <section className={`${styles.clientsReviewsSection} pt-100`}>
@@ -37,7 +37,7 @@ const Reviews = () => {
                     </Col>
                     <Col md={12}>
                         {activeReview === "book" && <BookReviews />}
-                        {activeReview === "client" && <ClientReviews />}
+                        {activeReview === "client" && <ClientReviews lp2={lp2} />}
                     </Col>
                 </Row>
             </Container>

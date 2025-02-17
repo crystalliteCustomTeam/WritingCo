@@ -14,7 +14,7 @@ export default function Page() {
     return (
         <>
             <BannerLp2 lp2={true} />
-            <ServicesForm txt="Let’s Publish Your Book- Fill the Form Today!" />
+            <ServicesForm txt="Get a Custom Quote – Contact Us Today" />
             <Services data={ServicesData} />
             <Journey data={JourneyData} data1={JourneyData1} />
             <ContentBox data={ContentBox1} />
@@ -23,7 +23,7 @@ export default function Page() {
             <ServicesProcess data={ProcessData} />
             <ServicesForm bg={true} lp2={true} txt="Hire a Professional Ghostwriter" title="Your Story Deserves to Be ToldLet <span> Our Ghostwriters Craft Your Bestseller!</span>" />
             <WhyChoose data={ChooseUsData} />
-            <Reviews />
+            <Reviews lp2={true} />
             <GetQuote />
 
         </>

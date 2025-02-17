@@ -14,8 +14,8 @@ const BannerLp2 = ({ lp2 }) => {
                     <Col md={10} lg={12} className="mx-auto mt-auto">
                         <div className={`${styles.banenrContainer} ${lp2 ? styles.bannerLp2 : ""}`}>
                             <div className={styles.bannerTxt}>
-                                <h1>Bestselling Books Start with Expert Ghostwriters.</h1>
-                                <p>Whether it be amazon self publishing or any other platform, our book publishing services give you the creative control you deserve.</p>
+                                <h1>Your Story, Our Expert Ghostwriters: Let’s Write Something the World Won’t Forget</h1>
+                                <p>From ghostwriting to publishing, Our professional book writing company help you write and launch your book while keeping your creative voice intact.</p>
                                 <UniqueButton txt="Talk to a Specialist" />
                                 <div className={styles.logoImg}>
                                     <Image src={Logo.src} alt="Banner Logo" width={2228} height={112} />

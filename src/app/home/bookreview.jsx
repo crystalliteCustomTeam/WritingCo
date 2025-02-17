@@ -69,6 +69,7 @@ export const ClientsReview = [
     },
 ]
 
+
 const OPTIONS = { loop: true, align: 'start' }
 
 const BookReviews = () => {

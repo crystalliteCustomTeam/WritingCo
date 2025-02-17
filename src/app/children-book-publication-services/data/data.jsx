@@ -1,12 +1,12 @@
 import BannerImg from "media/services/children-book-publication-services/bannerImage.webp"
 export const BannerData = {
-    title: "Professional Publishing Services with Complete Author Control",
-    txt: "Our Book Publishing Services provide everything you need to publish without frustration. From editing and design to ISBN registration and global distribution, we handle every detail. We make the process simple, transparent, and effective.",
+    title: "Create Magical Stories with Our Professional Children Book Publication Services",
+    txt: "We provide comprehensive support to turn your ideas into beautifully published books.",
     img: BannerImg.src
 }
 export const BestSellerData = {
-    title: "The Latest Addition to Our Publishing Portfolio",
-    txt: "Make Your Next Book Shine with Our Book Publishing Services"
+    title: "The Latest Addition to Our Publication Portfolio",
+    txt: "Make Your Next Book Shine with Our Book Publication Services"
 
 }
 //Services
@@ -69,8 +69,8 @@ export const ProcessData = {
     ],
     ProcessDataItem3: [
         {
-            title: "",
-            txt: ""
+            title: "Marketing & Promotion",
+            txt: "Once published, we help you market your book through strategic promotion. Our services include social media marketing, Amazon optimization, and targeted advertising to maximize visibility and sales. "
         }
     ]
 }

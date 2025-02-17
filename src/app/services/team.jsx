@@ -8,19 +8,19 @@ import Image from "next/image"
 
 const data = [
     {
-        title: "Increased Sales",
+        title: "Creative Control",
         img: IMG01.src
     },
     {
-        title: "Audience-Oriented Content",
+        title: "Professional Expertise",
         img: IMG02.src
     },
     {
-        title: "Device Compatibility",
+        title: "Market Reach",
         img: IMG03.src
     },
     {
-        title: "Easy To Upload",
+        title: "Quality Assurance",
         img: IMG04.src
     }
 ]
@@ -30,8 +30,8 @@ const Team = () => {
             <Container>
                 <Row>
                     <Col md={12} lg={8} className="m-auto text-center">
-                        <h2>Let Our Children’s Book Publishing Team Help You</h2>
-                        <p>Sketching childrens book characters is not everyone’s feat. From the book-length to a well-instilled message, have a hassle-free experience at Book Writing.</p>
+                        <h2>Partner with Our Children's Book illustration Experts</h2>
+                        <p>Perfecting the balance of fun and meaning in a children’s book requires expertise—our team makes it effortless for you.</p>
                     </Col>
                     <Col md={12}>
                         <div className={styles.teamContainer}>

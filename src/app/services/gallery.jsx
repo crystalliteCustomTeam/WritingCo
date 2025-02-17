@@ -29,8 +29,8 @@ const Gallery = () => {
             <Container>
                 <Row>
                     <Col md={12} lg={8} className="m-auto text-center">
-                        <h2>Some Of Our Best Children’s Book Illustrations</h2>
-                        <p>From fantasy book illustrations to a modern-day fairy tale, check out Book Writing captivating work, which is a must-have!</p>
+                        <h2>illustrated Stories That Inspire and Delight </h2>
+                        <p>Our portfolio includes books across different genres, from heartwarming bedtime stories to adventurous fantasy tales.</p>
                     </Col>
                     <Col md={12}>
                         <div className={styles.galleryContainer}>

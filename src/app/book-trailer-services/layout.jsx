@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "",
-    description: "",
+    title: "Book Trailer Services that create a buzz for your book launch.",
+    description: "Enhance your book marketing with our Book Trailer Services. Get high-quality book promotion videos that capture audiences attention.",
     //===== OG Tags =====
     openGraph: {
-        title: "",
-        description: "",
+        title: "Book Trailer Services that create a buzz for your book launch.",
+        description: "Enhance your book marketing with our Book Trailer Services. Get high-quality book promotion videos that capture audiences attention.",
         url: '/book-trailer-services',
         siteName: 'Book Writing',
         locale: 'en_US',

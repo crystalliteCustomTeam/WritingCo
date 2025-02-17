@@ -12,8 +12,8 @@ const Banenr = () => {
                 <Row className="h-100">
                     <Col md={6} lg={5} className="my-auto">
                         <div className={styles.bannerTxt}>
-                            <h1>Who Are We?</h1>
-                            <p>As self-searching as this question might sound, we are a book writing, editing, and publishing company. Well, that sounds a bit too over-simplified, but you get the gist. We produce, publish, and market book, a synergy of creativity fueled by a staff of writers, editors, publishers, developers, and designers.</p>
+                            <h1>About us</h1>
+                            <p>We are more than just a book writing and publishing company. We are your partners in storytelling. Our team of  writers, editors, and publishing experts is dedicated to turning your ideas into stories that attract readers around the globe.  With a commitment to quality, creativity, and professionalism, we have helped thousands of authors publish books across diverse genres. From ghostwriting and editing to book formatting and marketing, we ensure that your book not only meets industry standards but also stands out in the competition.</p>
                             <UniqueButton txt="Talk to a Specialist" />
                         </div>
                         <div className={styles.bannerLogo}>

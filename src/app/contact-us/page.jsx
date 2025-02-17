@@ -87,8 +87,11 @@ export default function Page() {
             <section className={`${styles.contactSection} pt-100`}>
                 <Container>
                     <Row>
+                        <Col md={11} lg={10} xl={8} className="m-auto text-center">
+                            <h1>Contact Us</h1>
+                            <p>We are dedicated to helping you elevate your book and achieve your publishing goals. Whether you're an author, publisher, or industry professional, we're here to assist you every step of the way.</p>
+                        </Col>
                         <Col md={11} lg={10} xl={8} className="m-auto">
-                            <h1>Elevate your book. Get published.</h1>
                             <Form>
                                 <div className={styles.contactpageFrom}>
                                     <div className={styles.contactItem}>
@@ -137,7 +140,7 @@ export default function Page() {
                                         </div>
                                     </div>
                                     <div className={styles.paraContent}>
-                                        <p>You may find our confidentiality policy here , or <span>request a signed NDA by email: info@bookwriting.us</span>. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service Terms of Service apply.</p>
+                                        <p>If you require a signed Non-Disclosure Agreement (NDA), please email us at<span>email: info@bookwriting.us</span></p>
                                     </div>
                                     <div className={styles.contactBtn}>
                                         <button type="submit" name="submit" className="commonBtn" disabled={isDisabled}>{formStatus}</button>

@@ -1,13 +1,13 @@
 import BannerImg from "media/services/children-book-illustrator/bannerImage.webp"
 export const BannerData = {
-    title: "Make Stories Fun To Read With Children's Book Illustration Services",
-    txt: "Searching “Find an Illustrator for My Book?” Look no further because Book Writing is your premier book illustration services provider.",
+    title: "Build Magical Worlds with Expert Children’s Book Illustration Services",
+    txt: "Our Children Book Illustration Services provide vibrant, custom illustrations designed to capture the heart of your story with age-appropriate, visually engaging illustrations.",
     img: BannerImg.src
 }
 
 export const BestSellerData = {
-    title: "Let Our Children’s Book Publishing Team Help You",
-    txt: "Let Our Children’s Book Publishing Team Help You"
+    title: "Let Our Expert Illustrators Help You Create A Children’s Book That Shines Bright",
+    txt: "With our Children book illustration design agency, your illustration will shine on every page and in every child’s hands."
 }
 
 
@@ -37,33 +37,33 @@ export const InnerServicesData = {
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Book Illustration Process",
-    txt: "This is how we create outstanding illustrations",
+    title: "Our Step-by-Step Illustration Process",
+    txt: "Our Children Book Illustration Services follow an efficient and collaborative workflow.",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Book Reviewing",
-            txt: "Our Skilled book illustrators go through evert word and illustration before giving you the book illustration rates."
+            title: "Story & Illustration Consultation",
+            txt: "The process begins with an in-depth discussion about your book. We explore the storyline, characters, mood, and artistic preferences. If you have reference images or style inspirations, we incorporate them to create a custom illustration plan tailored to your book’s needs."
         },
         {
-            title: "Final Reviewing",
-            txt: "Once you provide approval, we won’t just abandon you. We avow service excellence for a reason. We submit our manuscript to the QA for a final check after your approval, who then fact-checks and scans the draft for errors so they can be fixed before the next step."
+            title: "Character & Scene Sketching",
+            txt: "Once we understand your vision, we create rough sketches for the main characters and key scenes. This allows you to visualize the overall look and feel before we proceed to the full illustrations. We refine the sketches based on your feedback to ensure they align with your expectations."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Book Composition",
-            txt: "Once the story book illustrations are drafted and proofread, our picture book illustrators offer the client an initial for review."
+            title: "Final Illustrations & Coloring",
+            txt: "After approval of the sketches, we bring them to life with vibrant colors and intricate details. Whether you prefer soft pastel tones, watercolor textures, or bold digital artwork, we ensure the illustrations enhance the emotional depth of your story."
         },
         {
-            title: "Book Publication",
-            txt: "In this final stage of our book illustration services, we help you with typesetting, page trim, length and book cover. Our Book illustrators offer multiple revisions to help you publish the always-wanted book under your name."
+            title: "Layout & Book Formatting",
+            txt: "Illustrations need to complement the text, not overshadow it. We carefully position each image in harmony with your story, ensuring a seamless reading experience. Our formatting ensures that your book meets professional publishing standards for both print and digital platforms."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Keeping Up With The Promotional Efforts",
-            txt: "The final step is to continue promoting the trailer even after it’s been released. This means keeping up with your social media efforts and making sure that people are still aware of the trailer and what’s promoting."
+            title: "Final Review & Delivery",
+            txt: "Before completion, we conduct a thorough quality check, making final refinements to ensure every detail is perfect. Once approved, we deliver the high-resolution illustrations in the required formats, ready for printing or eBook publication."
         }
     ]
 }

@@ -46,9 +46,36 @@ const clientReviews = [
     }
 ]
 
+const clientReviewsLp = [
+    {
+        txt: "I always dreamed of publishing my own book, but the process felt overwhelming. That’s when I found this amazing team! From editing to publishing, they guided me through every step. The best part? Their marketing strategies helped my book reach #1 in its category! I couldn’t have done it without them.",
+        image: Img01.src,
+        namee: "Jenna Duarte",
+        job: "Fiction Author",
+    },
+    {
+        txt: "Writing a book was the easy part—getting it published and marketed was another story. The team handled everything, from formatting to distribution, and made sure my book landed in the hands of the right readers. I’m beyond grateful for their expertise and support.",
+        image: Img02.src,
+        namee: "Alva Singleton",
+        job: "Nonfiction Writer",
+    },
+    {
+        txt: "I wanted to bring my children's book to life with beautiful illustrations and a polished look. This team exceeded my expectations! They connected me with talented illustrators and handled the publishing process with care. Seeing my book in readers’ hands has been the most rewarding experience.",
+        image: Img03.src,
+        namee: "Shelly Weber",
+        job: "Children's Book Author",
+    },
+    {
+        txt: "After two failed attempts at self-publishing, I was ready to give up. Then, I found this team. They took my book, refined it, and helped me launch with an incredible marketing campaign. Now, my book is gaining traction, and I’m finally seeing the success I dreamed of. If you're an indie author, this is the team you need.",
+        image: Img04.src,
+        namee: "Ivy Dominguez",
+        job: "Romance Novelist",
+    },
+]
 
-const ClientReviews = () => {
-    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
+const ClientReviews = ({ lp2 }) => {
+    const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })]);
+
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
     };
@@ -56,6 +83,7 @@ const ClientReviews = () => {
     const nextButtonHandler = () => {
         if (emblaApi) emblaApi.scrollNext();
     };
+
     return (
         <div className={styles.clientsReviews}>
             <div className={styles.clientsReviewsHeader}>
@@ -74,17 +102,31 @@ const ClientReviews = () => {
                 <div className={styles.embla}>
                     <div className={styles.embla__viewport} ref={emblaRef}>
                         <div className={styles.embla__container}>
-                            {clientReviews.map((item, index) => (
-                                <div className={styles.embla__slide} key={index}>
-                                    <div className={styles.clientsComments}>
-                                        <p>{item.txt}</p>
-                                        <div className={styles.info}>
-                                            {item.namee}
-                                            <span>{item.job}</span>
+                            {lp2 ? (
+                                clientReviewsLp.map((item, index) => (
+                                    <div className={styles.embla__slide} key={index}>
+                                        <div className={styles.clientsComments}>
+                                            <p>{item.txt}</p>
+                                            <div className={styles.info}>
+                                                {item.namee}
+                                                <span>{item.job}</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))
+                            ) : (
+                                clientReviews.map((item, index) => (
+                                    <div className={styles.embla__slide} key={index}>
+                                        <div className={styles.clientsComments}>
+                                            <p>{item.txt}</p>
+                                            <div className={styles.info}>
+                                                {item.namee}
+                                                <span>{item.job}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))
+                            )}
                         </div>
                     </div>
                 </div>
@@ -94,7 +136,7 @@ const ClientReviews = () => {
                 />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default ClientReviews
+export default ClientReviews;
