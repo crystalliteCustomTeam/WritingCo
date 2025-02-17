@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Insightful Blogs on Digital Marketing, & Mobile Apps",
-  description: "Read our blogs as we provide insights on digital marketing strategies, wordpress deveopment tips, SEO, PPC, mobile apps & more!",
+  title: "Expert Book Publishing & Marketing Insights | Our Blog",
+  description: "Learn expert tips on writing, editing, publishing, and marketing your book. Explore trends in SEO, social media, and book promotion to maximize your success. Read our latest blogs now.",
   //===== OG Tags =====
   openGraph: {
-    title: "Insightful Blogs on Digital Marketing, & Mobile Apps",
-    description: "Read our blogs as we provide insights on digital marketing strategies, wordpress deveopment tips, SEO, PPC, mobile apps & more!",
+    title: "Expert Book Publishing & Marketing Insights | Our Blog",
+    description: "Learn expert tips on writing, editing, publishing, and marketing your book. Explore trends in SEO, social media, and book promotion to maximize your success. Read our latest blogs now.",
     url: '/blogs',
     siteName: "Inifniti Digital",
     locale: 'en_US',

@@ -1,7 +1,7 @@
 //Banner
 export const BannerData = {
-    title: "Our Recent Blogs",
-    txt: "We understand that every book project is unique. Call us to discuss how we can tailor our service to achieve your publishing goals.",
+    title: "Talk to a Publishing Specialist",
+    txt: "Need personalized guidance? Our experts are here to help! Let’s discuss how we can tailor our services to bring your book to life.",
 }
 // Blgos
 import IMG01 from "media/blogs/posts/blog1.webp"
@@ -12,8 +12,8 @@ import IMG05 from "media/blogs/posts/blog1.webp"
 import IMG06 from "media/blogs/posts/blog1.webp"
 export const BlgosData = {
     subtitle: "Our Blogs",
-    title: "Insights and Inspiration ",
-    desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
+    title: "Our Recent Blogs",
+    desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
         {
             title: "Still Running Your Business Like It’s 1999?",
