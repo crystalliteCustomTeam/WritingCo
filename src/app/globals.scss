@@ -101,6 +101,12 @@ body {
         margin-bottom: 20px;
     }
 
+    .modal {
+        .modal-dialog {
+            max-width: 600px;
+        }
+    }
+
     .CustomUl {
         li {
             font-style: normal;

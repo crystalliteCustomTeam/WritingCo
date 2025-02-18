@@ -7,7 +7,7 @@ const Banenr = ({ data }) => {
         <section className={styles.bannerBlogSection}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={6} lg={6} className="mx-auto mt-auto text-center">
+                    <Col md={12} lg={8} className="mx-auto mt-auto text-center">
                         <div className={styles.bannerTxt}>
                             <h1>{data.title}</h1>
                             <p>{data.txt}</p>
