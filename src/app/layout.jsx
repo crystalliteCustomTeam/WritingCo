@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/src/app/globals.scss";
 import ConditionalLayout from "@/src/app/conditionallayout";
+import Scripts from "@/src/app/Scripts";
 
 
 const poppins = Poppins({
@@ -24,6 +25,12 @@ export const metadata = {
     type: 'website',
     images: "",
   },
+  //===== Google Varification =====
+  verification: {
+    other: {
+      "google-site-verification": ['TeBBv-OUZssYCNFSnYzbZAECWVfOaaxpxgDb4JXomSc'],
+    },
+  },
   //===== No-Index =====
   robots: {
     index: false,
@@ -35,6 +42,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.variable}`}>
+        <Scripts />
         <ConditionalLayout >
           {children}
         </ConditionalLayout >
