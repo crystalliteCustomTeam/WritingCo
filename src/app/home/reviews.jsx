@@ -14,9 +14,9 @@ const Reviews = ({ lp2 }) => {
             <Container>
                 <Row>
                     <Col md={12} lg={8}>
-                        <div className="subtitle">Our Reviews</div>
-                        <h2>Real Stories - Real Trust: Hear from Our Clients</h2>
-                        <p>Our authors’ success stories speak to our dedication and expertise. </p>
+                        <div className="subtitle">Testimonials</div>
+                        <h2>Success Written in Ink</h2>
+                        <p>Authors are loving what we’ve done for their books.</p>
                     </Col>
                     <Col md={12} lg={4} className='my-auto'>
                         <ul className={styles.tabReviews}>

@@ -8,9 +8,9 @@ const Story = () => {
         <section className={`${styles.storySection} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={10} lg={8} className="mx-auto text-center">
-                        <div className="subtitle">Let us help you tell it.</div>
-                        <h2>You’ve got a story to tell.</h2>
+                    <Col md={10} lg={10} className="mx-auto text-center">
+                        <div className="subtitle">We See You, Dreamer.</div>
+                        <h2>Let’s Make Your Idea a Book Worth Publishing.</h2>
                     </Col>
                     <Col md={12}>
                         <div className={styles.storyVideo}>

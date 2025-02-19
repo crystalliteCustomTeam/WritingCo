@@ -11,12 +11,18 @@ const GetQuote = () => {
             <Container className={styles.bgGrayColor}>
                 <Row>
                     <Col md={6} lg={6}>
-                        <h2>Ready to Publish Your Book?</h2>
-                        <p>Take the next step in your publishing journey! Get in touch with our expert team today, and let’s bring your book to a targeted audience. Whether you need guidance on writing, editing, publishing, or marketing, we’re here to answer your questions and support you every step of the way.</p>
+                        <h2>Stop Staring at That Blank Page.</h2>
+                        <p>Don’t let your story stay trapped in your head.<br className="d-md-block d-none" />
+                            It deserves more than a ‘someday.’<br className="d-md-block d-none" />
+                            <strong>Today is that day! </strong><br className="d-md-block d-none" />
+                            Let’s get your book written, published, and out in the world :)
+                        </p>
+                        <p></p>
+                        <p></p>
                         <Image src={ContactImg.src} alt="Contact Image" width={745} height={360} />
                     </Col>
                     <Col md={6} lg={6} xl={5} className="offset-xl-1">
-                        <h4>Let’s Bring Your Vision to Life!</h4>
+                        <h4>Tell us about your Book! </h4>
                         <ContactFrom />
                     </Col>
                 </Row>

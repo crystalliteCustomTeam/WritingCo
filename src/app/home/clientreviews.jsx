@@ -15,34 +15,28 @@ import Image from "next/image"
 const OPTIONS = { loop: true, align: 'center' }
 const clientReviews = [
     {
-        txt: "As a first-time author, I was overwhelmed by the publishing process. The team provided exceptional guidance, from editing to a stunning cover design. Their marketing strategy propelled my book to bestseller status in its category. I couldn't have asked for a better partner in bringing my vision to life.",
+        txt: "I had the idea, but I couldn't find the right words. The ghostwriter did an amazing job! She was super easy to work with and always kept me in the loop, so the final product felt like it was really my story.",
         image: Img01.src,
-        namee: "Dr. Emily Thompson",
-        job: "United State Of America",
+        namee: "Mark D",
+        job: "Author of Chasing Dreams",
     },
     {
-        txt: "Having had a disappointing experience with another publisher, I was apprehensive about self-publishing. This team restored my faith with their professionalism and expertise. They handled everything seamlessly. Thankful for the team.",
+        txt: "I was really stuck with my manuscript, and the editing team helped me get it together. They didn’t just fix the grammar, they made sure the flow of my story worked. My book now feels more cohesive, and I feel so much better about putting it out there.",
         image: Img02.src,
-        namee: "Michael Richards",
-        job: "United State Of America",
+        namee: "Sarah L.",
+        job: "Author of Heart's Journey",
     },
     {
-        txt: "The personalized approach taken by the team made all the difference. They took the time to understand my story and audience, resulting in a beautifully created book that resonates with readers. Their ongoing support has been invaluable in post-publication marketing.",
+        txt: "The book marketing team helped me set up everything from social media posts to launching ads. I didn't have huge expectations, but my book actually got attention and I definitely sold a lot of copies. Absolutely worth the investment!",
         image: Img03.src,
-        namee: "Samantha Lee",
-        job: "United State Of America",
+        namee: "Rachel W.",
+        job: "Author of The Last Song",
     },
     {
-        txt: "The comprehensive services offered covered all my needs, from editing to distribution. Their knowledge of the industry is impressive, and their commitment to my project's success was evident at every step. I highly recommend their services to any author looking to make an impact.",
+        txt: "I was totally lost when it came to publishing on Amazon. The team helped me format my manuscript, upload it to Kindle Direct Publishing, and make sure everything was in order. They also helped optimize my book description and keywords, which really made a difference in visibility. The process was much smoother than I expected, and I’m thrilled with how it turned out.",
         image: Img04.src,
-        namee: "David Foster",
-        job: "United State Of America",
-    },
-    {
-        txt: "Working with this team was a game-changer. Their design team created a captivating cover, and the marketing efforts led to impressive sales numbers. The entire process was smooth, and I felt supported throughout. I'm already planning my next project with them.",
-        image: Img05.src,
-        namee: "Rachel Adams",
-        job: "United State Of America",
+        namee: "Chris B.",
+        job: "Author of Code Breaker",
     }
 ]
 

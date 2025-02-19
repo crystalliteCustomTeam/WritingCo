@@ -12,10 +12,13 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={8} lg={6} className="my-auto">
                         <div className={styles.bannerTxt}>
-                            <h1>Book Writing Company Behind Tomorrow’s Bestsellers!</h1>
-                            <p>Turn your dream into a Bestselling book with our expert writers. We transform your vision into reality and support your publishing journey.</p>
+                            <h1>Don’t Stress the Writing,<br className="d-md-block d-none" />
+                                We’ll Make It Exciting!</h1>
+                            <p>You’ve carried this story in your heart for too long, it’s time to put it into words!
+                                As a leading book writing company, we don’t just write books; we translate your emotions into words, your thoughts into sentences, and your ideas into bestsellers.
+                                Let’s create something powerful, meaningful, and truly impactful together—something that’s yours to share with the world.  </p>
                         </div>
-                        <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
+                        <UniqueButton txt="Connect with Us" BgBlack={true} />
                         <div className={styles.bannerLogo}>
                             <Image src={BannerLogo.src} alt="banner Image" height={28} width={560} />
                         </div>

@@ -12,7 +12,7 @@ const CTA = ({ data, big }) => {
                         <div className={styles.boxBlur}>
                             <h2>{data.title}</h2>
                             {data.txt}
-                            <UniqueButton txt="Talk to a Specialist" />
+                            <UniqueButton txt="Schedule a Consultation " />
                         </div>
                     </Col>
                 </Row>

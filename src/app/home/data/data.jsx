@@ -1,63 +1,63 @@
 //Services
 export const ServicesData = {
     subtitle: "Services",
-    title: "Our All-in-One Book Services Include",
+    title: "Save Your Book from Becoming a Forgotten Google Doc.",
     desc: "",
     ServicesItem: [
         {
-            title: "Book Editing Services",
-            txt: "Every word matters, and our expert editors are dedicated to refining your book to perfection. No matter the length or style, we ensure clarity, coherence, and impact. From start to finish, our skilled team enhances your manuscript.",
+            title: "Ghostwriting ",
+            txt: "Let our expert ghostwriters take care of everything, from brainstorming ideas to the final draft, we handle all the writing! You can relax and watch as we create a book that’s completely yours to claim.",
         },
         {
-            title: "Book Writing Services",
-            txt: "Writing a book doesn’t have to be complicated. Your ideas are already there like seeds waiting to grow into a powerful story. Our expert writers help shape and develop your thoughts into a compelling, well-structured book that resonates with readers. Whether you're starting from scratch or need guidance.",
+            title: "Book Editing",
+            txt: "Our book editors fix grammar, punctuation, structure, and style, ensuring your book has a professional polish. No detail is too small for us! We’ll ensure your story captivates readers from beginning to the end.",
         },
         {
-            title: "Book Publishing Services",
-            txt: "Comprehensive publishing solutions handle ISBN assignment, formatting, printing, and global distribution. We manage every step, ensuring professional presentation and availability across major retailers, online platforms, and bookstores. Stress-free process from manuscript to market.",
+            title: "Book Publishing Assistance",
+            txt: "Choosing the right publishing route can be overwhelming, but our team makes it easy. From selecting the best platform to formatting and submission, we offer expert guidance to get your book out there. ",
         },
         {
-            title: "Book Marketing Services",
-            txt: "Marketing your book takes strategy, not guesswork. We amplify your reach through targeted ads, social media campaigns, influencer partnerships, and email marketing. Our data-driven approach boosts visibility, engages readers, and increases sales helping your book gain traction and reach bestseller potential.",
+            title: "Book Marketing & Promotion",
+            txt: "We make your book impossible to ignore. From social media campaigns to unforgettable launch events, our book marketing experts get your story in front of the right people and make sure it stands out.",
         },
         {
-            title: "Book Cover Design",
-            txt: "Your book’s cover is the first thing readers notice it should stand out. We create custom designs that reflect your story, and work seamlessly for print and digital formats. A professional cover enhances visibility, boosts sales, and increases your book’s chances of becoming a bestseller.",
+            title: "Author Branding & Website Design",
+            txt: "Our team helps you create a professional website and develop a personal brand. We’ll showcase your work, highlight your unique voice, and position you as a bestselling author in your genre.",
         },
         {
-            title: "Author Website Development",
-            txt: "A professional website helps authors build their brand, engage readers, and showcase books. We create custom, SEO-friendly, and mobile-responsive sites with integrated media, ensuring a strong online presence that drives traffic, boosts visibility, and supports your success.",
+            title: "Audiobook Production",
+            txt: "Make your book come alive with an audiobook. Reach more people, captivate both listeners and readers. Whether they're listening on the go or reading at home, your story will connect with your audience like never before.",
         },
         {
-            title: "Children Book Publications",
-            txt: "Publishing a children’s book takes more than just a great idea. Crafting a meaningful story with the right message requires careful writing, revisions, and expert guidance. We help bring your vision to life with a polished, engaging book that resonates with young readers.",
+            title: "Children’s Book Illustrations",
+            txt: "Make your children’s book unforgettable with lively, colorful illustrations! Our talented book illustrators create images that will captivate both kids and parents, keeping them hooked from the first page to the last.",
         },
         {
-            title: "Children Book Illustration",
-            txt: "Illustrations bring a children’s book to life. Kids connect with visuals first, making artwork just as important as the story. We create engaging, age-appropriate illustrations that capture attention, enhance storytelling, and make your book a favorite among young readers.",
+            title: "Children’s Book Publication",
+            txt: "Getting your children’s book published is easier with our help. From flawless editing to eye-catching illustrations and global distribution, we’ve got you covered. Let’s get your story into the hands of kids everywhere!",
         },
         {
-            title: "EBook Writing",
-            txt: "Your ideas deserve a well-written e-book. We help create clear, engaging, and well-structured content that connects with readers. With expert writing, editing, and formatting, we ensure your e-book is polished, professional, and ready to make an impact.",
+            title: "Book Trailer",
+            txt: "We create buzz with a book trailer that hooks potential readers. Our team will design a short, captivating video that highlights the essence of your book, perfect for social media promotion and engaging your audience.",
         },
         {
-            title: "Proofreading Services",
-            txt: "Professional assessments identify plot, pacing, and prose improvements. Proofreading eliminates errors, ensuring grammatical accuracy and consistency. We refine manuscripts to meet industry standards for a polished, publication-ready final product.",
+            title: "Book Coaching/Consultation",
+            txt: "Our book coaches guide you through every step of the writing process, from perfecting your manuscript to streamlining the publishing process. With expert feedback and support, we help you become a published author. ",
         },
         {
-            title: "Audiobook Services",
-            txt: "Bring your book to life with a professional audiobook. We offer expert narration, high-quality production, and seamless distribution to major platforms. Enhance reader engagement, expand your audience, and make your story accessible to listeners everywhere.",
+            title: "Book Distribution Services",
+            txt: "We make sure your book reaches readers everywhere. From online platforms to physical bookstores, we manage the distribution, ensuring your book is accessible wherever readers are searching.",
         },
         {
-            title: "Video Book Trailers",
-            txt: "Cinematic trailers blend visuals, voiceovers, and music to capture your book’s essence. Shareable across social media and websites, they generate buzz, attract readers, and enhance promotional efforts pre- and post-launch.",
+            title: "E-book Writing & Publishing",
+            txt: "Whether it's Kindle, Apple Books, or other eBook platforms, we’ll handle everything from writing and formatting to publishing, so your digital book can be instantly accessible to readers around the world.",
         }
     ]
 }
 
 export const BestSellerData = {
-    title: "Our Award-Winning Best Sellers",
-    txt: "Discover our collection of critically acclaimed books, celebrated for their compelling plots, rich characters, immersive worlds and unforgettable reading experiences."
+    title: "Bestseller? It’s Just Another Day at the Office for Us.",
+    txt: "Our portfolio doesn’t whisper success, it screams it. "
 }
 
 
@@ -65,9 +65,9 @@ export const BestSellerData = {
 // CTA
 import CtaImage from "@/public/home/ctaImage.webp"
 export const CtaData = {
-    title: "Talk To Our Experts!",
+    title: "Got the Plot? We’ve Got a Spot.",
     txt: (<>
-        <p>Call and get a free consultation, sample, & a price quote.</p>
+        <p>Your book is a bestseller—let's give it a shot!</p>
     </>),
     bg: false,
     img: CtaImage.src
@@ -75,19 +75,24 @@ export const CtaData = {
 }
 import BookImg from "media/home/whychoose.webp"
 export const ProcessData = {
-    subtitle: "Why Choose",
-    title: "Why Choose a Book Writing Company?",
-    txt: "We have developed a detailed workflow to ensure clarity while maintaining top-quality results. Our process includes regular approvals and updates at every stage, keeping customers well-informed. This approach helps clients understand our work, stay engaged, and have complete insight into the project's progress from start to finish.",
+    subtitle: "Writers Block? No Problem.",
+    title: (<>We’re the Book Writing Company<br className="d-md-block d-none" /> That Works When You’re Stuck</>),
+    txt: (<>
+        Writing a book is tough, but you don’t have to do it alone. Whether you’re short on time or struggling to put your ideas into words, we step in to make the process easier.<br className="d-md-block d-none" />
+        With our expert book writing services, we make writing effortless for you.<br className="d-md-block d-none" />
+        No typing, no stress, just a book with your name on it.<br className="d-md-block d-none" />
+        <i>Hire us now for the following reasons, your future bestseller (and sanity) will thank you!</i>
+    </>),
     img: BookImg.src,
     ProcessDataItem: [
         {
             title: "Professional Writers",
         },
         {
-            title: "Thorough Research",
+            title: "Transparent communication",
         },
         {
-            title: "Transparent Communication",
+            title: "Thorough research",
         },
         {
             title: "Timely Delivery",
