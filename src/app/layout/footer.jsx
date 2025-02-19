@@ -11,7 +11,7 @@ const Footer = () => {
             <GetQuote />
             <section className={`${styles.footerSection}`}>
                 <Container>
-                    <Row>
+                    <Row className="d-flex align-items-stretch">
                         <Col md={12} lg={4} className="ps-lg-0">
                             <div className={styles.socialBox}>
                                 <div className={styles.logo}>

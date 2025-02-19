@@ -84,7 +84,7 @@
                     font-style: normal;
                     font-weight: 600;
                     font-size: 18px;
-                    line-height: 28px;
+                    line-height: 26px;
                     letter-spacing: -0.241964px;
                     color: #FF7F3E;
                     margin-bottom: 25px;
@@ -94,14 +94,14 @@
                     li {
                         margin-bottom: 10px;
                         font-size: 14px;
-                        line-height: 24px;
+                        line-height: 20px;
                         font-weight: 500;
 
                         a {
                             font-style: normal;
                             font-weight: 400;
                             font-size: 14px;
-                            line-height: 24px;
+                            line-height: 20px;
                             letter-spacing: -0.167059px;
                             color: #393939;
 
@@ -247,11 +247,11 @@
                         li {
                             margin-bottom: 10px;
                             font-size: 13px;
-                            line-height: 22px;
+                            line-height: 18px;
 
                             a {
                                 font-size: 13px;
-                                line-height: 22px;
+                                line-height: 18px;
                             }
                         }
                     }
@@ -493,11 +493,11 @@
                         li {
                             margin-bottom: 10px;
                             font-size: 12px;
-                            line-height: 20px;
+                            line-height: 16px;
 
                             a {
                                 font-size: 12px;
-                                line-height: 20px;
+                                line-height: 16px;
                             }
                         }
                     }
@@ -549,7 +549,7 @@
         .socialBox {
             border-radius: 20px;
             padding: 20px;
-            height: 180px;
+            height: 320px;
 
             .logo {
                 margin-bottom: 10px;
@@ -579,11 +579,13 @@
             background: #F3F3F3;
             border-radius: 20px;
             padding: 20px;
-            height: 180px;
+            height: 320px;
 
             .LinksBox {
+                flex-wrap: wrap;
+
                 .LinksItem {
-                    flex: 0 0 40%;
+                    flex: 0 0 70%;
 
                     &:nth-child(2) {
                         ul {
@@ -597,11 +599,11 @@
                     }
 
                     &:first-child {
-                        flex: 0 0 15%;
+                        flex: 0 0 30%;
                     }
 
                     &:last-child {
-                        flex: 0 0 40%;
+                        flex: 0 0 100%;
                     }
 
                     h5 {
@@ -616,11 +618,11 @@
                         li {
                             margin-bottom: 5px;
                             font-size: 12px;
-                            line-height: 20px;
+                            line-height: 16px;
 
                             a {
                                 font-size: 11px;
-                                line-height: 20px;
+                                line-height: 16px;
                             }
                         }
                     }
@@ -733,7 +735,7 @@
                         font-style: normal;
                         font-weight: 500;
                         font-size: 14px;
-                        line-height: 22px;
+                        line-height: 18px;
                         margin-bottom: 20px;
                     }
 
@@ -741,11 +743,11 @@
                         li {
                             margin-bottom: 5px;
                             font-size: 12px;
-                            line-height: 20px;
+                            line-height: 17px;
 
                             a {
                                 font-size: 11px;
-                                line-height: 20px;
+                                line-height: 17px;
                             }
                         }
                     }
@@ -831,12 +833,14 @@
             background: #F3F3F3;
             border-radius: 20px;
             padding: 20px;
-            height: 180px;
+            height: auto;
             margin-top: 10px;
 
             .LinksBox {
+                flex-wrap: wrap;
+
                 .LinksItem {
-                    flex: 0 0 40%;
+                    flex: 0 0 70%;
 
                     &:nth-child(2) {
                         ul {
@@ -850,7 +854,7 @@
                     }
 
                     &:first-child {
-                        flex: 0 0 15%;
+                        flex: 0 0 30%;
                     }
 
                     &:last-child {
@@ -862,18 +866,18 @@
                         font-weight: 500;
                         font-size: 14px;
                         line-height: 22px;
-                        margin-bottom: 20px;
+                        margin-bottom: 10px;
                     }
 
                     ul {
                         li {
                             margin-bottom: 5px;
                             font-size: 12px;
-                            line-height: 20px;
+                            line-height: 17px;
 
                             a {
                                 font-size: 11px;
-                                line-height: 20px;
+                                line-height: 17px;
                             }
                         }
                     }
