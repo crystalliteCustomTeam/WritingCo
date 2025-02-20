@@ -16,7 +16,7 @@ const Banenr = ({ data }) => {
                         <div className={styles.bannerTxt}>
                             <h1>{data.title}</h1>
                             <p>{data.txt}</p>
-                            <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
+                            <UniqueButton txt="Connect with Us" BgBlack={true} />
                         </div>
                         <div className={styles.bannerLogo}>
                             <Image src={BannerLogo.src} alt="banner Image" height={28} width={560} />

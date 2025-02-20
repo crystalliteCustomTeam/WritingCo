@@ -21,65 +21,65 @@ const OPTIONS = { loop: true, align: 'start' }
 export const IndustryItem = [
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img01.src,
         url: "#",
     },
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img02.src,
         url: "#",
     },
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img03.src,
         url: "#",
     },
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img04.src,
         url: "#",
     },
 
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img05.src,
         url: "#",
     }
     ,
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img06.src,
         url: "#",
     },
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img07.src,
         url: "#",
     },
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img08.src,
         url: "#",
     }
     ,
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img09.src,
         url: "#",
     }
     ,
     {
         title: "A Shot At Desire",
-        txt: "Lorem ipsum dolor sit amet blandit consectetur. Risus interdum sed.",
+        txt: "",
         Img: Img10.src,
         url: "#",
     }
@@ -100,12 +100,12 @@ const BestSeller = ({ innerPage, landing, data }) => {
         <section className={`${styles.bestsellerSection} ${innerPage ? styles.innerPageSection : ""} ${landing ? styles.landingSection : ""}  pt-100`}>
             <Container>
                 <Row>
-                    <Col md={8} className={landing ? "text-center m-auto" : ""}>
+                    <Col md={9} className={landing ? "text-center m-auto" : ""}>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>
                     </Col>
                     {!landing ?
-                        <Col md={4} className="mt-auto d-none d-md-block">
+                        <Col md={3} className="mt-auto d-none d-md-block">
 
                             <SliderArrow
                                 onPrev={prevButtonHandler}

@@ -9,7 +9,7 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
-    const [formStatus, setFormStatus] = useState('Submit');
+    const [formStatus, setFormStatus] = useState('Get a quote');
     const [error, setError] = useState('');
 
     // Load IP address from the API

@@ -22,7 +22,7 @@ const ServicesBox = ({ data }) => {
                                     <div className={styles.servicesTxt}>
                                         <h4>{item.title}</h4>
                                         {item.txt}
-                                        <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
+                                        <UniqueButton txt="Connect with Us" BgBlack={true} />
                                     </div>
                                     <div className={styles.servicesImage}>
                                         <div className={styles.imgBox}>

@@ -11,7 +11,7 @@ const InnerServices = ({ data }) => {
                         <div className={styles.scrollingTitle}>
                             <h3>{data.title}</h3>
                             <p>{data.txt}</p>
-                            <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
+                            <UniqueButton txt="Schedule a Consultation" BgBlack={true} />
                         </div>
                     </Col>
                     <Col md={6} lg={6} className="offset-lg-1">
