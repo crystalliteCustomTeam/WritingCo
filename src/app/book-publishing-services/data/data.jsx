@@ -19,9 +19,9 @@ export const InnerServicesData = {
         Let Book Publishing Experts Help You Decide!
     </>),
     txt: <>
-        Your book isn’t just words on a page. It holds your passion, your late-night edits, your dreams of being read and remembered. But how do you choose the right way to share it with the world? <br /><br />
-        That’s where things get tricky. Should it be something readers can flip through, swipe on a screen, or listen to on the go? <br /><br />
-        That’s where our book publishing experts come in.We listen to your story, and help you decide the publishing route you should take. <br /> <br />
+        Your book isn’t just words on a page. It holds your passion, your late-night edits, your dreams of being read and remembered. But how do you choose the right way to share it with the world? <br />
+        That’s where things get tricky. Should it be something readers can flip through, swipe on a screen, or listen to on the go? <br />
+        That’s where our book publishing experts come in.We listen to your story, and help you decide the publishing route you should take. <br />
     </>,
     InnerServicesItem: [
         {
