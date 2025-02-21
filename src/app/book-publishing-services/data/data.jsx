@@ -6,7 +6,7 @@ export const BannerData = {
         Don’t Make Bestsellers.<br />
     </>),
     txt: (<>
-        Your book deserves a spotlight, not a folder named ‘Final_Version_27,’ <br className="d-md-block d-none" />
+        Your book deserves a spotlight, not a folder named <i>‘Final_Version_27,’</i> <br className="d-md-block d-none" />
         because if no one can read it, can you really call yourself an author? <br className="d-md-block d-none" />
         If you’re serious about your book, it’s time to publish! <br className="d-md-block d-none" />
         And we’ll help you do it right with our book publishing services.
@@ -161,3 +161,13 @@ export const ProcessData = {
     ]
 }
 
+export const QuoteData = {
+    subtitle: "",
+    title: "Want to Be an Author?",
+    txt: (<>
+        Step One: Stop Hoarding Drafts.<br />
+        Step Two: Connect With Us
+
+    </>),
+    formtitle: "Tell us about your book! ",
+} 

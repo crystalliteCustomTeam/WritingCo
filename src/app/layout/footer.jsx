@@ -2,13 +2,12 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/layout/footer.module.scss"
 import { FacebookIcon, MainLogo, PinterestIcon, TikTokIcon, TwitterIcon, VimeoIcon, YoutubeIcon } from "@/src/app/app-constants"
 import Link from "next/link"
-import GetQuote from "@/src/app/home/getquote";
 
 
 const Footer = () => {
     return (
         <>
-            <GetQuote />
+
             <section className={`${styles.footerSection}`}>
                 <Container>
                     <Row className="d-flex align-items-stretch">

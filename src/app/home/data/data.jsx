@@ -102,3 +102,15 @@ export const ProcessData = {
         }
     ]
 }
+
+export const QuoteData = {
+    subtitle: "",
+    title: "Stop Staring at That Blank Page.",
+    txt: (<>
+        Don’t let your story stay trapped in your head.<br />
+        It deserves more than a ‘someday.’<br />
+        <strong>Today is that day! </strong><br />
+        Let’s get your book written, published, and out in the world :)
+    </>),
+    formtitle: "Tell us about your Book!",
+} 

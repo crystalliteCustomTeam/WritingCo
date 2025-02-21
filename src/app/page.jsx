@@ -6,7 +6,8 @@ import WhyChoose from "@/src/app/home/whychoose";
 import BestSeller from "@/src/app/home/bestseller";
 import CTA from "@/src/app/home/cta";
 import Reviews from "@/src/app/home/reviews";
-import { ServicesData, ProcessData, CtaData, BestSellerData } from "@/src/app/home/data/data";
+import GetQuote from "@/src/app/home/getquote";
+import { ServicesData, ProcessData, CtaData, BestSellerData, QuoteData } from "@/src/app/home/data/data";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <BestSeller data={BestSellerData} />
       <CTA data={CtaData} />
       <Reviews />
+      <GetQuote data={QuoteData} />
     </>
   );
 }

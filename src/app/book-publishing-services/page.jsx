@@ -5,8 +5,9 @@ import InnerServices from "@/src/app/services/innerservices";
 import ServicesForm from "@/src/app/services/servicesform";
 import Services from "@/src/app/home/services";
 import ServicesBox from "@/src/app/services/servicesbox";
-import { InnerServicesData, ServicesData, BannerData, ProcessData, OfferData, BestSellerData } from "@/src/app/book-publishing-services/data/data";
+import GetQuote from "@/src/app/home/getquote";
 import ServicesProcess from "@/src/app/services/servicesprocess";
+import { InnerServicesData, ServicesData, BannerData, ProcessData, OfferData, BestSellerData, QuoteData } from "@/src/app/book-publishing-services/data/data";
 
 export default function Page() {
     return (
@@ -19,7 +20,7 @@ export default function Page() {
             <ServicesBox data={ServicesData} />
             <Services data={OfferData} offer={true} />
             <ServicesProcess data={ProcessData} />
-
+            <GetQuote data={QuoteData} />
         </>
     );
 }

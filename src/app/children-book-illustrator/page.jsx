@@ -3,13 +3,12 @@ import Clients from "@/src/app/home/clients";
 import BestSeller from "@/src/app/home/bestseller";
 import ServicesForm from "@/src/app/services/servicesform";
 import Team from "@/src/app/services/team";
-import { BannerData, ProcessData, BestSellerData } from "@/src/app/children-book-illustrator/data/data";
+import { BannerData, ProcessData, BestSellerData, QuoteData } from "@/src/app/children-book-illustrator/data/data";
 import ServicesProcess from "@/src/app/services/servicesprocess";
 import Reviews from "@/src/app/home/reviews";
 import CtaChild from "@/src/app/services/ctachild";
 import Gallery from "@/src/app/services/gallery";
-
-
+import GetQuote from "@/src/app/home/getquote";
 
 
 export default function Page() {
@@ -24,6 +23,7 @@ export default function Page() {
             <Gallery />
             <Reviews />
             <ServicesProcess data={ProcessData} />
+            <GetQuote data={QuoteData} />
         </>
     );
 }

@@ -6,9 +6,10 @@ import ServicesForm from "@/src/app/services/servicesform";
 import ContentBox from "@/src/app/services/contentbox";
 import ContentBoxes from "@/src/app/services/contentboxes";
 import ServicesBox from "@/src/app/services/servicesbox";
-import { InnerServicesData, ServicesData, BannerData, ProcessData, ContentBoxData, ContentBoxesData, TableContetData, BestSellerData } from "@/src/app/book-editing-services/data/data";
+import { InnerServicesData, ServicesData, BannerData, ProcessData, ContentBoxData, ContentBoxesData, TableContetData, BestSellerData, QuoteData } from "@/src/app/book-editing-services/data/data";
 import ServicesProcess from "@/src/app/services/servicesprocess";
 import TableContent from "@/src/app/services/tablecontent";
+import GetQuote from "@/src/app/home/getquote";
 
 export default function Page() {
     return (
@@ -23,7 +24,7 @@ export default function Page() {
             <ContentBoxes data={ContentBoxesData} />
             <ServicesProcess data={ProcessData} />
             <TableContent data={TableContetData} />
-
+            <GetQuote data={QuoteData} />
         </>
     );
 }
