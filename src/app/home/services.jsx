@@ -8,7 +8,7 @@ const Services = ({ data, offer, landing }) => {
         <section className={`${styles.serviceSection} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={8} lg={8} className="mx-auto text-center">
+                    <Col md={10} lg={8} className="mx-auto text-center">
                         {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>

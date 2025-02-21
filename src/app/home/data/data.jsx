@@ -1,6 +1,6 @@
 //Services
 export const ServicesData = {
-    subtitle: "Services",
+    subtitle: "Our Services",
     title: "Save Your Book from Becoming a Forgotten Google Doc.",
     desc: "",
     ServicesItem: [
@@ -80,7 +80,7 @@ export const ProcessData = {
     txt: (<>
         Writing a book is tough, but you don’t have to do it alone. Whether you’re short on time or struggling to put your ideas into words, we step in to make the process easier.<br className="d-md-block d-none" />
         With our expert book writing services, we make writing effortless for you.<br className="d-md-block d-none" />
-        No typing, no stress, just a book with your name on it.<br className="d-md-block d-none" />
+        No typing, no stress, just a book with your name on it.<br className="d-md-block d-none" /><br className="d-md-block d-none" />
         <i>Hire us now for the following reasons, your future bestseller (and sanity) will thank you!</i>
     </>),
     img: BookImg.src,

@@ -21,7 +21,7 @@ export const InnerServicesData = {
     txt: <>
         Your book isn’t just words on a page. It holds your passion, your late-night edits, your dreams of being read and remembered. But how do you choose the right way to share it with the world? <br />
         That’s where things get tricky. Should it be something readers can flip through, swipe on a screen, or listen to on the go? <br />
-        That’s where our book publishing experts come in.We listen to your story, and help you decide the publishing route you should take. <br />
+        That’s where our book publishing experts come in. We listen to your story, and help you decide the publishing route you should take. <br />
     </>,
     InnerServicesItem: [
         {
@@ -98,7 +98,7 @@ export const ServicesData = {
 
 export const OfferData = {
     subtitle: "Profitable Publishing Paths",
-    title: "Publish your book and Get the recognition(and revenue) you deserve.",
+    title: (<>Publish your book and <br />Get the recognition(and revenue) you deserve.</>),
     desc: "We help you publish across multiple formats and platforms, ensuring maximum visibility and earnings while you retain full royalties.",
     ServicesItem: [
         {
@@ -110,7 +110,7 @@ export const OfferData = {
             txt: "We help business professionals, coaches, and influencers turn their knowledge into a powerful book that builds authority, drives new opportunities and business growth. Our publishing service covers content development, editing, book design, and distribution across Amazon KDP, Barnes & Noble, Apple Books, and more. With our expertise, your book becomes a strategic asset that generates revenue."
         },
         {
-            title: "Online PublicationLow Content Publishing ",
+            title: "Low Content Publishing ",
             txt: "We help entrepreneurs, artists, and creators turn simple yet profitable ideas into best-selling low-content books, such as planners, journals, coloring books, and logbooks. Our amazon publishing experts handle professional design, formatting, and publishing on platforms like kindle direct publishing. These high-margin, evergreen products require minimal writing yet offer long-term passive income potential."
         },
         {
@@ -126,7 +126,7 @@ export const ProcessData = {
     subtitle: "Publishing Made Simple",
     title: "Our Book Publishing Process",
     txt: (<>
-        A published book leaves a legacy. An unpublished one leaves regrets.<br />
+        <i>A published book leaves a legacy. An unpublished one leaves regrets.</i><br /><br />
         Readers judge books by their covers, and their layouts, fonts, and readability.<br />
         If you publish a book and it doesn’t meet professional standards,<br />
         it won’t just lose sales it could also damage your credibility as an author.<br />

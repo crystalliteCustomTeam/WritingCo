@@ -15,7 +15,7 @@ const Banner = () => {
                             <h1>Don’t Stress the Writing,<br className="d-md-block d-none" />
                                 We’ll Make It Exciting!</h1>
                             <p>You’ve carried this story in your heart for too long, it’s time to put it into words!
-                                As a leading book writing company, we don’t just write books; we translate your emotions into words, your thoughts into sentences, and your ideas into bestsellers.
+                                As a leading book writing company, we don’t just write books; we translate your emotions into words, your thoughts into sentences, and your ideas into bestsellers.<br />
                                 Let’s create something powerful, meaningful, and truly impactful together—something that’s yours to share with the world.  </p>
                         </div>
                         <UniqueButton txt="Connect with Us" BgBlack={true} />
