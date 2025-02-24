@@ -19,7 +19,7 @@ const Journey = ({ data, data1 }) => {
                         <Col md={10} lg={9} className="m-auto text-center">
                             <h2>{data.title}</h2>
                             <p>{data.desc}</p>
-                            <UniqueButton txt="Talk to Specialist" center={true} BgBlack={true} />
+                            <UniqueButton txt="Connect with Us" center={true} BgBlack={true} />
                         </Col>
                     </Row>
                 </Container>
@@ -32,7 +32,7 @@ const Journey = ({ data, data1 }) => {
                                 <div className={styles.contentSection}>
                                     <h2>{data1.title}</h2>
                                     <p>{data1.desc}</p>
-                                    <UniqueButton txt="Talk to a Specialist" />
+                                    <UniqueButton txt="Connect with Us" />
                                 </div>
                                 <div className={styles.sliderSection}>
                                     <div className={styles.embla}>

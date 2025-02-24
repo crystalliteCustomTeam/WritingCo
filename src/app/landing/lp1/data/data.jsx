@@ -1,104 +1,101 @@
 export const BestSellerData = {
-    title: "Our Fresh Off the Press Publishing Project",
-    txt: ""
+    title: (<>Pages were written,<br />
+        Stories were told<br />
+        Our Amazon publishing portfolio? Pure gold.
+    </>),
+    txt: "Our Amazon book publishing company turned these manuscripts into money."
 }
 
 //Services
 export const ServicesData = {
-    title: "Your Book Deserves the Best and We Make It Happen",
-    desc: "Every book is unique, and so is the path to publishing it. Our team works closely with you to ensure your book not only meets industry standards but also captures the attention of your target audience.",
+    title: (<>Amazon Publishing, Simplified<br /> eBooks, Print, Audiobooks; We’ll Get You on Amazon!</>),
+    desc: (<>We are Amazon publishing experts who get your book published in any format—eBook, paperback, hardcover, or audiobook. We handle the entire publishing process, making sure your book is professionally formatted, uploaded, and ready to sell on Amazon.</>),
     ServicesItem: [
         {
-            title: "Book Writing & Editing ",
-            txt: "Whether you're starting from scratch or have a draft that needs refining, our editors and ghostwriters collaborate with you to shape a compelling narrative. We ensure your content is clear, engaging, and polished for publishing success.",
+            title: "Kindle Direct Publishing",
+            txt: (<>Amazon KDP is the go-to platform for self-publishing e books. Authors can upload their manuscripts, format them for Kindle, and sell them globally on Amazon. With flexible pricing and up to <strong>70% royalties,</strong> KDP lets authors keep full control over their work while reaching millions of readers.</>),
         },
         {
-            title: "Book Publishing",
-            txt: "Take the stress out of publishing with our end-to-end solutions. From ISBN assignment to distribution on major platforms, we handle every step to make your book widely available and professionally presented.",
+            title: "KDP Print (Paperback Books)",
+            txt: (<>KDP Print allows authors to self-publish paperback books without upfront printing costs. Using print-on-demand, Amazon prints books only when they are ordered, ensuring no wasted inventory. Authors earn around 60% royalties after printing costs, with global distribution options available.</>),
         },
         {
-            title: "Book Marketing",
-            txt: "Publishing is just the beginning—our marketing experts help your book reach the right audience. Through strategic promotions, social media outreach, and targeted advertising, we boost visibility and maximize sales.",
+            title: "Amazon Hardcover Printing",
+            txt: (<>For authors seeking a premium publishing option, KDP now offers hardcover printing with a sleek, durable, and professional case laminate finish. This high-quality format gives books a polished look, making them perfect for collectors and serious readers. </>),
         },
         {
-            title: "Cover Design & Formatting",
-            txt: "First impressions matter. Our designers craft eye-catching book covers and format the interior layout to ensure a professional and reader-friendly appearance across print and digital formats.",
+            title: "Amazon ACX (Audiobooks)",
+            txt: (<>Amazon Audiobook Creation Exchange is the publishing platform for turning books into audiobooks. Authors can narrate their own books or hire professional voice actors. Audiobooks are sold on Audible, Amazon, and Apple Books, with royalties of 40% (exclusive) or 25% (non-exclusive).</>),
         },
         {
-            title: "Author Website Development",
-            txt: "A strong online presence is essential for today’s authors. We build customized author websites that showcase your books, engage readers, and establish your brand in the literary world.",
+            title: "Amazon Advantage & Seller Central",
+            txt: (<>Amazon Advantage is designed for traditional publishers and larger self-publishers who want to sell books in bulk to Amazon. Meanwhile, Amazon Seller Central lets independent authors and publishers sell their books directly, handling their own pricing and inventory. </>),
         },
         {
-            title: "Paid Campaigns & Promotions",
-            txt: "Gain traction with powerful advertising campaigns tailored to your book’s genre and target market. We run ads across various platforms to increase exposure and drive sales.",
-        },
-        {
-            title: "Video Book Trailers",
-            txt: "Gain traction with powerful advertising campaigns tailored to your book’s genre and target market. We run ads across various platforms to increase exposure and drive sales.",
-        },
-        {
-            title: "Manuscript Evaluation & Proofreading",
-            txt: "Ensure your book meets industry standards with our professional manuscript assessments. We identify areas for improvement, fix grammatical issues, and refine your text to perfection.",
+            title: "Amazon Ignite",
+            txt: (<>Amazon Ignite is an invite-only marketplace for educators and content creators to sell teaching materials, such as lesson plans, worksheets, and classroom activities. Sellers can upload PDFs, PowerPoints, and other digital resources, earning 70% royalties on every sale.</>),
         },
 
     ]
 }
 export const JourneyData = {
-    title: "Take Control of Your Story and Publish Your Bestseller",
-    desc: "Our team of experts is ready to guide you through every stage of the publishing process, ensuring your book reaches its fullest potential.",
+    title: (<>99% of authors struggle with book publishing,<br />
+        The other 1% hire us.
+    </>),
+    desc: "",
 }
 import Img01 from "@/public/landing/lp1/slider/Img01.webp"
 import Img02 from "@/public/landing/lp1/slider/Img02.webp"
 import Img03 from "@/public/landing/lp1/slider/Img03.webp"
 
 export const JourneyData1 = {
-    title: "Your Path to Successful Self-Publishing ",
-    desc: "Self-publishing is an exciting journey, but without the right approach, it can feel overwhelming. We simplify the process into five essential steps, ensuring your book reaches readers in the most professional and effective way.",
+    title: (<>Struggling with Amazon Publishing?<br />
+        Let us handle it!
+    </>),
+    desc: "Most books fail because of poor publishing execution. We fix that by offering expert-level formatting, category and keyword research, pricing strategy, and executing marketing campaigns. We ensure your book meets industry standards, ranks higher, and sells better.",
 
     JourneyItem: [
         {
-            title: "Manuscript Preparation ",
-            txt: "A compelling book starts with a well-prepared manuscript. Our expert editors refine your writing by improving structure, readability, and grammar. We also format the text for digital and print compatibility, ensuring a seamless reading experience across all platforms.",
+            title: "Manuscript Formatting & Uploading",
+            txt: "We format your book for Kindle, paperback, hardcover, and audiobook to meet Amazon’s strict guidelines. From margins and spacing to fonts and images, we ensure your book looks flawless on every device. Plus, we fix errors that could lead to Amazon rejection, so your book gets approved the first time.",
             img: Img01.src,
         },
         {
-            title: "Cover Design & Interior Layout ",
-            txt: "A book’s cover is the first thing readers see, and a professionally designed one can make all the difference. Our designers craft visually striking covers that align with your book’s genre and target audience. Additionally, we format the book’s interior to enhance readability, ensuring a polished and professional presentation.",
+            title: "Cover Design & Book Layout",
+            txt: "Your cover is the first thing readers see, we make sure it grabs attention. Our professional designs meet Amazon’s size, resolution, and formatting requirements for eBooks and print versions, including spine and back cover layout for paperbacks and hardcovers.",
             img: Img02.src,
         },
         {
-            title: "Publishing & Distribution ",
-            txt: "Getting your book into readers’ hands is our priority. We guide you through the publishing process, ensuring your book is available on top platforms like Amazon KDP, Apple Books, IngramSpark, and more. From setting up author accounts to optimizing book metadata, we take care of every technical detail for smooth distribution.",
+            title: "Pricing & Royalties Strategy",
+            txt: "Maximizing earnings means understanding Amazon’s 70% vs. 35% royalty options and selecting the best pricing strategy. We help you price competitively while leveraging KDP Select and Kindle Unlimited for greater reach and additional revenue streams.",
             img: Img03.src,
         },
         {
-            title: "Marketing & Visibility Enhancement ",
-            txt: "Publishing a book is just the beginning—getting noticed is what truly matters. Our book marketing strategies include social media campaigns, Amazon ads, press releases, and targeted promotions to increase your book’s visibility. We also help with securing book reviews, enhancing credibility, and attracting potential readers.",
+            title: "Marketing & Promotions",
+            txt: "Publishing is just the first step, getting sales requires smart marketing. We run Amazon Ads (AMS), manage KDP Free Promotions & Kindle Countdown Deals, and help you secure verified Amazon reviews (ethically) to boost visibility and credibility.",
             img: Img01.src,
         },
-        {
-            title: "Post-Publishing Support & Growth ",
-            txt: "Even after launch, we continue to support you. Our post-publishing services include tracking book sales, analyzing marketing performance, and exploring new promotional opportunities. Whether it's expanding your book to new markets or enhancing your brand as an author, we ensure your success extends beyond just publishing.",
-            img: Img02.src,
-        }
     ]
 }
 
 import IMG01 from "media/landing/lp1/Img01.webp"
 export const ContentBox1 = {
-    title: (<>Your Publishing Journey Starts Here</>),
+    title: (<>Sell Books, Not Your Sanity; We’ve Got This!</>),
     txt: (<>
-        <p>Oftentimes, we find ourselves indulging in thoughts that others might find fascinating. Most of them remain limited to the abyss.</p>
-        <p>From developmental editing to targeted book marketing, our team is dedicated to supporting you at every stage. Let’s build your author brand, amplify your presence, and make your book a success.</p>
+        <p>Amazon self publishing is a billion-dollar industry where smart authors turn books into income. But most fail due to formatting issues, poor cover designs, bad keywords, weak pricing strategies, and zero marketing kill book sales before they even start.</p>
+        <p>That’s why top self-published authors trust us. We’re the experts in Amazon publishing, handling everything from formatting and cover design to pricing strategy, audiobooks, and Amazon Ads. We don’t just publish books, we position them for success.</p>
+        <p><i>Don’t gamble with your book’s success, hire amazon book publishing experts and start selling today!</i></p>
     </>),
     img: IMG01.src,
 }
 
 import IMG02 from "media/landing/lp1/Img02.webp"
 export const ContentBox2 = {
-    title: (<>Your Book, Global Access: Our Multi-Platform Strategy</>),
+    title: (<>Why Play Small?<br />
+        We Put Your Book on the VIP List.
+    </>),
     txt: (<>
-        <p>We help authors publish across multiple trusted platforms to ensure maximum exposure and accessibility.</p>
+        <p>KDP is great, but let’s be real! more platforms mean more readers, and more readers mean more money. We showcase your book everywhere with our publishing partners; </p>
     </>),
     img: IMG02.src,
     contentPoints: [
@@ -121,34 +118,38 @@ export const ContentBox3 = {
 
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Overwhelmed by the Publishing Process? We’re Here to Help",
-    txt: "The book publishing process can be difficult, but you don’t have to do it alone. Our expert team ensures your book is polished, professionally presented, and successfully launched. Here’s how we support you every step of the way:",
+    subtitle: "Publishing Made Simple",
+    title: "Our Book Publishing Process",
+    txt: (<>Readers judge books in seconds; by their covers, layouts, and readability.<br />
+        A poorly formatted book doesn’t just cost you sales; it risks your reputation as an author.<br />
+        We don’t just publish books, we attract readers and sell them!<br />
+        Your book deserves to stand alongside bestsellers. Let’s make it happen.
+    </>),
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Professional Proofreading & Editing ",
-            txt: "Our editors refine your manuscript, eliminating errors and improving clarity to ensure your book meets industry standards."
+            title: "Editing & Proofreading",
+            txt: "Good writing deserves great editing. We refine your manuscript to eliminate errors, improve clarity, and ensure it’s publication-ready."
         },
         {
-            title: "In-Depth Manuscript Evaluation ",
-            txt: "Get expert feedback on your book’s structure, content, and market potential, helping you strengthen your story before publishing."
+            title: "Cover Design & Interior Formatting",
+            txt: "An impressive cover and clean formatting make all the difference. We create a bookstore-quality look for both print and digital versions."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Custom Cover Design & Formatting ",
-            txt: "A captivating cover and a well-structured layout enhance your book’s appeal and readability, making it stand out to readers."
+            title: "Hassle-Free Publishing",
+            txt: "No confusing platforms or tech hurdles; we handle ISBNs, book blurbs, and getting your book live on Amazon, Apple Books, and more."
         },
         {
-            title: "Strategic Publishing & Distribution ",
-            txt: "We help you publish on top platforms like Amazon KDP, Apple Books, and IngramSpark, maximizing your book’s reach."
+            title: "Strategic Marketing & Promotion",
+            txt: "We optimize your book for Amazon’s algorithm, set up ads, and launch campaigns to get readers and drive sales."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Targeted Marketing & Promotion ",
-            txt: "Our marketing strategies, including social media campaigns, book trailers, and paid ads, boost visibility and drive book sales."
+            title: "Author Branding",
+            txt: "For professionals, a book is more than content, it’s currency. We ensure yours positions you as an industry leader and attracts high-value clients."
         }
     ]
 }
@@ -184,4 +185,18 @@ export const ChooseUsData = {
         }
     ]
 
+
 }
+
+export const QuoteData = {
+    subtitle: "",
+    title: (<>Writing was the hard part.<br />
+        Publishing? That’s our job
+    </>),
+    txt: (<>
+        Ready to see your book on Amazon?<br />
+        Let’s make it happen, no stress!
+
+    </>),
+    formtitle: "Tell us about your book! ",
+} 

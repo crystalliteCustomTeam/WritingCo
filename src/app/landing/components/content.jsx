@@ -25,7 +25,7 @@ const ContentBox = ({ data, alternet }) => {
                             </ul>
                             : null
                         }
-                        <UniqueButton txt="Talk to a Specialist" BgBlack={alternet ? false : true} />
+                        <UniqueButton txt="Connect with Us" BgBlack={alternet ? false : true} />
                     </Col>
                 </Row>
             </Container>

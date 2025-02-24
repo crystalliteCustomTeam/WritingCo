@@ -14,7 +14,7 @@ const Services = ({ data, offer, landing }) => {
                         <p>{data.desc}</p>
                     </Col>
                     <Col md={12}>
-                        <div className={`${styles.servicesContainer} ${offer ? styles.serviceOffer : ""} ${landing ? styles.landingService : ""}`}>
+                        <div className={`${styles.servicesContainer} ${offer ? styles.serviceOffer : ""} `}>
                             {data.ServicesItem.map((item, index) => (
                                 <div className={styles.servicesItem} key={index}>
                                     <div className={styles.servicesImage}>
@@ -34,7 +34,7 @@ const Services = ({ data, offer, landing }) => {
                     </Col>
                     <Col md={12} className={landing ? "mt-4" : ""} >
                         {landing ?
-                            <UniqueButton txt="Free Consultation-Let’s Talk Now!" OneBtn={true} center={true} />
+                            <UniqueButton txt="Connect with a Book Consultant" OneBtn={true} center={true} />
                             : ""
                         }
                     </Col>
