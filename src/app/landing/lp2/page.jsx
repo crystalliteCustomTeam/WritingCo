@@ -14,7 +14,7 @@ export default function Page() {
     return (
         <>
             <BannerLp2 lp2={true} />
-            <ServicesForm txt="Get a Custom Quote – Contact Us Today" />
+            <ServicesForm txt="Get a Custom Quote – Contact Us Today" title="Get a No- Obligation Quote for Your Publishing Project" />
             <Services data={ServicesData} />
             <Journey data={JourneyData} data1={JourneyData1} />
             <ContentBox data={ContentBox1} />
