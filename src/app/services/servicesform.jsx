@@ -21,10 +21,9 @@ const ServicesForm = ({ bg, txt, title, lp2 }) => {
                                 {bg ? (
                                     <div dangerouslySetInnerHTML={{ __html: title }} />
                                 ) : (
-                                    <div dangerouslySetInnerHTML={{ __html: title }} /> || "Get a No- Obligation Quote for Your Publishing Project"
+                                    <div dangerouslySetInnerHTML={{ __html: title || "Get a No-Obligation Quote for Your Publishing Project" }} />
                                 )}
                             </h2>
-
                             <ContactFrom vertical={true} txt={txt} lp2={lp2} />
                         </div>
                     </Col>
