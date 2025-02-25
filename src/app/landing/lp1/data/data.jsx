@@ -191,7 +191,7 @@ export const ChooseUsData = {
 export const QuoteData = {
     subtitle: "",
     title: (<>Writing was the hard part.<br />
-        Publishing? That’s our job
+        Publishing? That’s our job.
     </>),
     txt: (<>
         Ready to see your book on Amazon?<br />
