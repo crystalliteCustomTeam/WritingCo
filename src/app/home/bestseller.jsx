@@ -100,7 +100,7 @@ const BestSeller = ({ innerPage, landing, data }) => {
         <section className={`${styles.bestsellerSection} ${innerPage ? styles.innerPageSection : ""} ${landing ? styles.landingSection : ""}  pt-100`}>
             <Container>
                 <Row>
-                    <Col md={9} className={landing ? "text-center m-auto" : ""}>
+                    <Col md={10} className={landing ? "text-center m-auto" : ""}>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>
                     </Col>

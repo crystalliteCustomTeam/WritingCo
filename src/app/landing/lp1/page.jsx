@@ -15,7 +15,7 @@ export default function Page() {
     return (
         <>
             <Banner />
-            <ServicesForm txt="Connect with a Book Consultant" title="You don’t get a second chance at a first impression.<br/> Get a quote and publish with confidence." />
+            <ServicesForm txt="Connect with a Book Consultant" title="You don’t get a second chance at a first impression. Get a quote and publish with confidence." />
             <BestSeller data={BestSellerData} landing={true} />
             <Services data={ServicesData} landing={true} />
             <Journey data={JourneyData} data1={JourneyData1} />
