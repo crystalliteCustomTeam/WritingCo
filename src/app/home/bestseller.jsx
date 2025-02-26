@@ -20,65 +20,65 @@ import Img10 from "media/home/book/book10.webp"
 const OPTIONS = { loop: true, align: 'start' }
 export const IndustryItem = [
     {
-        title: "A Shot At Desire",
+        title: "The Heroes & Heroines of the Snake War",
         txt: "",
         Img: Img01.src,
         url: "#",
     },
     {
-        title: "A Shot At Desire",
+        title: "The Pssst-Pssst of Toley Ranz",
         txt: "",
         Img: Img02.src,
         url: "#",
     },
     {
-        title: "A Shot At Desire",
+        title: "Exotic Bomb",
         txt: "",
         Img: Img03.src,
         url: "#",
     },
     {
-        title: "A Shot At Desire",
+        title: "The Girl With Lots Of Spots And Dots",
         txt: "",
         Img: Img04.src,
         url: "#",
     },
 
     {
-        title: "A Shot At Desire",
+        title: "Within You And Without You",
         txt: "",
         Img: Img05.src,
         url: "#",
     }
     ,
     {
-        title: "A Shot At Desire",
+        title: "A Deadly Recompense",
         txt: "",
         Img: Img06.src,
         url: "#",
     },
     {
-        title: "A Shot At Desire",
+        title: "A Soldier & His Wife's Journey",
         txt: "",
         Img: Img07.src,
         url: "#",
     },
     {
-        title: "A Shot At Desire",
+        title: "Mental Fitness For Tweens And Teens",
         txt: "",
         Img: Img08.src,
         url: "#",
     }
     ,
     {
-        title: "A Shot At Desire",
+        title: "Beyond the Banks of Frog Creek",
         txt: "",
         Img: Img09.src,
         url: "#",
     }
     ,
     {
-        title: "A Shot At Desire",
+        title: "The Devil and the Details",
         txt: "",
         Img: Img10.src,
         url: "#",
