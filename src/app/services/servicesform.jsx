@@ -7,7 +7,7 @@ import Image01 from "media/landing/lp2/Image01.webp"
 import Image from "next/image"
 
 
-const ServicesForm = ({ bg, txt, title, lp2 }) => {
+const ServicesForm = ({ bg, txt, title, lp2, para }) => {
     return (
         <section className={`${styles.serviceSection}  pt-100`}>
             <Container
@@ -15,7 +15,7 @@ const ServicesForm = ({ bg, txt, title, lp2 }) => {
                 style={{ backgroundImage: bg ? `url(${FromBg.src})` : null }}
             >
                 <Row className="h-100">
-                    <Col md={12} lg={lp2 ? 7 : 8} className={`${lp2 ? "my-auto" : "m-auto text-center"}`}>
+                    <Col md={12} lg={lp2 ? 8 : 8} className={`${lp2 ? "my-auto" : "m-auto text-center"}`}>
                         <div className={styles.contentFrom}>
                             <h2>
                                 {bg ? (
@@ -24,12 +24,17 @@ const ServicesForm = ({ bg, txt, title, lp2 }) => {
                                     <div dangerouslySetInnerHTML={{ __html: title || "Get a No-Obligation Quote for Your Publishing Project" }} />
                                 )}
                             </h2>
+                            {para ?
+                                <p>Get a Free Quote</p>
+                                :
+                                ""
+                            }
                             <ContactFrom vertical={true} txt={txt} lp2={lp2} />
                         </div>
                     </Col>
 
                     {lp2 ?
-                        <Col md={5} className="my-auto text-center">
+                        <Col md={4} className="my-auto text-center">
                             <div className={styles.imgBox}>
                                 <Image src={Image01.src} alt="Banner Logo" width={440} height={569} />
                             </div>

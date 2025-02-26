@@ -14,14 +14,13 @@ export default function Page() {
     return (
         <>
             <BannerLp2 lp2={true} />
-            <ServicesForm txt="Get a Custom Quote – Contact Us Today" title="Get a No- Obligation Quote for Your Publishing Project" />
+            <ServicesForm txt="Connect with a Book Consultant " title="You Lived It. We’ll Write It. No Holding Back." para={true} />
             <Services data={ServicesData} />
             <Journey data={JourneyData} data1={JourneyData1} />
             <ContentBox data={ContentBox1} />
             <ContentBox data={ContentBox2} alternet={true} />
-            <ContentBox data={ContentBox3} />
             <ServicesProcess data={ProcessData} />
-            <ServicesForm bg={true} lp2={true} txt="Hire a Professional Ghostwriter" title="Your Story Deserves to Be ToldLet <span> Our Ghostwriters Craft Your Bestseller!</span>" />
+            <ServicesForm bg={true} lp2={true} txt="Schedule a Free Consultation" title="You could spend <span>years struggling</span><br/> or just let us <span>write it in months.</span>" />
             <WhyChoose data={ChooseUsData} />
             <Reviews lp2={true} />
             <GetQuote data={QuoteData} />

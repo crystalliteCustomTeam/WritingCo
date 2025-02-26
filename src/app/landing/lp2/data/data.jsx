@@ -5,129 +5,139 @@ export const BestSellerData = {
 
 //Services
 export const ServicesData = {
-    title: "Get Published with Confidence – Comprehensive Book Services Tailored for You",
-    desc: "Not every author secures a publishing deal, but  we bridge the gap. We connect you with high-profile publishers, experienced editors, and industry professionals to bring your book to life.",
+    title: "Our Book Writing Services",
+    desc: "From life stories to thrilling mysteries, we write it all.",
     ServicesItem: [
         {
-            title: "Book Editing Services",
-            txt: "Every word matters. Our expert editors refine your manuscript to enhance clarity, coherence, and impact. Whether it’s structural editing or final proofreading, we ensure your book is polished and publication-ready.",
+            title: "Autobiography",
+            txt: "A self-written account of your life, covering personal experiences, achievements, and challenges. It provides an in-depth look at your journey, thoughts, and emotions. These books often inspire or educate readers through firsthand experiences.",
         },
         {
-            title: "Book Writing Services",
-            txt: "Your ideas deserve expert storytelling. Our professional writers help shape your concepts into a compelling, well-structured book that captivates readers. Whether you need a ghostwriter or assistance in developing your draft, we bring your vision to life.",
+            title: "Biography",
+            txt: "A detailed life story written about someone else, based on research, interviews, and historical records. It explores the subject’s achievements, struggles, and influence on society. Biographies can be objective or interpretative, offering insights into the person’s legacy.",
         },
         {
-            title: "Book Publishing Services",
-            txt: "We handle everything from ISBN assignment and formatting to printing and global distribution. Your book will be professionally presented and available across major retailers, online platforms, and bookstores—stress-free from manuscript to market.",
+            title: "Memoir",
+            txt: "A personal narrative focusing on specific events, themes, or periods of the author’s life. Unlike autobiographies, memoirs are more selective and emphasize emotions, lessons, or experiences. They often explore personal growth, hardships, or defining moments.",
         },
         {
-            title: "Book Marketing Services",
-            txt: "Effective marketing is key to success. Our data-driven strategies include targeted ads, social media campaigns, influencer partnerships, and email marketing. We amplify your book’s reach, ensuring visibility and increased sales.",
+            title: "Fiction",
+            txt: "Stories created from the imagination, including novels, short stories, and novellas. They can cover various genres like romance, fantasy, or drama. Fiction allows readers to explore new worlds, emotions, and perspectives through storytelling.",
         },
         {
-            title: "Book Cover Design",
-            txt: "Your book’s cover is its first impression—it should stand out. We create custom, visually striking designs that reflect your story and attract readers. A professional cover boosts visibility and sales potential.",
+            title: "Nonfiction",
+            txt: "Books based on real events, facts, and research, covering subjects like history, science, and self-improvement. They aim to inform, educate, or explain real-world topics with accuracy. Nonfiction can include biographies, memoirs, essays, and instructional guides.",
         },
         {
-            title: "Author Website Development",
-            txt: "A strong online presence is essential for authors. We design custom, SEO-friendly, and mobile-responsive websites that showcase your books, engage readers, and build your brand.",
+            title: "Self-Help",
+            txt: "Books designed to assist readers in personal growth, motivation, and problem-solving. They provide practical advice, strategies, and inspiration for improving various aspects of life. Topics include productivity, relationships, mental health, and confidence-building.",
         },
         {
-            title: "Children's Book Publishing",
-            txt: "Publishing a children’s book requires thoughtful storytelling and expert guidance. We help craft engaging, age-appropriate books that resonate with young readers, ensuring a polished final product.",
+            title: "Business Books",
+            txt: "Guides offering insights into entrepreneurship, leadership, finance, and industry trends. They provide strategies for success, case studies, and expert advice. These books help professionals improve decision-making, innovation, and management skills.",
         },
         {
-            title: "Children’s Book Illustration",
-            txt: "Illustrations bring children's books to life. Our professional artists create captivating, age-appropriate visuals that enhance storytelling and make your book a favorite among young readers.",
+            title: "Children’s Books",
+            txt: "Engaging stories written for young readers, often featuring colorful illustrations and simple language. They teach moral lessons, encourage creativity, and develop reading skills. Genres range from fairy tales and adventure to educational books.",
         },
         {
-            title: "eBook Writing & Publishing",
-            txt: "Your ideas deserve a well-crafted eBook. We provide expert writing, editing, and formatting services to ensure your digital book is professional, engaging, and distribution-ready.",
+            title: "Fantasy & Sci-Fi",
+            txt: "Fictional stories featuring magical worlds, futuristic technology, or extraterrestrial adventures. Fantasy includes mythical creatures and magical systems, while sci-fi explores space travel, AI, and scientific possibilities. These genres spark imagination and challenge reality.",
         },
         {
-            title: "Proofreading Services",
-            txt: "Eliminate errors and refine your manuscript to industry standards. Our proofreaders focus on grammar, punctuation, and consistency to ensure a flawless, publication-ready book.",
+            title: "Thriller & Mystery",
+            txt: "Suspenseful stories filled with twists, crime investigations, and psychological tension. Thrillers keep readers on edge with action and danger, while mysteries revolve around solving puzzles or crimes. Both genres captivate audiences with intrigue and excitement.",
         },
         {
-            title: "Audiobook Services",
-            txt: "Expand your audience with a professionally produced audiobook. We offer expert narration, high-quality audio production, and distribution across major platforms to bring your story to life.",
+            title: "Poetry",
+            txt: "Expressive writing in verse form that conveys emotions, thoughts, and imagery. It can be structured with rhyme and meter or freeform with no set pattern. Poetry explores themes like love, nature, grief, and personal experiences in a condensed, artistic way.",
         },
         {
-            title: "Video Book Trailers",
-            txt: "Capture your book’s essence with a cinematic trailer. Combining visuals, voiceovers, and music, our book trailers generate buzz and enhance promotional efforts across social media and websites.",
+            title: "Historical Writing",
+            txt: "Books that explore past events, either through factual analysis or fictionalized narratives. They provide insights into historical figures, wars, revolutions, and cultural changes. Historical fiction blends real history with storytelling, while nonfiction accounts rely on research and accuracy.",
         },
     ]
 }
 
 export const JourneyData = {
-    title: "Start Your Book Promotion Today",
-    desc: "Your book deserves to be seen, read, and celebrated. Our expert book marketing team is ready to craft a personalized strategy that maximizes visibility, boosts sales, and connects you with your ideal readers.",
+    title: "Because writing is hard... but hiring us isn’t.",
+    desc: (<>You talk, we type, and somehow, you end up as the author. Funny how that works;<br />
+        just another day at the best ghostwriting company around.
+    </>),
+    btntxt: "Connect with us"
 }
 import Img01 from "@/public/landing/lp1/slider/Img01.webp"
 import Img02 from "@/public/landing/lp1/slider/Img02.webp"
 import Img03 from "@/public/landing/lp1/slider/Img03.webp"
 
 export const JourneyData1 = {
-    title: "Professional Support Every Step of the Way",
-    desc: "Self-publishing offers endless possibilities, but without the right guidance, it can be challenging. Our five-step approach ensures a smooth, professional publishing experience that gets your book in front of the right readers.",
+    title: (<>Success Overtook<br />
+        Cause a Ghost Wrote Your Book
+    </>),
+    desc: "Your ideas, our words, no stress.Every line hits, every edit fits, and when it’s done? You take the credit, we take the ghostly exit.",
 
     JourneyItem: [
         {
-            title: "Strategic Book Marketing for Maximum Impact",
-            txt: "Writing a great book is just the beginning—getting it noticed is what truly matters. Our expert marketing services include social media campaigns, Amazon ads, press releases, and targeted promotions to increase visibility. We also help secure book reviews, enhance credibility, and attract potential readers.",
+            title: "Voice Matching",
+            txt: "Your book should sound like you, not a robotic ‘writer for hire’. We study your speaking style, quirks, and personality through interviews, notes, and previous writings. Every sentence is carefully drafted to match your tone, whether it’s formal and authoritative or casual and witty. The end result? A book that feels so natural, even your closest friends won’t question if you wrote it.",
             img: Img01.src,
         },
         {
-            title: "Author Growth & Post-Publishing Support",
-            txt: "Your success doesn’t stop at publishing. We provide ongoing support, including tracking book sales, analyzing marketing performance, and discovering new promotional opportunities. Whether it’s expanding your book to new markets or building your author brand, we help you sustain long-term success.",
+            title: "Confidentiality",
+            txt: "Our name? Nowhere. Your name? Front and center. That’s how it works. We sign airtight NDAs, keep your ideas locked down, and never spill a word about our involvement. You get all the credit, the book deal, the praise; we vanish into the background like we were never here.",
             img: Img02.src,
         },
         {
-            title: "Publishing & Distribution",
-            txt: "Getting your book into readers’ hands is our priority. We guide you through the publishing process, ensuring your book is available on top platforms like Amazon KDP, Apple Books, IngramSpark, and more. From setting up author accounts to optimizing book metadata, we take care of every technical detail for smooth distribution.",
+            title: "Research & Expertise",
+            txt: "Whether your book requires deep-dive research, fact-checking, or expert-level insights, we handle it all. We sift through credible sources, consult industry pros if needed, and make sure your content isn’t just well-written, but rock-solid in accuracy and depth.",
             img: Img03.src,
         },
         {
-            title: "Expert Editing & Manuscript Refinement",
-            txt: "Your book’s cover is the first thing readers notice—it should stand out. Our designers craft visually stunning covers tailored to your genre and audience. Additionally, we format the book’s interior to enhance readability, ensuring a sleek and professional presentation.",
+            title: "Storytelling & Structure",
+            txt: "A good book isn’t just words on a page, it’s a journey. We take your ideas and shape them into a compelling, well-paced narrative that keeps readers hooked. Whether it’s a memoir, a business book, or a novel, we build a solid structure that flows effortlessly from start to finish.",
             img: Img01.src,
         },
         {
-            title: "Eye-Catching Cover Design & Professional Formatting",
-            txt: "Even after launch, we continue to support you. Our post-publishing services include tracking book sales, analyzing marketing performance, and exploring new promotional opportunities. Whether it's expanding your book to new markets or enhancing your brand as an author, we ensure your success extends beyond just publishing.",
+            title: "Collaboration & Revisions",
+            txt: "We’re not here to push our own style, we’re here to amplify yours. That means we work with you every step of the way, revising, refining, and tweaking until it’s exactly what you envisioned (or better). No stiff, impersonal drafts, just a book that feels 100% yours.",
             img: Img02.src,
         },
         {
-            title: "Seamless Publishing & Global Distribution",
-            txt: "Reaching readers worldwide is our priority. We manage the entire publishing process, ensuring your book is available on leading platforms like Amazon KDP, Apple Books, and IngramSpark. From setting up author accounts to optimizing metadata, we handle every technical detail for smooth distribution.",
+            title: "Editing & Polishing",
+            txt: "A great book isn’t just about good ideas, it’s about execution. We comb through every word, tightening sentences, sharpening flow, and perfecting grammar, tone, and style. When we’re done, your manuscript is crisp, professional, and ready to hit the shelves.",
             img: Img02.src,
         }
     ]
 }
 import IMG01 from "media/landing/lp1/Img01.webp"
 export const ContentBox1 = {
-    title: (<>Turn Readers into Fans with Powerful Marketing</>),
-    txt: (<><p>Maximize your book’s visibility with our data-driven marketing strategies designed to connect you with the right audience. From targeted promotions to interactive engagement, we help build your author brand and drive sales.</p></>),
+    title: (<>Got a Story?<br />
+        We’ve Got the Pen<br />
+        (And the Patience)
+    </>),
+    txt: (<><p>No more staring at blank pages or drowning in bad first drafts. We take your vision, polish it to perfection, and let you walk away looking like a literary genius with a published book. </p></>),
     img: IMG01.src,
     contentPoints: [
-        "Targeted Advertising",
-        "Influencer Collaborations",
-        "Email Marketing Campaigns",
-        "Social Media Engagement",
+        "Professional Quality",
+        "Less Stress, More Progress",
+        "Compelling Storytelling",
+        "Strong Structure",
 
     ]
 }
 
 import IMG02 from "media/landing/lp1/Img02.webp"
 export const ContentBox2 = {
-    title: (<>Get Featured in Top Publications</>),
-    txt: (<><p>Leverage the power of news articles and editorial features to establish your authority and expand your book’s reach. Our team of experienced writers and industry professionals ensures your book gets the recognition it deserves.</p></>),
+    title: (<>Print, Digital, Audio;<br />
+        We Speak Every Language.
+    </>),
+    txt: (<><p>Pages, screens, and scenes; we write everywhere. If it needs words, we’ve got it! No matter the medium, your book won’t just be read, it’ll be remembered. The top book formats that ensure your story reaches every audience, everywhere; </p></>),
     img: IMG02.src,
     contentPoints: [
-        "Professional Editorial Coverage",
-        "In - Depth Reviews & Analysis",
-        "Seamless Publication Process",
-        "Trusted & Verified Sources",
+        "Print Books",
+        "Ebooks",
+        "Audiobooks",
+        "Screenplays",
     ]
 }
 
@@ -148,66 +158,69 @@ export const ContentBox3 = {
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "The Process To Go From Unknown to Unforgettable",
-    txt: "Building a strong online presence isn’t just about posting content—it’s about having a clear strategy, engaging with the right audience, and delivering measurable results.Our process ensures your brand stands out, grows organically, and stays ahead of the competition.",
+    title: "From Thought to Plot, We Write a Lot!",
+    txt: "Every bestseller starts with a blank page, good thing we know how to fill it. This is how our book writing service works, step by step.",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Strategy Development & Onboarding",
-            txt: "We begin by getting to know your brand inside and out. Through in-depth discussions, audience research, and competitor analysis, we identify your unique strengths and craft a data-driven social media strategy tailored to your goals."
+            title: "Brainstorming",
+            txt: "Before a single word hits the page, we get inside your head. Through deep-dive discussions, we break down your ideas, define the structure, and map out a clear, strategic outline. Whether it’s a memoir, business book, or novel, this stage ensures we capture your vision with precision, no messy drafts, no wasted words, just a rock-solid foundation."
         },
         {
-            title: "Profile Optimization & Branding",
-            txt: "Your social media profiles are the first thing potential customers see—so they need to make a lasting impression. We optimize your profiles with compelling bios, high-quality visuals, and a cohesive brand identity across all platforms. "
+            title: "Writing",
+            txt: "Our book writing experts step into your voice, crafting every chapter to sound like you, only sharper, tighter, and impossible to put down. Whether we’re working from rough notes, recordings, or a simple idea, we build a compelling manuscript that keeps readers hooked from page one."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Content Creation & Scheduling",
-            txt: "Content is king, but consistency is key. We develop high-quality, engaging content that resonates with your audience. From eye-catching graphics and short-form videos to impactful captions and trending hashtags, we create a content calendar that keeps your social media active and engaging."
+            title: "Revisions",
+            txt: "No book is perfect on the first pass, and that’s where the magic of revision comes in. We improve every sentence, strengthen weak spots, and refine the flow to make sure your book is engaging, impactful, and exactly what you envisioned. This is where we cut the fluff, sharpen the messaging, and make your story or expertise shine."
         },
         {
-            title: "Audience Engagement & Community Building",
-            txt: "Social media is about conversations, not just content. We actively engage with your audience through comments, direct messages, and interactive features like polls and Q&A sessions. By fostering real connections, we turn casual followers into loyal fans and brand advocates. "
+            title: "Editing",
+            txt: "A great story means nothing if it’s riddled with typos and clunky sentences. Our editorial team meticulously combs through your manuscript, correcting grammar, smoothing awkward phrasing, and ensuring consistency in tone and style. The result? A crisp, professional book that reads like a bestseller."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Growth, Ads & Performance Optimization",
-            txt: "We continuously track key performance metrics, analyze engagement trends, and fine-tune strategies to maximize growth. Our targeted ad campaigns drive traffic, increase conversions, and expand your reach, ensuring your brand’s online presence keeps growing smarter and stronger."
+            title: "Final Touches",
+            txt: "Whether you’re publishing in print, digital, or audiobook format, we handle all the technical details. From formatting for Amazon and other self-publishing platforms to designing a flawless layout that enhances readability, we ensure your book is polished, professional, and ready to hit the market. You shine, we stay unseen."
         },
     ]
 }
 
 // Why Choose Us
 export const ChooseUsData = {
-    title: "Why Choose Our Book Marketing Services?",
-    txt: "We blend creativity with strategy to deliver powerful, results-driven solutions for promoting your book. Here’s why we stand out:",
+    title: "Your Tale, Our Pen. A Bestseller Again.",
+    txt: (<>Why struggle with words when we can do it for you?<br />
+        Save yourself the frustration, the rewrites, and the endless staring at a blank page.<br />
+        You can either have a finished book in your hands or just the guilt of never finishing one.
+    </>),
 
     Content1: [
         {
-            title: "Diverse Marketing Strategies",
-            txt: "Reach a wide audience through tailored social media campaigns, email marketing, and influencer collaborations. We ensure your book gets the visibility it deserves."
+            title: "Deadlines are met",
+            txt: "A professional book writer keeps the project moving, hitting every deadline without the stress of last-minute scrambling."
         },
         {
-            title: "Supportive Reader Community",
-            txt: "Build a loyal fanbase by fostering engagement and sparking meaningful conversations. We help turn readers into passionate advocates for your work."
+            title: "Unfinished ideas get completed",
+            txt: "That brilliant idea that’s been sitting in your head or half-written on your laptop? It finally becomes a fully developed, polished book ready to impress readers."
         }
     ],
     Content2: [
         {
-            title: "Cutting-Edge Digital Tools",
-            txt: "Leverage advanced tools like targeted ads and analytics to maximize reach and track performance. Stay ahead in the competitive book market with data-driven strategies."
+            title: "Research is handled",
+            txt: "Whether it’s historical accuracy, industry insights, or expert interviews, the heavy lifting is done for you. Every fact is checked, every claim is solid, so your book has credibility and depth."
         }
     ],
     Content3: [
         {
-            title: "Exclusive Author Merchandise",
-            txt: "Enhance your brand with custom merchandise—bookmarks or custom printing—that reflect your book’s theme and create lasting connections with readers."
+            title: "Readers stay hooked",
+            txt: "A strong narrative, engaging tone, and clear structure keep readers glued to every page. No fluff, no confusing detours, just a story or message that flows effortlessly."
         },
         {
-            title: "Tailored Promotional Campaigns",
-            txt: "From press releases to virtual book tours, we design campaigns that align with your goals, ensuring your book stands out and resonates with your target audience."
+            title: "No ghosting, just ghostwriting",
+            txt: "The process doesn’t stall, and the project doesn’t disappear into thin air. From the first draft to the final polish, the work stays on track until it's done and ready for the world."
         }
     ]
 
@@ -215,12 +228,11 @@ export const ChooseUsData = {
 
 export const QuoteData = {
     subtitle: "",
-    title: "Stop Staring at That Blank Page.",
+    title: "Plot holes? Writer’s block? Zero time?",
     txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
+        We solve it all! Some dreams die unwritten.<br />
+        Don’t let yours be one of them.
+
     </>),
     formtitle: "Tell us about your Book!",
 } 

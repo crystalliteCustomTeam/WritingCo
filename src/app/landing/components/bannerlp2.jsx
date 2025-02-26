@@ -14,9 +14,11 @@ const BannerLp2 = ({ lp2 }) => {
                     <Col md={10} lg={12} className="mx-auto mt-auto">
                         <div className={`${styles.banenrContainer} ${lp2 ? styles.bannerLp2 : ""}`}>
                             <div className={styles.bannerTxt}>
-                                <h1>Your Story, Our Expert Ghostwriters: Let’s Write Something the World Won’t Forget</h1>
-                                <p>From ghostwriting to publishing, Our professional book writing company help you write and launch your book while keeping your creative voice intact.</p>
-                                <UniqueButton txt="Talk to a Specialist" />
+                                <h1>The Words You Swallowed,<br />
+                                    Our Book Writers Spill Them.
+                                </h1>
+                                <p>Memories fade, words go unspoken; but not anymore! At Book Writing Company, our ghostwriters etch it in ink for the world to read, for your heart to heal, and for your story to finally be told. </p>
+                                <UniqueButton txt="Connect with us" />
                                 <div className={styles.logoImg}>
                                     <Image src={Logo.src} alt="Banner Logo" width={2228} height={112} />
                                 </div>

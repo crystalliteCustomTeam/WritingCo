@@ -42,28 +42,40 @@ const clientReviews = [
 
 const clientReviewsLp = [
     {
-        txt: "I always dreamed of publishing my own book, but the process felt overwhelming. That’s when I found this amazing team! From editing to publishing, they guided me through every step. The best part? Their marketing strategies helped my book reach #1 in its category! I couldn’t have done it without them.",
+        txt: "I had tons of ideas but no clue how to structure them into a book. They made the process simple, guided me through every step, and the final product was beyond my expectations.",
         image: Img01.src,
-        namee: "Jenna Duarte",
-        job: "Fiction Author",
+        namee: "Mark T.",
+        job: "Business Consultant",
     },
     {
-        txt: "Writing a book was the easy part—getting it published and marketed was another story. The team handled everything, from formatting to distribution, and made sure my book landed in the hands of the right readers. I’m beyond grateful for their expertise and support.",
+        txt: "Writing a book always felt overwhelming, but they broke it down into clear steps and handled the heavy lifting. It still sounds like me, just way more polished!",
         image: Img02.src,
-        namee: "Alva Singleton",
-        job: "Nonfiction Writer",
+        namee: "Jessica L.",
+        job: "Wellness Coach",
     },
     {
-        txt: "I wanted to bring my children's book to life with beautiful illustrations and a polished look. This team exceeded my expectations! They connected me with talented illustrators and handled the publishing process with care. Seeing my book in readers’ hands has been the most rewarding experience.",
+        txt: "I was stuck halfway through my manuscript and didn’t know how to finish. They stepped in, tightened the structure, and made my book actually readable. Couldn’t have done it without them!",
         image: Img03.src,
-        namee: "Shelly Weber",
-        job: "Children's Book Author",
+        namee: "David R.",
+        job: "First-Time Author",
     },
     {
-        txt: "After two failed attempts at self-publishing, I was ready to give up. Then, I found this team. They took my book, refined it, and helped me launch with an incredible marketing campaign. Now, my book is gaining traction, and I’m finally seeing the success I dreamed of. If you're an indie author, this is the team you need.",
+        txt: "I was worried a ghostwriter wouldn’t capture my voice, but they absolutely nailed it. The book sounds like me, but better, clearer, more engaging, and well-structured.",
         image: Img04.src,
-        namee: "Ivy Dominguez",
-        job: "Romance Novelist",
+        namee: "Sarah B.",
+        job: "Entrepreneur",
+    },
+    {
+        txt: "English isn’t my first language, and I needed my book to sound professional. They transformed my rough draft into something I’m truly proud of.",
+        image: Img04.src,
+        namee: "Luis M.",
+        job: "Thought Leader",
+    },
+    {
+        txt: "Deadlines were my biggest enemy. They kept me on track, handled all the details, and now my book is actually finished. Hiring them was the best decision I made!",
+        image: Img04.src,
+        namee: "Amanda C.",
+        job: "Speaker & Author",
     },
 ]
 
