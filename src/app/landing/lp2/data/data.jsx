@@ -60,7 +60,7 @@ export const ServicesData = {
 }
 
 export const JourneyData = {
-    title: "Because writing is hard... but hiring us isn’t.",
+    title: (<>Because writing is hard...<br /> but hiring us isn’t.</>),
     desc: (<>You talk, we type, and somehow, you end up as the author. Funny how that works;<br />
         just another day at the best ghostwriting company around.
     </>),
@@ -74,7 +74,7 @@ export const JourneyData1 = {
     title: (<>Success Overtook<br />
         Cause a Ghost Wrote Your Book
     </>),
-    desc: "Your ideas, our words, no stress.Every line hits, every edit fits, and when it’s done? You take the credit, we take the ghostly exit.",
+    desc: "Your ideas, our words, no stress. Every line hits, every edit fits, and when it’s done? You take the credit, we take the ghostly exit.",
 
     JourneyItem: [
         {

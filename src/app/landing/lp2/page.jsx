@@ -14,7 +14,7 @@ export default function Page() {
     return (
         <>
             <BannerLp2 lp2={true} />
-            <ServicesForm txt="Connect with a Book Consultant " title="You Lived It. We’ll Write It. No Holding Back." para={true} />
+            <ServicesForm txt="Connect with a Book Consultant " title="You Lived It. We’ll Write It.<br/> No Holding Back." para={true} />
             <Services data={ServicesData} />
             <Journey data={JourneyData} data1={JourneyData1} />
             <ContentBox data={ContentBox1} />
