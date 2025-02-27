@@ -105,7 +105,7 @@ const BestSeller = ({ innerPage, landing, data }) => {
                         <p>{data.txt}</p>
                     </Col>
                     {!landing ?
-                        <Col md={3} className="mt-auto d-none d-md-block">
+                        <Col md={2} className="mt-auto d-none d-md-block">
 
                             <SliderArrow
                                 onPrev={prevButtonHandler}

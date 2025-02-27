@@ -16,14 +16,14 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm title="Get Your Personalized Editing Estimate Today" />
+            <ServicesForm title="Bad writing happens, publishing it shouldn’t." paratxt="Get a free quote for expert editing." txt="Connect With a Book Consultant" />
             <BestSeller innerPage={true} data={BestSellerData} />
             <InnerServices data={InnerServicesData} />
             <ServicesBox data={ServicesData} />
             <ContentBox data={ContentBoxData} />
             <ContentBoxes data={ContentBoxesData} />
             <ServicesProcess data={ProcessData} />
-            <TableContent data={TableContetData} />
+            {/* <TableContent data={TableContetData} /> */}
             <GetQuote data={QuoteData} />
         </>
     );

@@ -15,7 +15,7 @@ const ContentBox = ({ data }) => {
                                 <div className={styles.contnetTxt}>
                                     <h3>{data.title}</h3>
                                     <p>{data.txt}</p>
-                                    <UniqueButton txt="Talk to a Specialist" BgBlack={true} />
+                                    <UniqueButton txt={data?.btntxt ? data.btntxt : "Talk to a Specialist"} BgBlack={true} />
                                 </div>
                                 <div className={styles.contnetImage}>
                                     <Image src={data.img} alt="banner Image" width={440} height={569} />

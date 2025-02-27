@@ -1,45 +1,50 @@
 import BannerImg from "media/services/book-editing-services/bannerImage.webp"
 export const BannerData = {
-    title: "Make Your Manuscript Flawless and Ready to Publish With Book Editing Services You Can Trust",
-    txt: "Our professional book editing services ensure that your manuscript is clear, engaging, and polished to perfection.",
+    title: (<>
+        Rough to Refined,<br />
+        Book Editing Services<br />
+        Worth Every Dime.
+    </>),
+    txt: "A great book needs more than a good idea, it requires a book editor who polishes your writing, strengthens your plot, and ensures a flawless read.",
     img: BannerImg.src
 }
 export const BestSellerData = {
-    title: "Our Editing Projects in Action",
-    txt: "Make Your Next Book Shine with Our Book Publishing Services"
+    title: "Peek at Our Book Editing Portfolio",
+    txt: "Our book editing portfolio showcases how we turn good writing into great storytelling."
 }
 
 export const InnerServicesData = {
-    title: "Why Hiring a Professional Editing Agency is a Smart Choice for Authors",
-    txt: "Writing a book is a monumental achievement, but the journey doesn’t end with the final draft. A professional editing agency ensures your manuscript is polished, impactful, and ready to market. Here’s why partnering with book editing company is a game-changer:",
+    title: (<>Readers Love a Plot Twist,<br />
+        Not a Typo.</>),
+    txt: "Readers notice everything, so should your editor. Our professional book editing eliminates awkward phrasing, enhances clarity, and refines every sentence, making your book impossible to put down.",
     InnerServicesItem: [
         {
-            title: "Precision Polishing for Perfection",
-            txt: "Editing demands time, expertise, and an eye for detail. After pouring your heart into your manuscript, let our editors refine it to perfection—ensuring every word, comma, and structure shines."
+            title: "Fix Grammar & Typos",
+            txt: "Nothing ruins a good book faster than careless mistakes. Even the best writers miss small errors, and readers notice. A professional editor ensures your book is free from typos, grammar slip-ups, and awkward phrasing, making it polished and professional."
         },
         {
-            title: "Fresh Eyes, Flawless Results",
-            txt: "Re-reading your work can be exhausting and often leads to overlooked errors. Professional editors bring a fresh perspective, catching grammar issues, plot inconsistencies, and structural flaws you might miss."
+            title: "Improve Clarity & Flow",
+            txt: "Great ideas need clear writing. If your book feels choppy or confusing, readers will lose interest. An editor smooths out rough patches, restructures your sentences, and ensures your writing flows naturally from start to finish throughout the book."
         },
         {
-            title: "Expert Guidance for Impact",
-            txt: "Your story deserves to resonate. Our editors provide actionable feedback, helping you enhance pacing, character development, and narrative flow, ensuring your book meets industry standards and captivates readers."
+            title: "Strengthen the Story",
+            txt: "A good story isn’t just about words, it’s about structure, pacing, and engagement. A book editor helps refine your plot, develop your characters, and ensure every scene serves a purpose, making your book more compelling."
         },
         {
-            title: "Save Time, Focus on Creativity",
-            txt: "Editing is time-consuming and complex. By entrusting it to professionals, you free yourself to focus on what you do best—writing—while we handle the technicalities."
+            title: "Ensure Professional Quality",
+            txt: "Self-editing can only take you so far. A professionally edited book stands out, whether you're self-publishing or pitching to agents. High-quality editing gives your work the credibility it needs to succeed in a competitive market."
         },
         {
-            title: "Save Time, Focus on Creativity",
-            txt: "Editing is time-consuming and complex. By entrusting it to professionals, you free yourself to focus on what you do best—writing—while we handle the technicalities."
+            title: "Get Objective Feedback",
+            txt: "You know your story inside out, but that can make it hard to see what’s not working. An editor offers a fresh, unbiased perspective, pointing out weak spots, inconsistencies, and areas that need improvement, helping you make your book the best it can be."
         },
         {
-            title: "A Competitive Edge",
-            txt: "In a crowded market, a polished manuscript stands out. Our editing services ensure your book is not just good but exceptional, boosting its chances of becoming a bestseller."
+            title: "Meet Publishing Standards",
+            txt: "Traditional publishers, self-publishing platforms, and bookstores all have high standards. A professional editor ensures your manuscript meets industry expectations, so it’s formatted correctly, free of errors, and ready for publication."
         },
         {
-            title: "Stress-Free Publishing Journey",
-            txt: "With our team handling the editing, you can relax knowing your manuscript is in expert hands. We transform rough drafts into ready-to-publish masterpieces, so you can confidently share your story with the world."
+            title: "Save Time & Frustration",
+            txt: "Revising your own work can be overwhelming and never-ending. A book editor helps you move forward with confidence, handling the heavy lifting so you can focus on what matters—sharing your story with the world."
         }
 
     ]
@@ -53,35 +58,35 @@ import Image04 from "media/services/book-marketing-services/services/img04.webp"
 
 
 export const ServicesData = {
-    subtitle: "Why Choose",
-    title: (<>Why We Are the Top Choice for<br /> Professional Book Editing</>),
-    txt: "",
+    subtitle: "Why Hire Us",
+    title: (<>Because ‘Their, They’re, and There’ Still Confuses You.</>),
+    txt: "Your draft’s not perfect (yet), but our book editing company will get it there.",
     ServicesItem: [
         {
             title: "Developmental Editing",
             txt: (<>
-                <p>Developmental editing focuses on the big picture of your book. Our book editing company will help strengthen your plot, structure, pacing, and overall narrative to ensure your book is engaging and well-organized. We provide detailed feedback on character development, thematic depth, and logical flow, making your story compelling from beginning to end.</p>
+                <p>We take a deep dive into your story’s structure, pacing, character arcs, and themes. Our professional book editors analyze your manuscript’s big-picture elements, ensuring your plot is engaging, characters feel real, and everything flows seamlessly. If something’s not working, we’ll offer clear, actionable feedback and suggestions to refine your story while keeping your unique writing style intact.</p >
             </>),
             img: Image01.src
         },
         {
-            title: "Copy Editing",
+            title: "Line Editing",
             txt: (<>
-                <p>Copy editing ensures your book is clear, polished, and consistent. Our professional book editing services refine sentence structure, readability, and language consistency while correcting grammar, spelling, and punctuation errors. This step ensures that your manuscript maintains clarity and professionalism without altering your unique voice.</p>
+                <p>Good writing isn’t just about the words you choose, it’s about how they flow. Our professional line editing makes your sentences clearer, smoother, and more engaging while keeping your unique style. We fix awkward wording, trim unnecessary fluff, and improve transitions so your writing is easy to read.</p>
             </>),
             img: Image02.src
         },
         {
-            title: "Line Editing",
+            title: "Copy Editing",
             txt: (<>
-                <p>Line editing enhances the flow, style, and tone of your writing. Our expert editors refine your prose to improve word choice, rhythm, and sentence transitions, ensuring that every sentence is impactful and engaging while preserving your authentic storytelling style.</p>
+                <p>Even the best stories can be undermined by grammar mistakes and inconsistencies. Our copy editing service focuses on correcting spelling, punctuation, syntax, and stylistic errors while ensuring consistency in tone and formatting. We adhere to professional style guides to make sure your book meets industry standards.</p>
             </>),
             img: Image03.src
         },
         {
-            title: "Proofreading",
+            title: "Structural Editing",
             txt: (<>
-                <p>Proofreading is the final step in the editing process, focusing on catching last-minute typos, grammatical errors, and inconsistencies before your book is published. Our team of Book editors ensures your manuscript is free from any lingering mistakes, giving it a polished, professional finish.</p>
+                <p>Sometimes, a story needs to be rearranged to make it better. Our structural editing checks how your book is organized, making sure everything flows smoothly and makes sense. We find parts that need more detail, should be cut, or moved around to keep readers hooked from beginning to end.</p>
             </>),
             img: Image04.src
         },
@@ -89,52 +94,56 @@ export const ServicesData = {
 }
 import Img01 from "media/services/book-writing-services/Image01.webp"
 export const ContentBoxData = {
-    title: "Editing That Turns Good Books into Great Ones",
-    txt: "At our book editing company our professional editors ensure your book is polished, compelling, and market-ready.",
+    title: (<>
+        Good writing? You’re close.<br />
+        Great writing? We’ll get you there.
+    </>),
+    txt: "Readers judge. Make sure they’re impressed. Get an editing quote!",
     img: Img01.src,
+    btntxt: "Schedule a consultation"
 }
 
 export const ContentBoxesData = [
     {
-        title: "Get Your Personalized Book Writing Estimate",
-        txt: "Ready to share your story to the world? Tell us about your concept and we’ll create a tailored plan with transparent pricing. By obtaining a customized estimate, you can gain clarity on the scope, timeline, and investment required for your project, ensuring that every detail aligns with you. From concept to publication, our experts ensure your book shines. Contact us now for a free, no-obligation quote.",
+        title: "Keep Readers Hooked",
+        txt: "If your writing feels choppy or doesn’t flow smoothly, readers can get distracted or lose interest. Sentences that feel disconnected or awkward can make your message unclear. Strong writing should feel effortless to read, with ideas flowing naturally from one to the next. If your book feels a bit rough or hard to follow, professional book editing can help polish it into an engaging read. A well-edited book keeps readers immersed in the story, not struggling to understand it.",
     },
     {
-        title: "End-to-End Support for Every Author",
-        txt: "Our end-to-end book writing services are designed to help authors of all genres. From brainstorming concepts and to refining every sentence with professional editing, we handle it all. Whether you’re penning a gripping novel, an insightful memoir, or a groundbreaking business book, our team ensures your manuscript is original, coherent, and publication-ready. With a focus on quality and authenticity, we guide you through every step—plot development, character building, and final proofreading—so your book is market ready.",
+        title: "Speak to Your Audience",
+        txt: "Different books need different voices to connect with their readers. A thriller should keep readers on the edge of their seats with sharp, suspenseful language. A memoir should feel personal and real, capturing emotions and experiences with honesty. A self-help book needs to sound confident and clear, offering guidance in a way that builds trust. We fine-tune your tone and word choice to match your genre, making sure your book speaks directly to its audience in the most powerful and engaging way possible.",
     }
 ]
 
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Book Editing Process",
+    subtitle: "Our Editing Process",
+    title: "How We Edit Your Book",
     txt: "",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Manuscript Assessment & Initial Review",
-            txt: "We start by evaluating your manuscript to understand its strengths and areas that require improvement. Our team analyzes the structure, readability, grammar, and overall flow before making any recommendations."
+            title: "Manuscript Review & Evaluation",
+            txt: "We start by understanding your book’s purpose, audience, and writing style. This helps us determine the level of editing needed, whether it’s deep structural changes or editing sentences."
         },
         {
-            title: "Developmental Editing",
-            txt: "we provide developmental editing to enhance plot consistency, character development, pacing, and overall coherence. This step is ideal for fiction and complex non-fiction books that need refining before moving forward."
+            title: "Structural & Developmental Edits",
+            txt: "We edit your story, its flow, and how everything fits together. If something feels off or unfinished, we give clear advice to make your book stronger and more engaging."
         }
     ],
     ProcessDataItem2: [
         {
-            title: "Copy Editing",
-            txt: "During this phase, we focus on grammar, spelling, punctuation, and sentence structure. Our professional book editing services ensure that your book maintains a consistent tone, style, and readability without altering your original message."
+            title: "Line & Copy Editing",
+            txt: "Next, we refine the language. We improve clarity, fix awkward phrasing, enhance tone, and ensure consistency, so every sentence flows effortlessly."
         },
         {
-            title: "Line Editing",
-            txt: "We review each sentence to refine word choice, eliminate redundancies, and enhance the clarity and fluidity of your writing. This process ensures that your book reads smoothly and professionally."
+            title: "Final Proofreading",
+            txt: "Once the major edits are done, we give your book a last polish. This includes catching typos, grammar mistakes, and formatting errors to ensure a flawless final draft."
         }
     ],
     ProcessDataItem3: [
         {
-            title: "Final Review & Author Approval",
-            txt: "Once the editing is complete, we provide you with the revised manuscript for review. Our team works closely with you to incorporate any final revisions or preferences before preparing the book for publication."
+            title: "Ready for Readers",
+            txt: "Your manuscript is now crisp, professional, and ready for publishing. Whether you’re submitting to agents or self-publishing, your book will be its best version."
         }
     ]
 }
@@ -209,12 +218,13 @@ export const TableContetData = {
 
 export const QuoteData = {
     subtitle: "",
-    title: "Stop Staring at That Blank Page.",
+    title: (<>If your writing stumbles,<br />
+        so will your readers.
+    </>),
     txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
+        Your book’s got potential, and we make sure it reaches it with<br />
+        Our professional book editing services.
+
     </>),
     formtitle: "Tell us about your Book!",
 } 

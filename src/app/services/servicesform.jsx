@@ -7,7 +7,7 @@ import Image01 from "media/landing/lp2/Image01.webp"
 import Image from "next/image"
 
 
-const ServicesForm = ({ bg, txt, title, lp2, para }) => {
+const ServicesForm = ({ bg, txt, paratxt, title, lp2, para }) => {
     return (
         <section className={`${styles.serviceSection}  pt-100`}>
             <Container
@@ -27,7 +27,7 @@ const ServicesForm = ({ bg, txt, title, lp2, para }) => {
                             {para ?
                                 <p>Get a Free Quote</p>
                                 :
-                                ""
+                                <p>{paratxt}</p>
                             }
                             <ContactFrom vertical={true} txt={txt} lp2={lp2} />
                         </div>
