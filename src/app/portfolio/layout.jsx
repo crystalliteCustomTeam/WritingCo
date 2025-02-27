@@ -16,6 +16,11 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/Portfolio' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    }
 }
 
 

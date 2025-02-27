@@ -18,6 +18,11 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/landing/lp1' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    }
 }
 
 

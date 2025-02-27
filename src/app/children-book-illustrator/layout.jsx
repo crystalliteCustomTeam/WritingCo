@@ -16,6 +16,11 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/children-book-illustrator' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    }
 }
 
 

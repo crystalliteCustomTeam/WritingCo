@@ -8,14 +8,19 @@ export const metadata = {
     openGraph: {
         title: "",
         description: "",
-        url: '/book-publishing-services',
+        url: '/pricing',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
         images: "",
     },
     //===== Canonical =====
-    alternates: { canonical: '/book-publishing-services' },
+    alternates: { canonical: '/pricing' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    }
 }
 
 

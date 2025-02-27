@@ -16,6 +16,11 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/contact-us' },
+    //===== No-Index =====
+    robots: {
+        index: false,
+        follow: false,
+    }
 }
 
 

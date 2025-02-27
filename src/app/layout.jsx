@@ -25,6 +25,8 @@ export const metadata = {
     type: 'website',
     images: "",
   },
+  //===== Canonical =====
+  alternates: { canonical: '/' },
   //===== Google Varification =====
   verification: {
     other: {
@@ -33,8 +35,8 @@ export const metadata = {
   },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   }
 };
 
