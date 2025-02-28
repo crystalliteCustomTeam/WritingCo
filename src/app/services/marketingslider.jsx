@@ -14,7 +14,7 @@ import Image from "next/image";
 const OPTIONS = { loop: true, align: 'start' }
 export const data = [
     {
-        subtitle: "TIFFANY",
+        subtitle: "Tiffany",
         title: "This One’s For You",
         txt: "Losing a loved one is never easy. I've spent a lot of time trying to figure out how to make it easier. Reminiscing of the good times spent together is what I found to be the most helpful. So one day, I decided to write them down. This book serves to highlight the happier memories I hold of my loved ones who've departed. A book that was initially intended to share my favorite moments with...",
         Img: Img01.src,
