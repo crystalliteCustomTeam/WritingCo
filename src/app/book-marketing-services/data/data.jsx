@@ -112,7 +112,7 @@ export const ProcessData = {
 export const QuoteData = {
     subtitle: "",
     title: "Your book’s success story starts with us.",
-    txt: (<>Hire us and watch them actually happen.<br />
+    txt: (<>Hire us and watch them actually happen.<br /><br />
         <strong>Plot twist:</strong> Your book becomes a bestseller.<br />
         (Only if you work with us, though.)
 
