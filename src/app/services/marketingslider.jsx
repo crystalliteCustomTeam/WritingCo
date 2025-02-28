@@ -20,7 +20,7 @@ export const data = [
         Img: Img01.src,
     },
     {
-        subtitle: "ADAM MUSSELMANI",
+        subtitle: "Adam Musselmani",
         title: "VIP FRUITS",
         txt: "Adam Musselmani is a fifth-grader in Norfolk, Virginia. The youngest in his family, Musselmani has two brothers, a sister, and two cats. He is passionate about drawing and creating comic books and animation. He also plays soccer, tennis, and violin for the Bay Youth Orchestra. His superpower is speed-solving the Rubik’s Cube, which he can do in less than twenty-four seconds. vip-fruits.com.",
         Img: Img02.src,
@@ -73,7 +73,7 @@ const MarketingSlider = () => {
                                                     <Image src={item.Img} alt="Talk To Us Today" fill />
                                                 </div>
                                                 <div className={styles.sliderTxt}>
-                                                    <div className="subtitle">TIFFANY</div>
+                                                    <div className="subtitle">{item.subtitle}</div>
                                                     <h4>{item.title}</h4>
                                                     <p>{item.txt}</p>
                                                     <Image src={Logo.src} alt="Logo" width={527} height={50} />
