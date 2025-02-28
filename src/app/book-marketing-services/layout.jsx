@@ -16,11 +16,7 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/book-marketing-services' },
-    //===== No-Index =====
-    robots: {
-        index: false,
-        follow: false,
-    }
+
 }
 
 
