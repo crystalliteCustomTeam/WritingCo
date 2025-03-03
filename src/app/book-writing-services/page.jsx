@@ -15,12 +15,12 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm title="Get Your Personalized Book Writing Estimate Today" />
+            <ServicesForm txt="Get a Free Quote" title="Best time to start? Yesterday. <br/> Second best? Right now." />
             <BestSeller innerPage={true} data={BestSellerData} />
             <InnerServices data={InnerServicesData} />
             <Services data={ServicesData} />
             <ContentBox data={ContentBoxData} />
-            <ContentBoxes data={ContentBoxesData} />
+            {/* <ContentBoxes data={ContentBoxesData} /> */}
             <ServicesProcess data={ProcessData} />
             <GetQuote data={QuoteData} />
         </>

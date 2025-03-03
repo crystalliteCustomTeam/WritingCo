@@ -16,7 +16,7 @@ const Footer = () => {
                                 <div className={styles.logo}>
                                     <MainLogo />
                                 </div>
-                                <p>If you’d like to chat about working on a project together, or learn more about working with me, get in touch!</p>
+                                <p>From the first word to the final sale, we’ve got you covered; writing, editing, publishing, and marketing all in one place.</p>
                                 <ul className={styles.socialLinks}>
                                     <li><Link href=""><TikTokIcon /></Link></li>
                                     <li><Link href=""><FacebookIcon /></Link></li>
