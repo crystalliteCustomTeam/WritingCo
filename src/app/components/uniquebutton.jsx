@@ -4,7 +4,7 @@ import styles from "@/styles/components/uniquebutton.module.scss"
 import PopUp from "@/src/app/components/popup";
 import { useState } from "react";
 
-const UniqueButton = ({ center, BgBlack, txt, SimpleBtn, OneBtn }) => {
+const UniqueButton = ({ center, BgBlack, txt, SimpleBtn, OneBtn, whiteBtn }) => {
     const [modalShow, setModalShow] = useState(false);
 
     const handleClick = () => {
@@ -17,7 +17,7 @@ const UniqueButton = ({ center, BgBlack, txt, SimpleBtn, OneBtn }) => {
                     <div className={styles.btnStyle}>{txt}</div>
                 </div>
                 :
-                <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`} >
+                <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""} ${whiteBtn ? styles.whiteBtn : ""}`} >
                     <div className={styles.btnStyle} onClick={() => handleClick()}>{txt}</div>
                     {!OneBtn ?
                         <div className={styles.chatStyle}>Chat Now</div>

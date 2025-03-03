@@ -1,88 +1,101 @@
 import BannerImg from "media/services/children-book-publication-services/bannerImage.webp"
 export const BannerData = {
-    title: "Create Magical Stories with Our Professional Children Book Publication Services",
-    txt: "We provide comprehensive support to turn your ideas into beautifully published books.",
+    title: (<>Write the tale, we’ll do the rest,<br />
+        Children Book Publication at its best!
+    </>),
+    txt: "Publish a children’s book & be the reason a child falls in love with reading.",
     img: BannerImg.src
 }
 export const BestSellerData = {
-    title: "The Latest Addition to Our Publication Portfolio",
-    txt: "Make Your Next Book Shine with Our Book Publication Services"
+    title: "See our published works & imagine yours on the shelf. ",
+    txt: "Our work in children book publishing, where stories turn into beautifully crafted books. From charming illustrations to engaging narratives, we help authors create books that captivate young readers."
 
 }
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Why Choose Us for Children’s Book Publication?",
-    desc: "Publishing a children’s book requires more than just a great story—it demands engaging illustrations, high-quality printing, and effective marketing strategies.  We specialize in bringing children’s books to life with professional illustrations, publishing, and targeted promotional campaigns.",
+    subtitle: "",
+    title: (<>Creating Childhood Favorites,<br />
+        The Books We Publish
+    </>),
+    desc: "From picture books to early readers and educational books, we handle everything, editing, design, and printing, to ensure your book engages and inspires young readers. ",
     ServicesItem: [
         {
-            title: "Custom Illustrations by Expert Artists",
-            txt: "Our Children Book Publication Services include high-quality custom illustrations designed specifically for your book. We collaborate with skilled illustrators to create eye-catching visuals that enhance storytelling and keep young readers engaged.",
+            title: "Picture Books",
+            txt: "We bring your picture book to life with captivating storytelling and vibrant illustrations that engage young readers. From concept development to layout design and final printing, we ensure your book is visually stunning and perfectly suited for early childhood audiences.",
         },
         {
-            title: "End-to-End Publishing Solutions",
-            txt: "We handle everything from manuscript assessment to global distribution, ensuring a smooth and hassle-free publishing process. Whether you need assistance with ISBN registration, book marketing, or printing, our Children Book Publication Agency provides full-service support.",
+            title: "Early Readers",
+            txt: "Our team crafts early reader books with simple, engaging text and supportive illustrations that help children develop confidence in reading. We focus on age-appropriate language, structured narratives, and professional formatting to make your book both educational and enjoyable.",
         },
         {
-            title: "Marketing & Promotion Strategies That Work",
-            txt: "Publishing your book is just the beginning. Our Children Book Publication Company offers targeted marketing campaigns, including social media promotions, influencer collaborations, and press outreach, to maximize visibility and book sales.",
+            title: "Educational Books",
+            txt: "We create educational books that make learning fun and accessible for children. Whether it's interactive activity books, STEM guides, or concept-based learning materials, we develop engaging content with clear visuals and expert design to ensure an enriching reading experience. ",
         }
     ]
 }
 // CTA
 import CtaImage from "@/public/services/children-book-publication-services/ctaImage.webp"
 export const CtaData = {
-    title: "The What, Why, and How of Publishing a Children’s Book ",
+    title: (<>
+        Little Readers Are Waiting,<br />
+        Will Your Book Be Their Favorite?
+    </>),
     txt: (<>
-        <p>Creating a children’s book is a challenge  between simplicity and depth, where each word must resonate with clarity while igniting a child’s imagination.When creating a story aimed at young readers, every sentence should be a stepping stone to understanding, guiding them seamlessly through the story  without losing their attention or interest.If a child struggles to grasp the meaning, the essence of your message might be overshadowed, underscoring the importance of precision in language.</p>
-        <p>Our team is dedicated to ensuring that every illustration complements the text, enhancing the story while making it visually attractive. We understand that children are drawn to vibrant images and engaging layouts, and we leverage this to transform your vision into a beloved treasure for young readers. </p>
+        <p>Your story has the power to inspire young minds, spark imagination, and create lifelong readers. But how do you take it from an idea to a published book? Let’s make it happen together.</p>
+        <h5>What’s Your Story?</h5>
+        <p>Picture your book on a child’s shelf. What kind of story are you telling?</p>
+        <ul className="CustomUl whiteColor">
+            <li><CheckedIcon /> A bedtime adventure that soothes little ones to sleep?</li>
+            <li><CheckedIcon />A heartwarming tale that teaches an important lesson?</li>
+            <li><CheckedIcon />A fun-filled journey with characters that make children laugh?</li>
+        </ul>
+        <p>Whatever your vision, we’re here to guide you through every step.</p>
     </>),
     bg: false,
     img: CtaImage.src
 
 }
 import BookImg from "media/companylogo.webp"
+import { CheckedIcon } from "../../app-constants"
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Proven Children Book Publication Process",
-    txt: "Our Children Book Publication Services follow a structured and efficient process to ensure your book is publication-ready.",
+    subtitle: "Publishing Made Simple",
+    title: "Our Book Publishing Process",
+    txt: "We start with manuscript refinement, followed by professional illustrations and design. Once polished, we handle formatting, printing, and distribution, ensuring your children’s book is market-ready. From idea to bookshelf, we make publishing simple!",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Manuscript Assessment & Story Development",
-            txt: "We begin by evaluating your manuscript, ensuring that it aligns with age-appropriate content and storytelling techniques. Our editors provide constructive feedback and assist in refining the plot, characters, and readability."
+            title: "Manuscript Formatting",
+            txt: "We prepare your story for professional publishing with proper structure and layout."
         },
         {
-            title: "Professional Illustrations & Design",
-            txt: "Illustrations are carefully crafted to complement your story, enhancing engagement and visual appeal. We work with expert artists to create unique, vibrant illustrations tailored to your book’s theme."
+            title: "Illustration & Book Design",
+            txt: "High-quality illustrations and layouts are finalized for a polished look."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Editing, Proofreading & Formatting",
-            txt: "Our editing team ensures that your book is grammatically sound and well-structured. We then format the book for both print and digital versions, ensuring compatibility across various platforms."
+            title: "Typesetting & Proofing",
+            txt: "We refine text placement, fonts, and page flow to meet publishing standards."
         },
         {
-            title: "Publishing & Global Distribution",
-            txt: "Once finalized, your book is published on platforms like Amazon KDP, Apple Books, and IngramSpark. We ensure worldwide distribution so that your book reaches a global audience."
+            title: "Printing & Production ",
+            txt: "Your book is professionally printed with premium materials and finishes."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Marketing & Promotion",
-            txt: "Once published, we help you market your book through strategic promotion. Our services include social media marketing, Amazon optimization, and targeted advertising to maximize visibility and sales. "
+            title: "Publishing & Distribution",
+            txt: "We publish your book and make it available across major platforms."
         }
     ]
 }
 
 export const QuoteData = {
     subtitle: "",
-    title: "Stop Staring at That Blank Page.",
+    title: "Want to Be an Author?",
     txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
+        Step One: Stop Hoarding Drafts.<br />
+        Step Two: Connect With Us
     </>),
-    formtitle: "Tell us about your Book!",
+    formtitle: "Tell us about your book!",
 } 

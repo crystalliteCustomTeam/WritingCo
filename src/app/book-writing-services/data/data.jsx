@@ -9,7 +9,7 @@ export const BannerData = {
 }
 
 export const BestSellerData = {
-    title: "Shhh… These Books Weren’t technically Written by Their Authors.",
+    title: (<>Shhh… These Books Weren’t <i>technically</i> Written by Their Authors.</>),
     txt: "Writing a book is tough, we get it. That’s why our book writing company is here to do the hard part for you. Whether it’s your life story, a business book, or a thrilling novel, we’ve got you! "
 }
 
