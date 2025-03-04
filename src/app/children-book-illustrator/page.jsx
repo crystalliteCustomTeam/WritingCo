@@ -16,7 +16,7 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm />
+            <ServicesForm title="Big or small, we draw it all, <br/>Let's make magic, give us a call!" txt="Get a Free Quote" />
             <Team />
             <CtaChild />
             <BestSeller innerPage={true} data={BestSellerData} />

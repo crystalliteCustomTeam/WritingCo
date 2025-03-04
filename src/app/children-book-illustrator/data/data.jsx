@@ -1,13 +1,15 @@
 import BannerImg from "media/services/children-book-illustrator/bannerImage.webp"
 export const BannerData = {
-    title: "Build Magical Worlds with Expert Children’s Book Illustration Services",
-    txt: "Our Children Book Illustration Services provide vibrant, custom illustrations designed to capture the heart of your story with age-appropriate, visually engaging illustrations.",
+    title: (<>We Draw the Stories<br />
+        That Shape Childhoods
+    </>),
+    txt: "From blank pages to picture-perfect children’s book illustrations, making kids giggle, gasp, and demand ‘one more page!",
     img: BannerImg.src
 }
 
 export const BestSellerData = {
-    title: "Let Our Expert Illustrators Help You Create A Children’s Book That Shines Bright",
-    txt: "With our Children book illustration design agency, your illustration will shine on every page and in every child’s hands."
+    title: "Illustration design agency? Yep, that’s us.",
+    txt: "Your book deserves pro-level art, not ‘my friend’s kinda good at drawing’ energy."
 }
 
 
@@ -36,46 +38,43 @@ export const InnerServicesData = {
 
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Step-by-Step Illustration Process",
-    txt: "Our Children Book Illustration Services follow an efficient and collaborative workflow.",
+    subtitle: "Imagine. Illustrate. Inspire.",
+    title: "A Peek Into Our Book Illustration Process",
+    txt: "",
     img: BookImg.src,
     ProcessDataItem1: [
         {
-            title: "Story & Illustration Consultation",
-            txt: "The process begins with an in-depth discussion about your book. We explore the storyline, characters, mood, and artistic preferences. If you have reference images or style inspirations, we incorporate them to create a custom illustration plan tailored to your book’s needs."
+            title: "Understanding the Story",
+            txt: "We start by diving into the manuscript, understanding the characters, themes, and mood to ensure our illustrations align with the author’s vision."
         },
         {
-            title: "Character & Scene Sketching",
-            txt: "Once we understand your vision, we create rough sketches for the main characters and key scenes. This allows you to visualize the overall look and feel before we proceed to the full illustrations. We refine the sketches based on your feedback to ensure they align with your expectations."
+            title: "Concept Sketching",
+            txt: "Rough thumbnail sketches and character concepts are created to explore composition, layout, and style. These are shared with the author for feedback."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Final Illustrations & Coloring",
-            txt: "After approval of the sketches, we bring them to life with vibrant colors and intricate details. Whether you prefer soft pastel tones, watercolor textures, or bold digital artwork, we ensure the illustrations enhance the emotional depth of your story."
+            title: "Refining the Illustrations",
+            txt: "Once sketches are approved, we refine them with cleaner lines, detailed backgrounds, and proper composition, ensuring each scene tells the story visually."
         },
         {
-            title: "Layout & Book Formatting",
-            txt: "Illustrations need to complement the text, not overshadow it. We carefully position each image in harmony with your story, ensuring a seamless reading experience. Our formatting ensures that your book meets professional publishing standards for both print and digital platforms."
+            title: "Adding Colors & Depth",
+            txt: "The illustrations come to life with vibrant colors, shading, and textures, creating depth and emotion that captivates young readers."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Final Review & Delivery",
-            txt: "Before completion, we conduct a thorough quality check, making final refinements to ensure every detail is perfect. Once approved, we deliver the high-resolution illustrations in the required formats, ready for printing or eBook publication."
+            title: "Finalizing & Polishing",
+            txt: "We make final tweaks, adjust colors, and ensure consistency across all illustrations. This is where the magic really happens!"
         }
     ]
 }
 
 export const QuoteData = {
     subtitle: "",
-    title: "Stop Staring at That Blank Page.",
+    title: "Don’t let your book be just words",
     txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
+        Dull pages? Couldn’t be us. Let’s fix that!
     </>),
     formtitle: "Tell us about your Book!",
 } 

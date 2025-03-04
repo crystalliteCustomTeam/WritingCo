@@ -29,8 +29,8 @@ const Gallery = () => {
             <Container>
                 <Row>
                     <Col md={12} lg={8} className="m-auto text-center">
-                        <h2>illustrated Stories That Inspire and Delight </h2>
-                        <p>Our portfolio includes books across different genres, from heartwarming bedtime stories to adventurous fantasy tales.</p>
+                        <h2>Our Book Illustration Portfolio</h2>
+                        <p>If pictures say a thousand words, our portfolio just wrote a bestseller.</p>
                     </Col>
                     <Col md={12}>
                         <div className={styles.galleryContainer}>
