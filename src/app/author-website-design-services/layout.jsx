@@ -16,11 +16,7 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/author-website-design-services' },
-    //===== No-Index =====
-    robots: {
-        index: false,
-        follow: false,
-    }
+
 }
 
 

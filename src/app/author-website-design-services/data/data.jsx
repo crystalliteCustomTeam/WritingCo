@@ -1,67 +1,71 @@
 import BannerImg from "media/services/author-website-design-services/bannerImage.webp"
 export const BannerData = {
-    title: "Built Your Custom Website With Our Author Website Design Services",
-    txt: "Our Author Website Design service ensures that your site is custom-built, visually stunning, and fully optimized for readers to find you online.",
+    title: (<>
+        Your Author Website<br />
+        The Hub for Your <br />
+        Books, Brand, and Community
+        </>),
+    txt: "Readers, publishers, and the media need a place to find you, follow you, and buy your books. We create author websites that showcase your books, grow your audience, and drive sales.",
     img: BannerImg.src
 }
 
 export const BestSellerData = {
-    title: "Say Goodbye To Generic Templates",
-    txt: "With our Professional Author Website Services, you don’t get a generic template—you get a website that represents you, your books, and your literary career."
+    title: (<>Our Portfolio Speaks for Itself</>),
+    txt: "Our websites are the secret ingredient to book sales and author branding."
 }
 
 
 export const InnerServicesData = {
-    title: "Your Books Deserve a Website That Captures Attention",
-    txt: "A well designed author website is crucial for building your brand, connecting with readers, and showcasing your work. At Book Writing, we specialize in creating stunning, user-friendly websites tailored to your unique style and goals. Whether you're launching your first book or expanding your author platform, our author website design service ensures you have a professional, engaging, and high-converting website that sets you apart.",
+    title: "Every Author Needs a Digital Home",
+    txt: "A professionally built author website is where readers can discover your work, learn about you, and stay connected. It is also your best asset for building your brand, showcasing your writing, and turning casual readers into loyal fans. Whether you’re self-published or traditionally published, a great website helps you stand out and shows the world you mean business.",
     InnerServicesItem: [
         {
-            title: "User-Friendly Design and Navigation",
-            txt: "An intuitive and straightforward website design is crucial for providing visitors with a seamless experience. We prioritize clean layouts with clearly labeled menus, ensuring that readers can effortlessly find information about your books, biography, and upcoming events. By minimizing clutter and organizing content logically, we enhance user engagement and encourage visitors to explore your site further. This approach not only improves the user experience but also increases the likelihood of readers returning to your site."
+            title: "First Impressions Matter",
+            txt: "If your website looks like it was built in 2005, people will assume your book reads like it too. A modern, professional site gives you instant credibility."
         },
         {
-            title: "Responsive and Mobile-Friendly Layout",
-            txt: "With a significant number of users accessing websites via mobile devices, it's imperative that your author website is fully responsive. We design sites that adapt seamlessly to various screen sizes and devices, ensuring that all features and content remain accessible and visually appealing on smartphones, tablets, and desktops. This responsiveness not only broadens your reach but also enhances the overall user experience, catering to readers who prefer browsing on the go."
+            title: "More Visibility, More Sales",
+            txt: "Your website is your online HQ. With the right design, and marketing strategy, it drives traffic and boosts book sales."
         },
         {
-            title: "Integration of Social Media ",
-            txt: "Connecting with your audience extends beyond your website. We integrate social media links and share buttons, allowing readers to follow your profiles and share your content effortlessly. Additionally, we implement mailing list sign-up forms, enabling you to collect email addresses for newsletters and updates. Building a robust mailing list is a powerful tool for announcing new releases, events, and engaging with your readership on a more personal level."
+            title: "Control Your Brand",
+            txt: "Social media is great, but you don’t own those platforms. A website is yours, giving you full control over how readers discover and engage with your work."
         },
         {
-            title: "Showcasing Your Work with Multiple Purchase Links",
-            txt: "Highlighting your publications effectively is central to an author website. We create dedicated sections for your books, complete with compelling descriptions, cover images, and multiple purchase links to various retailers. By providing options, such as links to Amazon, Barnes & Noble, and independent bookstores, we make it convenient for readers to purchase your work from their preferred platforms, thereby increasing potential sales and accessibility."
+            title: "Direct Reader Connection ",
+            txt: "Collect emails, promote events, and keep readers engaged long after they finish your book. Your website builds long-term relationships."
         }
     ]
 }
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Why Author Website Design Service Perfect For You Expert Designers",
-    desc: "Our Author Website Design Service is led by a team of experienced designers who specialize in designing websites tailored for authors. We understand the importance of a professional online presence and work closely with you to ensure your website reflects your brand, genre, and personality.",
+    subtitle: "Core Features",
+    title: "The Must-Have Elements of Your Author Website",
+    desc: "",
     ServicesItem: [
         {
-            title: "Experienced Designers",
-            txt: "Our Author Website Design Service is led by a team of experienced designers who specialize in designing websites tailored for authors. We understand the importance of a professional online presence and work closely with you to ensure your website reflects your brand, genre, and personality",
+            title: "Custom Design",
+            txt: "No generic templates here! We craft a website that perfectly captures your brand and personality. From colors to fonts to layout, we ensure your site reflects who you are as an author, standing out from the crowd with a unique and polished design.",
         },
         {
-            title: "Engaging & Unique Designs",
-            txt: "Our approach focuses on user-friendly layouts, visually appealing aesthetics, and easy navigation to keep visitors engaged. From elegant minimalistic themes to bold, dynamic visuals, we create author websites that captivate readers and provide them with a seamless browsing experience, increasing book sales and audience engagement.",
+            title: "Book Landing Pages",
+            txt: "We design dedicated landing pages for each of your books. These pages include everything readers need purchase links, reviews, and engaging excerpts, making it easy for them to discover and buy your work right from your website.",
         },
         {
-            title: "Marketing-Focused Websites",
-            txt: "Our websites are designed with built-in SEO features, email capture forms, and social media integrations to help you grow your readership. Whether you need a blog section, book launch countdowns, or newsletter sign-ups, we strategically design your site to maximize exposure and connect with your audience.",
+            title: "Email Signup Integration",
+            txt: "Growing your fanbase is key, and we help you do that by integrating an easy-to-use email signup form. This allows readers to join your mailing list, so you can send updates, promotions, and exclusive content directly to their inboxes.",
         },
         {
-            title: "Budget-Friendly Solutions",
-            txt: "Our Author Website Design Service offers budget-friendly packages tailored to your needs. Whether you're looking for a simple portfolio or a fully customized e-commerce website to sell your books, we provide cost-effective solutions that align with your goals and financial plan.",
+            title: "Blog & Content Hub",
+            txt: "Want to share news, updates, or behind-the-scenes insights? We set up a blog or content hub on your site, giving you a platform to keep your readers engaged and up to date with your latest projects and thoughts.",
         },
         {
-            title: "Quick & Efficient Delivery",
-            txt: "We ensure a fast and efficient design process, delivering a fully functional website in record time. Our team works diligently to implement your vision, test performance, and launch your website swiftly, allowing you to focus on what truly matters—writing and engaging with your audience.",
+            title: "Event & Media Pages",
+            txt: "Whether you’re speaking at an event or being interviewed, we create dedicated event and media pages that make it easy for journalists, podcasters, and event organizers to reach out and book you for their shows or conferences.",
         },
         {
-            title: "24/7 Support & Maintenance",
-            txt: "Our commitment to excellence extends beyond design—we provide ongoing support to help you maintain and update your website as needed. Whether it’s troubleshooting, adding new content, or enhancing features, our customer service team is available 24/7 to assist you.",
+            title: "Website Maintenance",
+            txt: "We make sure your website stays fresh and functional. From regular updates to security checks, we handle the ongoing maintenance, so you don’t have to worry about any technical issues.",
         },
 
     ]
@@ -70,46 +74,46 @@ export const ServicesData = {
 
 import BookImg from "media/companylogo.webp"
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our 5-Step Process for Designing the Perfect Author Website",
-    txt: "Creating a successful author website requires a strategic approach. We follow a five-step process to ensure that your website is visually appealing, highly functional, and optimized for success.",
+    subtitle: "Why Hire Us",
+    title: (<>No, You Can’t Build Your <br/>
+        Author Website on WordPress Yourself
+        </>),
+    txt: "You could spend hours trying to make your website work, or you could let us handle it and have a stunning, functional site ready to go; no stress, no fuss.",
     img: BookImg.src,
     ProcessDataItem1: [
         {
             title: "Discovery & Planning",
-            txt: "Every great website starts with a clear strategy. We begin by discussing your goals, target audience, book genres, and branding preferences. During this phase, we also analyze any existing website (if applicable) and identify areas for improvement."
+            txt: "We start by getting to know you and your brand. We’ll discuss your goals, target audience, and the style you want for your website. This helps us map out the structure, design, and key features that will best represent you and your work."
         },
         {
-            title: "Custom Design & Development",
-            txt: "Once we have a clear understanding of your needs, our design team creates a custom website layout that reflects your personal brand. We focus on user-friendly navigation, mobile responsiveness, and SEO optimization to ensure a seamless experience for visitors. Our development team then brings the design to life using fast, secure, and scalable technology."
+            title: "Design & Development",
+            txt: "Next, we create a custom design tailored to your brand, ensuring it’s unique and visually appealing. Our team then brings the design to life, building the site with responsive functionality, SEO optimization, and user-friendly navigation."
         },
     ],
     ProcessDataItem2: [
         {
-            title: "Content Integration & Optimization",
-            txt: "Your website is only as good as the content it presents. We help you organize and display key elements such as your author bio, book descriptions, blog posts, media features, and testimonials. We also implement SEO best practices to improve your website’s visibility in search engines."
+            title: "Content Integration",
+            txt: "We’ll add all the essential content; about you, your books, media appearances, blog, and anything else you want to showcase. This includes setting up pages for your books, events, and email signups, making sure everything is easy for visitors to find."
         },
         {
-            title: "Testing & Performance Optimization",
-            txt: "Before launching your website, we conduct extensive testing across different devices and browsers to ensure flawless performance. We optimize loading speed, mobile compatibility, and security to enhance the user experience."
+            title: "Testing & Launch",
+            txt: "Before your site goes live, we test it thoroughly. We check for performance, compatibility across devices, and functionality to ensure everything works seamlessly. Once everything’s perfect, we launch your site with confidence."
         },
     ],
     ProcessDataItem3: [
         {
-            title: "Website Launch & Ongoing Support",
-            txt: "Once everything is finalized, we launch your website and make it accessible to the public. We also provide post-launch support and maintenance, ensuring that your site remains updated, secure, and optimized as your author brand grows."
+            title: "Ongoing Maintenance & Updates",
+            txt: "After the launch, we continue to provide support. Whether it’s updating your content, fixing bugs, or optimizing features, we’ll ensure your site remains fresh, secure, and up-to-date with minimal effort from you."
         },
     ]
 }
 
 export const QuoteData = {
     subtitle: "",
-    title: "Stop Staring at That Blank Page.",
+    title: "Overthinking it? Stop.",
     txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
+        Every minute you delay is a missed opportunity. <br/>
+Let’s design and develop your author website!
     </>),
     formtitle: "Tell us about your Book!",
 } 
