@@ -72,7 +72,7 @@ export const ProcessData = {
 
 export const QuoteData = {
     subtitle: "",
-    title: "Don’t let your book be just words",
+    title: (<>Don’t let your book be <i>just</i> words</>),
     txt: (<>
         Dull pages? Couldn’t be us. Let’s fix that!
     </>),
