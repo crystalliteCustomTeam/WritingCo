@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://bookwriting.us/"),
+  metadataBase: new URL("https://www.bookwriting.us/"),
   title: "Book Writing Company - Expert Writers For Your Book",
   description: "Looking for a Professional Book Writing Company? Our Expert Writers craft compelling books in any genre, ensuring quality and originality. Start your journey Today!",
 
@@ -24,7 +24,7 @@ export const metadata = {
     siteName: 'Book Writing',
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.bookwriting.us/logo.png",
   },
   //===== Canonical =====
   alternates: { canonical: '/' },

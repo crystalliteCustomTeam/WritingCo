@@ -12,7 +12,7 @@ export const metadata = {
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
-        images: "",
+        images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/contact-us' },

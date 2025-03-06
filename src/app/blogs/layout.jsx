@@ -12,7 +12,7 @@ export const metadata = {
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.bookwriting.us/logo.png",
   },
   //===== Canonical =====
   alternates: { canonical: '/blogs' },
