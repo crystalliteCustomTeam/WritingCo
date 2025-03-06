@@ -21,7 +21,7 @@ export const InnerServicesData = {
     InnerServicesItem: [
         {
             title: "Unabridged Audiobooks",
-            txt: "We record every single word of your book, exactly as written. This is for listeners who want the full, unfiltered experience; no scenes cut, no details lost. Our professional narrators bring your story to life while preserving its original intent, ensuring an authentic and immersive journey."
+            txt: (<>We record <strong>every single word</strong> of your book, exactly as written. This is for listeners who want the full, unfiltered experience; no scenes cut, no details lost. Our professional narrators bring your story to life while preserving its original intent, ensuring an authentic and immersive journey.</>)
         },
         {
             title: "Abridged Audiobooks",
