@@ -1,7 +1,6 @@
 import BannerImg from "media/services/book-cover-design-services/bannerImage.webp"
 export const BannerData = {
-    title: (<>Your Book Cover Should Scream<br/>
-        “Read Me!”
+    title: (<>Your Book Cover<br/> Should Scream<br/>“Read Me!”
         </>),
     txt: "Your words? Pure magic. Your cover? Uh… let’s just say it’s not casting the right spell. Readers judge, scroll, and move on fast, and if your book cover isn’t serving, it’s getting ghosted. But don’t worry, we design covers that are heartwarming, or gut-wrenching, that flirt, seduce, and demand attention. Because your story is fire, and it needs a cover that burns into their brain.",
     img: BannerImg.src
@@ -52,7 +51,7 @@ export const ServicesData = {
         },
         {
             title: "Strong Typography & Readability",
-            txt: "A title that blends into the background or is hard to read at a glance can cost sales. Top book cover designers ensure that typography is bold, clear, and easy to read in both full size and thumbnail views, making the book easily recognizable across all platforms",
+            txt: "A title that blends into the background or is hard to read at a glance can cost sales. Top book cover designers ensure that typography is bold, clear, and easy to read in both full size and thumbnail views, making the book easily recognizable across all platforms.",
         },
         {
             title: "Eye-Catching Color & Composition",
