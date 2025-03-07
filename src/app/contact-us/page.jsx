@@ -122,7 +122,8 @@ export default function Page() {
                                         <textarea name="comment"></textarea>
                                     </div>
                                     <div className={styles.contactItem}>
-                                        <label>Are you a?</label>
+                                    <div className={styles.tit}>Are you a?</div>
+                                        {/* <label>Are you a?</label> */}
                                         <div className={styles.radioBtn}>
                                             <label>
                                                 <input type="radio" name="person" value="Author" />Author
