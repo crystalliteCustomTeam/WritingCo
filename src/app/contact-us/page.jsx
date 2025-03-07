@@ -139,7 +139,8 @@ export default function Page() {
                                     <div className={styles.contactItem}>
                                         <div className={styles.tit}>Services</div>
                                         <div className={styles.checkContainer}>
-                                            {['Editing', 'Proofreading', 'Book Formatting', 'Cover Design', 'Marketing', 'Consulting'].map((service, index) => (
+                                    
+{['Book Writing', 'Book Video Trailer', 'Book Editing', 'Audio Book', 'Book Publishing', 'Book Cover Design','Book Marketing','Author Website','Children Book Publication','Proofreading','Children Book Illustration'].map((service, index) => (
                                                 <div className={styles.checkBox} key={index}>
                                                     <input
                                                         type="checkbox"
