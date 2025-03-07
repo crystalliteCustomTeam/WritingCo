@@ -45,6 +45,7 @@ export default function Page() {
         const email = e.target.email.value.trim();
         const phone = e.target.phone.value.trim();
         const message = e.target.comment.value.trim();
+        const person = e.target.person?.value || ""; 
 
 
         if (!name || !email || !phone) {
@@ -54,15 +55,25 @@ export default function Page() {
             return;
         }
 
+          // Capture selected services
+    const selectedServices = [];
+    document.querySelectorAll('input[type="checkbox"]:checked').forEach((checkbox) => {
+        selectedServices.push(checkbox.value);
+    });
+
         const currentdate = new Date().toLocaleString();
+
+        
         const data = {
             page_url: pagenewurl,
             user_ip: `${ip.ip}`,
             lead_data: {
-                name: e.target.name.value,
-                email: e.target.email.value,
-                phone: e.target.phone.value,
-                message: e.target.comment.value,
+                name,
+                email,
+                phone,
+                message,
+                person, 
+                services: selectedServices, 
             }
         };
         const JSONdata = JSON.stringify(data);
@@ -92,7 +103,7 @@ export default function Page() {
                             <p>We are dedicated to helping you elevate your book and achieve your publishing goals. Whether you're an author, publisher, or industry professional, we're here to assist you every step of the way.</p>
                         </Col>
                         <Col md={11} lg={10} xl={8} className="m-auto">
-                            <Form>
+                        <Form onSubmit={handleSubmit}>
                                 <div className={styles.contactpageFrom}>
                                     <div className={styles.contactItem}>
                                         <label>Full Name</label>
@@ -140,7 +151,7 @@ export default function Page() {
                                         </div>
                                     </div>
                                     <div className={styles.paraContent}>
-                                        <p>If you require a signed Non-Disclosure Agreement (NDA), please email us at<span>email: info@bookwriting.us</span></p>
+                                        <p>If you require a signed Non-Disclosure Agreement (NDA), please email us at<span> email: inquiries@bookwriting.us</span></p>
                                     </div>
                                     <div className={styles.contactBtn}>
                                         <button type="submit" name="submit" className="commonBtn" disabled={isDisabled}>{formStatus}</button>
