@@ -72,7 +72,7 @@ import Img03 from "@/public/landing/lp1/slider/Img03.webp"
 
 export const JourneyData1 = {
     title: (<>Success Overtook<br />
-        Cause a Ghost Wrote Your Book
+        ’Cause a Ghost Wrote Your Book
     </>),
     desc: "Your ideas, our words, no stress. Every line hits, every edit fits, and when it’s done? You take the credit, we take the ghostly exit.",
 
