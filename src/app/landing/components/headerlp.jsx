@@ -14,7 +14,7 @@ const Headerlp = () => {
                     </Col>
                     <Col xs={6} md={6} lg={6} className="my-auto">
                         <div className={styles.headerBtn}>
-                            <div className={styles.chatBtn}><PhoneIcon />866-600-0036</div>
+                            <a href="tel:3024595127" className={styles.chatBtn}><PhoneIcon />(302) 459-5127</a>
                             <div className={styles.contactBtn}><ChatIcon />Chat Now</div>
                         </div>
                     </Col>

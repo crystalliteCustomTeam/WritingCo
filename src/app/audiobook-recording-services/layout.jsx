@@ -2,17 +2,17 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Audiobook Services – Professional Production & Narration for Your Book",
-    description: "Looking for expert audio book services? Get high-quality audiobook production and narration services to bring your story worldwide. Start your journey today.",
+    title: "Make Your Book Audible With Audiobook Recording Service",
+    description: "Your audience doesn't got the time to read books? Narrate your story to them in the form of perfectly recorded audiobooks. Hire us today!",
     //===== OG Tags =====
     openGraph: {
-        title: "Audiobook Services – Professional Production & Narration for Your Book",
-        description: "Looking for expert audio book services? Get high-quality audiobook production and narration services to bring your story worldwide. Start your journey today.",
+        title: "Make Your Book Audible With Audiobook Recording Service",
+        description: "Your audience doesn't got the time to read books? Narrate your story to them in the form of perfectly recorded audiobooks. Hire us today!",
         url: '/audiobook-recording-services',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
-        images: "",
+        images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/audiobook-recording-services' },

@@ -43,7 +43,7 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
         const name = e.target.name.value.trim();
         const email = e.target.email.value.trim();
         const phone = e.target.phone.value.trim();
-        const message = e.target.comment.value.trim();
+        const message = e.target.comment ? e.target.comment.value.trim() : "";
 
 
         if (!name || !email || !phone) {
@@ -54,15 +54,20 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
         }
 
         const currentdate = new Date().toLocaleString();
+
+        const leadData = {
+            name,
+            email,
+            phone,
+          };
+          if (message) {
+            leadData.message = message;
+        }
+
         const data = {
             page_url: pagenewurl,
             user_ip: `${ip.ip}`,
-            lead_data: {
-                name: e.target.name.value,
-                email: e.target.email.value,
-                phone: e.target.phone.value,
-                message: e.target.comment.value,
-            }
+            lead_data: leadData,
         };
         const JSONdata = JSON.stringify(data);
         // First API call to your server

@@ -2,25 +2,21 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "About Us | Book Writing Brand – Your Trusted Book Publishing Partner",
-    description: "Discover how we help authors bring their stories to life with expert ghostwriting, editing, publishing, and marketing services. Partner with professionals to create a book that stands out.",
+    title: "About Us - Book Writing",
+    description: "We help aspiring writers to become published authors with expert publishing, writing, and marketing services backed by 10+ years of experience.",
     //===== OG Tags =====
     openGraph: {
-        title: "About Us | Book Writing Brand – Your Trusted Book Publishing Partner",
-        description: "Discover how we help authors bring their stories to life with expert ghostwriting, editing, publishing, and marketing services. Partner with professionals to create a book that stands out.",
+        title: "About Us - Book Writing",
+        description: "We help aspiring writers to become published authors with expert publishing, writing, and marketing services backed by 10+ years of experience.",
         url: '/about-us',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
-        images: "",
+        images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/about-us' },
-    //===== No-Index =====
-    robots: {
-        index: false,
-        follow: false,
-    }
+    
 }
 
 

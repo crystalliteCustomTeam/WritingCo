@@ -2,17 +2,17 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Children Book Illustration Services  With Stunning Artwork For Your Book",
-    description: "Looking for professional Children Book Illustration Services? Get custom artwork tailored to your story, characters, and vision. Transform your children’s book with us today.",
+    title: "Top Illustrators for Your Children’s Book",
+    description: "If you want your book to be in the imagination of young readers, then we are the ones who will make it. Get your book illustrated with children book illustration!",
     //===== OG Tags =====
     openGraph: {
-        title: "Children Book Illustration Services  With Stunning Artwork For Your Book",
-        description: "Looking for professional Children Book Illustration Services? Get custom artwork tailored to your story, characters, and vision. Transform your children’s book with us today.",
+        title: "Top Illustrators for Your Children’s Book",
+        description: "If you want your book to be in the imagination of young readers, then we are the ones who will make it. Get your book illustrated with children book illustration!",
         url: '/children-book-illustrator',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
-        images: "",
+        images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/children-book-illustrator' },

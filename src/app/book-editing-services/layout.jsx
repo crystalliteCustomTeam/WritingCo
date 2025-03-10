@@ -2,17 +2,17 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Hire a Professional Book Editing Company to make your book flawless.",
-    description: "Looking for expert book editing services? Our professional book editing company ensures your manuscript is polished, error-free, and ready for publishing. Let's get started.",
+    title: "Professional Book Editing Services",
+    description: "Book Editing Service that transforms your book from Fine to Great. Your book’s got potential, and we make sure it reaches it with our book editing services.",
     //===== OG Tags =====
     openGraph: {
-        title: "Hire a Professional Book Editing Company to make your book flawless.",
-        description: "Looking for expert book editing services? Our professional book editing company ensures your manuscript is polished, error-free, and ready for publishing. Let's get started.",
+        title: "Professional Book Editing Services",
+        description: "Book Editing Service that transforms your book from Fine to Great. Your book’s got potential, and we make sure it reaches it with our book editing services.",
         url: '/book-editing-services',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
-        images: "",
+        images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/book-editing-services' },

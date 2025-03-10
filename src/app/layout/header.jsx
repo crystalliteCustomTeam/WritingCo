@@ -39,8 +39,8 @@ const Header = () => {
                         <Navigation scrolled={scrolled} isLight={isLight} />
                     </Col>
                     <Col xs={6} md={2} lg={2} className="my-auto d-lg-block d-none">
-                        <a href="tel:123-123123" className={`commonBtn ${styles.lastBtn}`} aria-label="Visit our Contact">
-                            +1 312 379 5987
+                        <a href="tel:3024595127" className={`commonBtn ${styles.lastBtn}`} aria-label="Visit our Contact">
+                        (302) 459-5127
                         </a>
                     </Col>
                 </Row>

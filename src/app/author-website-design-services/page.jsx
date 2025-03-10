@@ -14,7 +14,7 @@ export default function Page() {
         <>
             <Banenr data={BannerData} />
             <Clients />
-            <ServicesForm title="Social media isn’t enough,</br> Your author website is your home base." tx="Get a Free Quote"/>
+            <ServicesForm title="Social media isn’t enough,</br> Your author website is your home base." txt="Get a Free Quote"/>
             <BestSeller innerPage={true} data={BestSellerData} />
             <InnerServices data={InnerServicesData} />
             <Services data={ServicesData} />
