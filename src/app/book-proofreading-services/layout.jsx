@@ -16,6 +16,13 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/book-proofreading-services' },
+    others: {
+        "DC.title": "book proofreading services",
+        "geo.region": "US",
+        "geo.position": "39.78373;-100.445882",
+        "ICBM": "39.78373, -100.445882"
+      },
+      
     //===== No-Index =====
     robots: {
         index: false,

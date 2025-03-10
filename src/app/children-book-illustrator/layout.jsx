@@ -16,7 +16,13 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/children-book-illustrator' },
-
+    others: {
+        "DC.title": "children book illustrator",
+        "geo.region": "US",
+        "geo.position": "39.78373;-100.445882",
+        "ICBM": "39.78373, -100.445882"
+      }
+      
 }
 
 

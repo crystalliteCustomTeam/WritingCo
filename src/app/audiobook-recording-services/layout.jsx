@@ -16,6 +16,16 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/audiobook-recording-services' },
+      //===== GEO Tags =====
+
+      
+    other: {
+        "DC.title": "audiobook recording services",
+        "geo.region": "US",
+        "geo.position": "39.78373;-100.445882",
+        "ICBM": "39.78373, -100.445882"
+      }
+      
 }
 
 
