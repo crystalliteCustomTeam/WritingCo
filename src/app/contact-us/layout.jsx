@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Contact Us  To Publish & Promote Your Book with Experts",
-    description: "Get in touch with our publishing experts today. Whether you need help with writing, editing, publishing, or marketing, we’re here to guide you.  Let's get started.",
+    title: "Contact Us - Book Writing",
+    description: "Have questions or need a quote? Contact us today to discuss your book writing project.",
     //===== OG Tags =====
     openGraph: {
-        title: "Contact Us  To Publish & Promote Your Book with Experts",
-        description: "Get in touch with our publishing experts today. Whether you need help with writing, editing, publishing, or marketing, we’re here to guide you.  Let's get started.",
+        title: "Contact Us - Book Writing",
+        description: "Have questions or need a quote? Contact us today to discuss your book writing project.",
         url: '/contact-us',
         siteName: 'Book Writing',
         locale: 'en_US',
@@ -16,11 +16,7 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/contact-us' },
-    //===== No-Index =====
-    robots: {
-        index: false,
-        follow: false,
-    }
+  
 }
 
 

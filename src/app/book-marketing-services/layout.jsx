@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Professional Book Marketing Services – Boost Your Book Sales & Visibility",
-    description: "Looking for expert Book Marketing Services? Our Book Marketing Agency helps authors reach their audience, increase sales, and establish a strong brand.",
+    title: "Boost Your Book Sales with Expert Marketing Stervice",
+    description: "Bring your book from being last to Most Recommended and Best Seller with our book marketing service. We bring your book to the screens of relevant readers.",
     //===== OG Tags =====
     openGraph: {
-        title: "Professional Book Marketing Services – Boost Your Book Sales & Visibility",
-        description: "Looking for expert Book Marketing Services? Our Book Marketing Agency helps authors reach their audience, increase sales, and establish a strong brand.",
+        title: "Boost Your Book Sales with Expert Marketing Stervice",
+        description: "Bring your book from being last to Most Recommended and Best Seller with our book marketing service. We bring your book to the screens of relevant readers.",
         url: '/book-marketing-services',
         siteName: 'Book Writing',
         locale: 'en_US',

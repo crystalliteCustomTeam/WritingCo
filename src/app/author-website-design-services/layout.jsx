@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Author Website Design – Custom, SEO-Optimized Sites for Writers",
-    description: "Looking for a professional author website? Get a custom, SEO-optimized site designed to showcase your books, grow your audience, and enhance your online presence.",
+    title: "Create Your Author Website Today – No Design Skills Needed!",
+    description: "We create beautiful Author Websites that engage and convert viewers into readers. So, anchor your literary identity with our author website design services.",
     //===== OG Tags =====
     openGraph: {
-        title: "Author Website Design – Custom, SEO-Optimized Sites for Writers",
-        description: "Looking for a professional author website? Get a custom, SEO-optimized site designed to showcase your books, grow your audience, and enhance your online presence.",
+        title: "Create Your Author Website Today – No Design Skills Needed!",
+        description: "We create beautiful Author Websites that engage and convert viewers into readers. So, anchor your literary identity with our author website design services.",
         url: '/author-website-design-services',
         siteName: 'Book Writing',
         locale: 'en_US',

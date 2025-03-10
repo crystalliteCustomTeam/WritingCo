@@ -13,13 +13,13 @@ const poppins = Poppins({
 
 export const metadata = {
   metadataBase: new URL("https://www.bookwriting.us/"),
-  title: "Book Writing Company - Expert Writers For Your Book",
-  description: "Looking for a Professional Book Writing Company? Our Expert Writers craft compelling books in any genre, ensuring quality and originality. Start your journey Today!",
+  title: "Book Writing Company: Start Your Bestseller in 3 Easy Steps!",
+  description: "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
 
   //===== OG Tags =====
   openGraph: {
-    title: "Book Writing Company - Expert Writers For Your Book",
-    description: "Looking for a Professional Book Writing Company? Our Expert Writers craft compelling books in any genre, ensuring quality and originality. Start your journey Today!",
+    title: "Book Writing Company: Start Your Bestseller in 3 Easy Steps!",
+    description: "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
     url: '/',
     siteName: 'Book Writing',
     locale: 'en_US',

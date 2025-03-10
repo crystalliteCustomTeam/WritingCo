@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Professional Proofreading Services – Ensure Your Book is Error-Free & Polished",
-    description: "Looking for expert Proofreading Services? Get professional editing to eliminate errors, improve clarity, and enhance readability. Perfect for authors who want a flawless manuscript.",
+    title: "Fix Your Typos with Our Book Proofreading Service",
+    description: "Our Professional Proofreading Services make sure your manuscript is polished, free of errors, and ready for publication. Let us take your writing to the next level.",
     //===== OG Tags =====
     openGraph: {
-        title: "Professional Proofreading Services – Ensure Your Book is Error-Free & Polished",
-        description: "Looking for expert Proofreading Services? Get professional editing to eliminate errors, improve clarity, and enhance readability. Perfect for authors who want a flawless manuscript.",
+        title: "Fix Your Typos with Our Book Proofreading Service",
+        description: "Our Professional Proofreading Services make sure your manuscript is polished, free of errors, and ready for publication. Let us take your writing to the next level.",
         url: '/book-proofreading-services',
         siteName: 'Book Writing',
         locale: 'en_US',

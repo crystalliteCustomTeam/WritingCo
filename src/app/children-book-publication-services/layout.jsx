@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Children book publication services  to tell your story the right way.",
-    description: "Looking for expert Children Book Publication Services? Our Publication Agency helps authors publish high-quality children's books with stunning illustrations and global distribution.",
+    title: "Publish Your Children’s Book in 5 Simple Steps",
+    description: "Our children book publication services will create masterpieces that appeal to all the little readers. Start your publishing journey today!",
     //===== OG Tags =====
     openGraph: {
-        title: "Children book publication services  to tell your story the right way.",
-        description: "Looking for expert Children Book Publication Services? Our Publication Agency helps authors publish high-quality children's books with stunning illustrations and global distribution.",
+        title: "Publish Your Children’s Book in 5 Simple Steps",
+        description: "Our children book publication services will create masterpieces that appeal to all the little readers. Start your publishing journey today!",
         url: '/children-book-publication-services',
         siteName: 'Book Writing',
         locale: 'en_US',

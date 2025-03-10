@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Professional Book Cover Design Services – Stand Out with a Stunning Cover",
-    description: "Get expert Book Cover Design services to make your book stand out. Custom, professional, and affordable designs for every genre. Let's get started today.",
+    title: "Book Covers That Sell: Get Yours Designed in 7 Days!",
+    description: "Get your book picked and read. Design original and creative book covers by hiring our book cover designers as we have the expertise to get your book sold!",
     //===== OG Tags =====
     openGraph: {
-        title: "Professional Book Cover Design Services – Stand Out with a Stunning Cover",
-        description: "Get expert Book Cover Design services to make your book stand out. Custom, professional, and affordable designs for every genre. Let's get started today.",
+        title: "Book Covers That Sell: Get Yours Designed in 7 Days!",
+        description: "Get your book picked and read. Design original and creative book covers by hiring our book cover designers as we have the expertise to get your book sold!",
         url: '/book-cover-design-services',
         siteName: 'Book Writing',
         locale: 'en_US',
