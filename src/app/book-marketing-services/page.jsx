@@ -49,12 +49,7 @@ export default function Page() {
                   availableLanguage: "en",
                 },
                 sameAs: [],
-                geo: {
-                  "@type": "GeoCoordinates",
-                  latitude: "39.78373",
-                  longitude: "-100.445882",
-                },
-              },
+             },
               {
                 "@type": "Product",
                 name: "Boost Your Book Sales with Expert Marketing Service",
@@ -73,12 +68,6 @@ export default function Page() {
                 },
               },
             ],
-            others: {
-              "DC.title": "book marketing services",
-              "geo.region": "US",
-              "geo.position": "39.78373;-100.445882",
-              ICBM: "39.78373, -100.445882",
-            },
           }),
         }}
       />
