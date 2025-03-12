@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: 
+Disallow: /*.webp$
+Disallow: /*.js$
+Disallow: /*.ico$
+Disallow: /*.png$
+Disallow: /*.jpge$
+Disallow: /*.jpg$
+
+
