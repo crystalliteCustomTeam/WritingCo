@@ -16,8 +16,13 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/book-marketing-services' },
-
-}
+    others : {
+        "DC.title": "book marketing services",
+        "geo.region": "US",
+        "geo.position": "39.78373;-100.445882",
+        "ICBM": "39.78373, -100.445882"
+      }
+    }
 
 
 export default function RootLayout({ children }) {

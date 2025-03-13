@@ -1,9 +1,8 @@
 import { Poppins } from "next/font/google";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "@/src/app/globals.scss";
 import ConditionalLayout from "@/src/app/conditionallayout";
 import Scripts from "@/src/app/Scripts";
-
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -14,31 +13,42 @@ const poppins = Poppins({
 export const metadata = {
   metadataBase: new URL("https://www.bookwriting.us/"),
   title: "Book Writing Company: Start Your Bestseller in 3 Easy Steps!",
-  description: "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
+  description:
+    "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
 
   //===== OG Tags =====
   openGraph: {
     title: "Book Writing Company: Start Your Bestseller in 3 Easy Steps!",
-    description: "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
-    url: '/',
-    siteName: 'Book Writing',
-    locale: 'en_US',
-    type: 'website',
+    description:
+      "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
+    url: "/",
+    siteName: "Book Writing",
+    locale: "en_US",
+    type: "website",
     images: "https://www.bookwriting.us/logo.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/' },
+  alternates: { canonical: "/" },
   //===== Google Varification =====
   verification: {
     other: {
-      "google-site-verification": ['TeBBv-OUZssYCNFSnYzbZAECWVfOaaxpxgDb4JXomSc'],
+      "google-site-verification": [
+        "TeBBv-OUZssYCNFSnYzbZAECWVfOaaxpxgDb4JXomSc",
+      ],
     },
+  },
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "book writing company",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    ICBM: "39.78373, -100.445882",
   },
   //===== No-Index =====
   robots: {
     index: true,
     follow: true,
-  }
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -46,9 +56,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.variable}`}>
         <Scripts />
-        <ConditionalLayout >
-          {children}
-        </ConditionalLayout >
+        <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>
   );

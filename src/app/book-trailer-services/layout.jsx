@@ -16,6 +16,12 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/book-trailer-services' },
+     others : {
+        "DC.title": "book trailer services",
+        "geo.region": "US",
+        "geo.position": "39.78373;-100.445882",
+        "ICBM": "39.78373, -100.445882"
+      }      
 }
 
 
