@@ -15,6 +15,24 @@
             height: 20px;
             margin-left: 10px;
         }
+        .thanksBtn{
+           a{
+            background: #ff7f3e;
+            color: #fff;
+            display: flex;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            border-radius: 30px;
+            margin: auto;
+            svg{
+                path{
+                    stroke:#fff;
+                }
+            }
+        } 
+        }
     }
 
     p {

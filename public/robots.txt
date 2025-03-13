@@ -6,5 +6,7 @@ Disallow: /*.ico$
 Disallow: /*.png$
 Disallow: /*.jpge$
 Disallow: /*.jpg$
+Disallow: /*.woff2$
+Disallow: /*.ico$
 
-
+Sitemap: https://www.bookwriting.us/sitemap.xml
