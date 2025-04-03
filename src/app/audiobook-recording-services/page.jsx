@@ -54,8 +54,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Make Your Book Audible With Audiobook Recording Service",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/audiobook-recording-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/audiobook-recording-services",
                 description:
                   "Your audience doesn't got the time to read books? Narrate your story to them in the form of perfectly recorded audiobooks. Hire us today!",
                 brand: {

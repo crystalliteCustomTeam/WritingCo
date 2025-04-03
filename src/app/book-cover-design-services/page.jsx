@@ -54,8 +54,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Book Covers That Sell: Get Yours Designed in 7 Days!",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-cover-design-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-cover-design-services",
                 description:
                   "Get your book picked and read. Design original and creative book covers by hiring our book cover designers as we have the expertise to get your book sold!",
                 brand: {

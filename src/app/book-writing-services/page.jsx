@@ -60,8 +60,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Book Writing Service",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-writing-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-writing-services",
                 description:
                   "Turn your blank pages into a great book with our Book Writing Services. We will make your story into your LEGACY 24/7. Hire us to see your book selling.",
                 brand: {

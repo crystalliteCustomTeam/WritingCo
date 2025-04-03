@@ -54,8 +54,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Book Trailer Services to Capture Readers' Attention in Seconds",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-trailer-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-trailer-services",
                 description:
                   "Our expert book trailer services create the best visual teasers to help authors and publishers promote their books more effectively. Top book trailer makers in US",
                 brand: {

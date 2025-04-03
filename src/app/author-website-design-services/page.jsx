@@ -55,8 +55,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Create Your Author Website Today – No Design Skills Needed!",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/author-website-design-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/author-website-design-services",
                 description:
                   "We create beautiful Author Websites that engage and convert viewers into readers. So, anchor your literary identity with our author website design services.",
                 brand: {

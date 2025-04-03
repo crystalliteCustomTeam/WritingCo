@@ -51,8 +51,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Publish Your Children’s Book in 5 Simple Steps",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/children-book-publication-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/children-book-publication-services",
                 description:
                   "Our children book publication services will create masterpieces that appeal to all the little readers. Start your publishing journey today!",
                 brand: {

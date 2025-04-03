@@ -52,8 +52,8 @@ export default function Home() {
               "@context": "https://schema.org/",
               "@type": "Product",
               name: "Book Writing Company: Start Your Bestseller in 3 Easy Steps!",
-              image: "https://bookwriting.us/logo.png",
-              url: "https://bookwriting.us/",
+              image: "https://www.bookwriting.us/logo.png",
+              url: "https://www.bookwriting.us/",
               description:
                 "Making books from concept to bestseller, we offer best book writing, editing, publishing, and marketing services in US. Expert book services at affordable prices.",
               brand: {

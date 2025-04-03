@@ -56,8 +56,8 @@ export default function Page() {
                {
                 "@type": "Product",
                 name: "Top Illustrators for Your Children’s Book",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/children-book-illustrator",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/children-book-illustrator",
                 description:
                   "If you want your book to be in the imagination of young readers, then we are the ones who will make it. Get your book illustrated with children book illustration!",
                 brand: {

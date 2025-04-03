@@ -64,8 +64,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Professional Book Editing Services",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-editing-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-editing-services",
                 description:
                   "Book Editing Service that transforms your book from Fine to Great. Your book’s got potential, and we make sure it reaches it with our book editing services.",
                 brand: {

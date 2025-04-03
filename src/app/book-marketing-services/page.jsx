@@ -53,8 +53,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Boost Your Book Sales with Expert Marketing Service",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-marketing-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-marketing-services",
                 description:
                   "Bring your book from being last to Most Recommended and Best Seller with our book marketing service. We bring your book to the screens of relevant readers.",
                 brand: {

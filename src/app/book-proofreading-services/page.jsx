@@ -57,8 +57,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Fix Your Typos with Our Book Proofreading Service",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-proofreading-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-proofreading-services",
                 description:
                   "Our Professional Proofreading Services make sure your manuscript is polished, free of errors, and ready for publication. Let us take your writing to the next level.",
                 brand: {

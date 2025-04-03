@@ -54,8 +54,8 @@ export default function Page() {
               {
                 "@type": "Product",
                 name: "Publish Your Book With Amazon KDP Publishing Service",
-                image: "https://bookwriting.us/logo.png",
-                url: "https://bookwriting.us/book-publishing-services",
+                image: "https://www.bookwriting.us/logo.png",
+                url: "https://www.bookwriting.us/book-publishing-services",
                 description:
                   "If your dream is to be published, Our Book Publishing Service is your best shot at success & earning royalties. Hire us today!",
                 brand: {
