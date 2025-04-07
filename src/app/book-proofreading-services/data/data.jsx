@@ -1,115 +1,122 @@
-import BannerImg from "media/services/book-proofreading-services/bannerImage.webp"
+import BannerImg from "media/services/book-proofreading-services/bannerImage.webp";
 export const BannerData = {
-    title: "Error-Free Book, Guaranteed with Our Professional Proofreading Services",
-    txt: "Writing a book is a labor of love, but even the most experienced authors need a second pair of eyes. Our Professional Proofreading Services ensure your manuscript is polished, free of errors, and ready for publication. Whether it’s grammar, punctuation, consistency, or readability, we  refine every detail so your words shine.",
-    img: BannerImg.src
-}
+  title: "Book Proofreading Service for Authors",
+  txt: "One mistake can disrupt the flow of your entire book but our book proofreading services keep your writing smooth. Write with passion, and we’ll handle the precision, ensuring every word is in its right place!",
+  img: BannerImg.src,
+};
 
 export const BestSellerData = {
-    title: "The Latest Addition to Our Portfolio",
-    txt: "We Make Your Dream Come True like The Many Before You"
-}
-
+  title: "Proofreading Portfolio",
+  txt: "A showcase of manuscripts we’ve polished to publishing perfection.",
+};
 
 export const InnerServicesData = {
-    title: "Answers to Your Most Pressing Questions About Our Proofreading Services!",
-    txt: "Our professional proofreading company goes the extra mile to refine your manuscript, ensuring it is flawless, engaging, and publication-ready.  At Book Writing, we take pride in offering the best proofreading services, tailored to meet the highest industry standards. We understand our clients’ concerns, Feel free to ask any questions about our proofreading service to help you make an informed decision.",
-    InnerServicesItem: [
-        {
-            title: "Distinction Between Proofreading and Editing",
-            txt: "It's essential to differentiate between proofreading and editing, as they serve distinct purposes in the manuscript refinement process. Proofreading involves a meticulous review to identify and correct grammatical errors, spelling mistakes, punctuation issues, and formatting inconsistencies. Editing, on the other hand, delves deeper into the content, focusing on enhancing the flow, structure, clarity, and overall coherence of the text. "
-        },
-        {
-            title: "Confidentiality and Security of Your Manuscript",
-            txt: "Before you sign up with any company remember the importance of maintaining the confidentiality of your work. companies have stringent security measures in place to protect your manuscript. All documents are handled with the utmost care, and we ensure that your work remains confidential throughout the proofreading process."
-        },
-        {
-            title: "Preservation of Authorial Voice",
-            txt: "It is important to maintain your unique voice and style. Proofreaders work diligently to enhance the quality of your writing without altering your distinctive tone. They make careful corrections and suggestions that preserve your original intent and expression, ensuring that your personal voice remains intact while elevating the overall quality of your manuscript."
-        },
-        {
-            title: "Expertise Across Various English Dialects",
-            txt: "Language nuances can vary significantly across different English dialects. professional Proofreaders are proficient in American, British, Canadian, and Australian English. We tailor our proofreading services to match the specific dialect of your manuscript, ensuring consistency in spelling, terminology, and stylistic preferences. This attention to detail enhances the readability and professionalism of your work."
-        },
-    ]
-}
+  title: (
+    <>
+      Before You Hit ‘Publish’
+      <br />
+      Read This First
+    </>
+  ),
+  txt: "To make sure your book is in its best possible form, our book proofreaders catch every typo, grammar mistake, and formatting inconsistency to deliver a polished, professional manuscript. Don’t risk your credibility and let our expert proofreaders make sure your book is ready to impress readers from the very first page.",
+  InnerServicesItem: [
+    {
+      title: "First Impressions Matter",
+      txt: "Your book might have an amazing story or groundbreaking insights, but even one typo can distract readers and make your work look unprofessional. Book proofreading ensures your first impression is polished and powerful.",
+    },
+    {
+      title: "Grammar & Punctuation Are Non-Negotiable",
+      txt: "Misplaced commas, subject-verb disagreements, or run-on sentences can confuse readers and dilute your message. A thorough proofread catches those sneaky errors your brain auto-corrects while reading.",
+    },
+    {
+      title: "Consistency Keeps Readers Immersed",
+      txt: "Did your character’s name change halfway through? Is the formatting inconsistent from chapter to chapter? Proofreading ensures style, tone, formatting, and facts stay consistent from start to finish.",
+    },
+    {
+      title: "Your Brain Fills in the Gaps, Proofreaders Don’t",
+      txt: "As the author, you’re too close to your own writing. You’ll read what you meant to say, not what’s actually there. That’s why having a fresh, trained set of eyes is key to spotting overlooked errors.",
+    },
+    {
+      title: "Better Reviews, Bigger Impact",
+      txt: "A clean, professional book earns reader trust and better reviews. Typos, grammar errors, and awkward phrasing can hurt your credibility and your sales. Proofreading helps protect your reputation and your ROI.",
+    },
+  ],
+};
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Why Choose Our Professional Proofreading Services?",
-    desc: "",
-    ServicesItem: [
-        {
-            title: "Unmatched Quality",
-            txt: "Our proofreading experts go beyond basic error-checking, ensuring flawless readability and coherence in your book. As a leading proofreading company, we provide meticulous online proofreading services that refine your manuscript to perfection, making it publication-ready.",
-        },
-        {
-            title: "Expert Proofreaders ",
-            txt: "Our team consists of highly skilled professionals specializing in book proofreading services. They meticulously review every sentence, eliminating grammatical errors, typos, and inconsistencies, ensuring your book meets industry standards.",
-        },
-        {
-            title: "Money-Back Guarantee",
-            txt: "We stand behind our professional proofreading services with a money-back guarantee. If you're not completely satisfied with our best proofreading services, we’ll work on revisions until you are. Your satisfaction is our top priority",
-        },
-        {
-            title: "Available 24/7 for Quick Turnarounds",
-            txt: "Time-sensitive projects? No problem! Our professional proofreading company operates 24/7 to ensure you receive timely and efficient proofreading services whenever you need them.",
-        },
-        {
-            title: "Affordable Pricing That Works for You",
-            txt: "We offer cost-effective proofreading service packages tailored to fit your budget. Whether you’re an aspiring author or a seasoned writer, our book proofreading services ensure that quality never comes at a high price.",
-        },
-        {
-            title: "Customer-Centric Approach with Lightning-Fast Responses",
-            txt: "We value your trust. Our customer support team responds swiftly to your queries, ensuring that every concern regarding our online proofreading services is addressed with efficiency and care.",
-        },
+  subtitle: "Why Authors Trust Us",
+  title: "Authors Choose Us for Flawless Final Drafts",
+  desc: "",
+  ServicesItem: [
+    {
+      title: "Experienced Proofreaders",
+      txt: "Our team consists of skilled professionals with extensive experience in proofreading manuscripts. We know exactly what to look for, ensuring your book is flawless.",
+    },
+    {
+      title: "Quick Turnaround",
+      txt: "We understand the importance of meeting deadlines. Our proofreading service offers fast yet thorough editing, so your book stays on schedule for publication.",
+    },
+    {
+      title: "Attention to Detail",
+      txt: "We don’t just catch obvious typos. Our proofreaders are trained to spot subtle errors, inconsistencies, and formatting issues that could impact the overall quality of your manuscript.",
+    },
+    {
+      title: "Consistency Across the Book",
+      txt: "Whether it’s tone, style, or structure, we ensure your book is consistent from start to finish, giving it a polished, professional feel that resonates with readers.",
+    },
+    {
+      title: "Quality Assurance",
+      txt: "We take pride in delivering the highest-quality proofreading service. Your manuscript goes through multiple rounds of review, ensuring no detail is overlooked and the final product is error-free.",
+    },
+    {
+      title: "Trusted by Authors",
+      txt: "Our reputation speaks for itself. Authors trust us because of our reliable, thorough service, and we’ve helped countless manuscripts reach their full potential.",
+    },
+  ],
+};
 
-    ]
-}
-
-
-import BookImg from "media/companylogo.webp"
+import BookImg from "media/companylogo.webp";
 export const ProcessData = {
-    subtitle: "Our Process",
-    title: "Our Proofreading Process – Step by Step",
-    txt: "Our approach ensures that every aspect of your work is thoroughly examined and refined.",
-    img: BookImg.src,
-    ProcessDataItem1: [
-        {
-            title: "Initial Manuscript Review",
-            txt: "Before commencing the proofreading process, we conduct a comprehensive review of your manuscript. This involves assessing the overall structure, evaluating the coherence of the narrative, and identifying any glaring inconsistencies or areas that may require attention."
-        },
-        {
-            title: "First Proofreading Pass – Grammar & Spelling Fixes",
-            txt: "Our focus is on rectifying these issues without altering your unique voice or style. We pay close attention to common pitfalls, such as homophones, comma splices, and subject-verb agreement errors, ensuring that your manuscript adheres to standard grammatical conventions."
-        },
-    ],
-    ProcessDataItem2: [
-        {
-            title: "Style & Consistency Check",
-            txt: "We ensure that formatting elements, tone, and language usage remain uniform throughout the text. This includes verifying the consistent use of character names, locations, and terminology, as well as ensuring dialogue formatting and tense usage are applied uniformly. We also check for adherence to specific style guides, such as Chicago, APA, or MLA, as required."
-        },
-        {
-            title: "Sentence Flow & Readability Enhancements",
-            txt: "Beyond technical corrections, we focus on enhancing the flow and readability of your sentences. This involves restructuring sentences for clarity, eliminating redundancy, and ensuring that each paragraph transitions smoothly to the next."
-        },
-    ],
-    ProcessDataItem3: [
-        {
-            title: "Final Quality Check Before Submission",
-            txt: "Before finalizing the manuscript, we conduct a thorough quality check to identify and correct any remaining typographical errors or inconsistencies. This final pass ensures that your manuscript meets publishing standards, whether you are pursuing self-publishing or traditional publishing routes. "
-        },
-    ]
-}
+  subtitle: "Our Process",
+  title: "Our Five Step Formula for a Flawless Book",
+  txt: "We follow a thorough book proofreading process to refine your manuscript. From fixing grammar to ensuring consistent formatting, we guarantee a flawless, professional book.",
+  img: BookImg.src,
+  ProcessDataItem1: [
+    {
+      title: "Initial Read-Through",
+      txt: "The first step is a comprehensive read-through to understand the content, flow, and structure of the manuscript. During this phase, the proofreader gets familiar with the tone, style, and overall narrative of the book. This helps identify any glaring issues related to content, voice, or inconsistencies early on.",
+    },
+    {
+      title: "Grammar and Punctuation Check",
+      txt: "After the initial read-through, the proofreader focuses on correcting grammar, punctuation, and spelling. This includes ensuring proper sentence structure, subject-verb agreement, use of commas, semicolons, and fixing typos. Every error is carefully addressed to enhance readability and clarity.",
+    },
+  ],
+  ProcessDataItem2: [
+    {
+      title: "Consistency Review",
+      txt: "Next, the manuscript undergoes a consistency check. This includes reviewing character names, settings, and timeline details to ensure there are no inconsistencies or contradictions. The proofreader also verifies that the style, tone, and formatting are consistent throughout the entire book, ensuring a cohesive reading experience.",
+    },
+    {
+      title: "Formatting and Layout Review",
+      txt: "At this stage, the proofreader checks the formatting of the manuscript. This includes verifying the proper use of headings, subheadings, page numbers, fonts, margins, and overall layout. Ensuring proper alignment and readability on each page helps the book look professional, whether in print or digital formats.",
+    },
+  ],
+  ProcessDataItem3: [
+    {
+      title: "Final Quality Check",
+      txt: "The final step is a thorough, detailed quality check. The proofreader goes through the manuscript one last time to ensure no errors or issues were overlooked in previous stages. This includes checking for any typographical, grammatical, or formatting mistakes that might have been missed earlier. It’s the final polish that ensures the book is ready for publication.",
+    },
+  ],
+};
 
 export const QuoteData = {
-    subtitle: "",
-    title: "Stop Staring at That Blank Page.",
-    txt: (<>
-        Don’t let your story stay trapped in your head.<br />
-        It deserves more than a ‘someday.’<br />
-        <strong>Today is that day! </strong><br />
-        Let’s get your book written, published, and out in the world :)
-    </>),
-    formtitle: "Tell us about your Book!",
-} 
+  subtitle: "",
+  title: "Don’t let errors hold you back!",
+  txt: (
+    <>
+      Reach out today and let our expert proofreaders perfect your book before
+      publishing.
+    </>
+  ),
+  formtitle: "Tell us about your Book!",
+};

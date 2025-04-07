@@ -20,7 +20,7 @@ export default function Page() {
     <>
       <Banenr data={BannerData} />
       <Clients />
-      <ServicesForm title="Get a Free Proofreading Assessment Today" />
+      <ServicesForm title="Perfect Pages Are One Click Away" />
       <BestSeller innerPage={true} data={BestSellerData} />
       <InnerServices data={InnerServicesData} />
       <Services data={ServicesData} />
