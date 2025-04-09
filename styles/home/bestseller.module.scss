@@ -102,7 +102,7 @@
                                 text-align: center;
                                 letter-spacing: -0.165px;
                                 color: #FFFFFF;
-                                display: flex;
+                                display: none;
                                 justify-content: center;
                                 align-items: center;
                                 margin: auto;
@@ -130,9 +130,7 @@
                                     transition: all 0.3s ease;
                                 }
 
-                                .btnReaMore {
-                                    display: flex;
-                                }
+                            
                             }
                         }
                     }
