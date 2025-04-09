@@ -1,12 +1,13 @@
 User-agent: *
 Disallow: 
+Disallow: /_next/
 Disallow: /*.webp$
 Disallow: /*.js$
+Disallow: /*.css$
 Disallow: /*.ico$
 Disallow: /*.png$
-Disallow: /*.jpge$
+Disallow: /*.jpeg$
 Disallow: /*.jpg$
 Disallow: /*.woff2$
-Disallow: /*.ico$
 
 Sitemap: https://www.bookwriting.us/sitemap.xml

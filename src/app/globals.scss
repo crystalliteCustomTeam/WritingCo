@@ -12,6 +12,11 @@ body {
         user-drag: none;
         -webkit-user-drag: none;
     }
+    video{
+        pointer-events: none;
+        user-drag: none;
+        -webkit-user-drag: none;
+    }
 
     ul {
         list-style: none;

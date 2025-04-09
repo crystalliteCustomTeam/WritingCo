@@ -16,6 +16,7 @@ const UniqueButton = ({ center, BgBlack, txt, SimpleBtn, OneBtn, whiteBtn }) => 
                 <div className={`${SimpleBtn ? styles.SimpleBtn : ""}`} onClick={() => handleClick()}>
                     <div className={styles.btnStyle}>{txt}</div>
                 </div>
+                
                 :
                 <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""} ${whiteBtn ? styles.whiteBtn : ""}`} >
                     <div className={styles.btnStyle} onClick={() => handleClick()}>{txt}</div>
