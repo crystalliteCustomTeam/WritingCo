@@ -8,14 +8,14 @@ export const metadata = {
     openGraph: {
         title: "Check Our Portfolio To See Top Selling Books Published By Us",
         description: "Take a tour to our portfolio and check the quality of the work you will get from Book Writing where creativity meets storytelling.",
-        url: '/Portfolio',
+        url: '/portfolio',
         siteName: 'Book Writing',
         locale: 'en_US',
         type: 'website',
         images: "https://www.bookwriting.us/logo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/Portfolio' },
+    alternates: { canonical: '/portfolio' },
     //===== No-Index =====
     robots: {
         index: false,
