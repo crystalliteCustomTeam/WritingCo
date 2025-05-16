@@ -1,7 +1,6 @@
 import styles from "@/styles/services/blogs.module.scss"
 import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
-
 import Link from "next/link"
 
 
@@ -24,10 +23,10 @@ const Blogs = ({ data, blogPage }) => {
                                     <Image src={item.img} alt="Blog Image" fill />
                                 </div>
                                 <div className={styles.blogTxt}>
-                                    <div className={styles.categoryItem}>{item.category}</div>
-                                    <h5>{item.title}</h5>
-                                    <div className={styles.datatime}>{item.date} . {item.time}</div>
+                                    <h5><Link href={item.link}>{item.title}</Link></h5>
+                                    <div className={styles.datatime}>{item.date} | <span>{item.category}</span></div>
                                     <p>{item.txt}</p>
+                                    <Link href={item.link} className={styles.btnMore}>Read More</Link>
                                 </div>
 
                             </div>

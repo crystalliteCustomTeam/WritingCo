@@ -16,52 +16,29 @@ export const BlgosData = {
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
         {
-            title: "Still Running Your Business Like It’s 1999?",
-            date: "01 Jan, 2025",
-            time: "26 min",
-            txt: "Paper spreadsheets, endless emails, and manual processes slowing you down? Let’s bring your business into the future.",
+            title: "The Beginner’s Blueprint to Writing Their First Book",
+            date: "16 May, 2025",
+            txt: "Have you ever dreamt of writing a book but felt overwhelmed by where to start? You’re not alone! Many aspiring authors sit with creative book ideas swirling in their minds,",
             category: "Book Writing",
             img: IMG01.src,
+            link: "/how-technical-seo-experts-in-chicago-optimize-websites",
         },
         {
             title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
             date: "02 Jan, 2025",
-            time: "3 hour",
             txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
             category: "Book Editing",
             img: IMG02.src,
-        }, {
-            title: "Stop Wasting Money on Ads That Don’t Work",
-            date: "03 Jan, 2025",
-            time: "26 min",
-            txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
-            category: "Book Publishing",
-            img: IMG03.src,
-        }
-        , {
-            title: "Why Does Your App Look Like It’s Stuck in 2010?",
-            date: "04 Jan, 2025",
-            time: "26 min",
-            txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
-            category: "Children Book",
-            img: IMG04.src,
-        }
-        , {
-            title: "Your Website Isn’t Invisible—It’s Just Lost",
-            date: "05 Jan, 2025",
-            time: "26 min",
-            txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
-            category: "Book Publishing",
-            img: IMG05.src,
-        }
-        , {
-            title: "Why Does Your Website Take Forever to Load?",
-            date: "06 Jan, 2025",
-            time: "26 min",
-            txt: "Slow websites, outdated designs, and confusing layouts are costing you customers. We’ll show you how to build a site that’s fast, easy to use, and impossible to forget. ",
+            link: "#",
+        },
+        {
+            title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
+            date: "02 Jan, 2025",
+            txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
             category: "Book Editing",
-            img: IMG06.src,
-        }
+            img: IMG02.src,
+            link: "#",
+        },
     ]
 
 }
