@@ -13,10 +13,7 @@ export const metadata = {
     alternates: {
         canonical: "https://www.bookwriting.us/blog",
     },
-    robots: {
-        index: false,
-        follow: false,
-    },
+
 };
 
 export default function BlogLayout({ children }) {
