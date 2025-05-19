@@ -32,10 +32,6 @@ export async function generateMetadata({ params }) {
             description: blog.description,
             images: ["https://www.bookwriting.us/logo.png"],
         },
-        robots: {
-            index: false,
-            follow: false,
-        },
         alternates: {
             canonical: `https://www.bookwriting.us/${blog.slug}`,
         },

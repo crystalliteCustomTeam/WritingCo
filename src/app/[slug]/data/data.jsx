@@ -18,7 +18,7 @@ export const BlogData = [
     tit: "Book Writing Guide for First-Time Authors - Book Writing",
     description:
       "Read to find out how expert book writing services can guide first-time authors through ideation, outlines, drafting, and polishing to deliver a winning manuscript.",
-    slug: "how-technical-seo-experts-in-chicago-optimize-websites",
+    slug: "book-writing-guide-for-first-time-authors",
     title: "The Beginner’s Blueprint to Writing Their First Book",
     date: "16 May, 2025",
     img: IMG01.src,

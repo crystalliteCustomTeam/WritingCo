@@ -17,9 +17,8 @@ export const BlgosData = {
             txt: "Have you ever dreamt of writing a book but felt overwhelmed by where to start? You’re not alone! Many aspiring authors sit with creative book ideas swirling in their minds,",
             category: "Book Writing",
             img: IMG01.src,
-            link: "/how-technical-seo-experts-in-chicago-optimize-websites",
+            link: "/book-writing-guide-for-first-time-authors",
         },
-
     ]
 
 }
