@@ -1,4 +1,4 @@
-import IMG01 from "media/blogs/posts/blog1.webp"
+import IMG01 from "media/blogs/posts/Post01.webp"
 import Link from "next/link";
 import CommonBtn from "@/src/app/[slug]/commonBtn";
 

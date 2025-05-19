@@ -4,12 +4,8 @@ export const BannerData = {
     txt: "Need personalized guidance? Our experts are here to help! Let’s discuss how we can tailor our services to bring your book to life.",
 }
 // Blgos
-import IMG01 from "media/blogs/posts/blog1.webp"
-import IMG02 from "media/blogs/posts/blog1.webp"
-import IMG03 from "media/blogs/posts/blog1.webp"
-import IMG04 from "media/blogs/posts/blog1.webp"
-import IMG05 from "media/blogs/posts/blog1.webp"
-import IMG06 from "media/blogs/posts/blog1.webp"
+import IMG01 from "media/blogs/posts/Post01.webp"
+
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Our Recent Blogs",
@@ -23,22 +19,7 @@ export const BlgosData = {
             img: IMG01.src,
             link: "/how-technical-seo-experts-in-chicago-optimize-websites",
         },
-        {
-            title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
-            date: "02 Jan, 2025",
-            txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
-            category: "Book Editing",
-            img: IMG02.src,
-            link: "#",
-        },
-        {
-            title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
-            date: "02 Jan, 2025",
-            txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
-            category: "Book Editing",
-            img: IMG02.src,
-            link: "#",
-        },
+
     ]
 
 }
