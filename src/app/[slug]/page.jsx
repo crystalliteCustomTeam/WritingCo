@@ -53,13 +53,14 @@ export default function BlogPost({ params }) {
                                 <div className={style.blogInfo}>
                                     {blog.date} . <span>{getDaysAgo(blog.date)} days ago</span>
                                 </div>
-                                <div className={style.singleBlogImg}>
-                                    <Image src={blog.img} alt="Banner Blog" fill />
-                                </div>
+
                             </div>
                         </Col>
                     </Row>
                     <Col md={12} lg={8} className="order-2 order-lg-1">
+                        <div className={style.singleBlogImg}>
+                            <Image src={blog.img} alt="Banner Blog" fill />
+                        </div>
                         <div className={style.singleBlogBox}>
                             <div className={style.singleBlogContent}>
                                 {blog.maintxt}
