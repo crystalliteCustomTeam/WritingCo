@@ -5,6 +5,7 @@ export const BannerData = {
 }
 // Blgos
 import IMG01 from "media/blogs/posts/Post01.webp"
+import IMG02 from "media/blogs/posts/Post02.webp"
 
 export const BlgosData = {
     subtitle: "Our Blogs",
@@ -16,7 +17,7 @@ export const BlgosData = {
             date: "20 May, 2025",
             txt: "Do you want your readers returning time and again to explore the world you created in your amazing book? Whether you write fiction or non-fiction, ",
             category: "Book Writing",
-            img: IMG01.src,
+            img: IMG02.src,
             link: "/scale-your-author-brand-with-multi-book-series",
         },
         {

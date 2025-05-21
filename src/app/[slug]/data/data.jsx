@@ -1,4 +1,5 @@
 import IMG01 from "media/blogs/posts/Post01.webp"
+import IMG02 from "media/blogs/posts/Post02.webp"
 import Link from "next/link";
 import CommonBtn from "@/src/app/[slug]/commonBtn";
 
@@ -128,7 +129,7 @@ export const BlogData = [
     slug: "scale-your-author-brand-with-multi-book-series",
     title: "Brand Scaling with Multi-Book Series Using Book Writing Services",
     date: "20 May, 2025",
-    img: IMG01.src,
+    img: IMG02.src,
     maintxt: (<>
       <p>Do you want your readers returning time and again to explore the world you created in your amazing book? Whether you write fiction or non-fiction, launching a multi-book series can turn casual interest into deep loyalty. Readers who love the first book are eager for the next, keeping your momentum high and your brand growing.</p>
       <p>Yet planning and producing several book volumes can be challenging. How do you keep characters consistent across stories? How do you schedule writing so each book meets its deadline? What happens if your energy or focus dips halfway through?</p>
