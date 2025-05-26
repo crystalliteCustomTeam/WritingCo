@@ -6,12 +6,21 @@ export const BannerData = {
 // Blgos
 import IMG01 from "media/blogs/posts/Post01.webp"
 import IMG02 from "media/blogs/posts/Post02.webp"
+import IMG03 from "media/blogs/posts/Post03.webp"
 
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Our Recent Blogs",
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
+        {
+            title: "How To Hire Your First Book Writing Company",
+            date: "26 May, 2025",
+            txt: "Have you ever wanted to write a book but felt too overwhelmed by the process? You're not alone. Thousands of aspiring authors are torn between the concept and the finished work.",
+            category: "Book Writing",
+            img: IMG03.src,
+            link: "/how-to-hire-your-first-book-writing-company",
+        },
         {
             title: "Brand Scaling with Multi-Book Series Using Book Writing Services",
             date: "20 May, 2025",
