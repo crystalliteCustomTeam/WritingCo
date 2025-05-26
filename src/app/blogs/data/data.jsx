@@ -13,6 +13,7 @@ export const BlgosData = {
     title: "Our Recent Blogs",
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
+
         {
             title: "How To Hire Your First Book Writing Company",
             date: "26 May, 2025",
