@@ -4,6 +4,13 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import TableOfContents from "./tablecontent";
 
+export function generateStaticParams() {
+    return BlogData.map((post) => ({
+        slug: post.slug,
+    }));
+}
+
+
 function getDaysAgo(dateString) {
     const postDate = new Date(dateString);
     const today = new Date();
