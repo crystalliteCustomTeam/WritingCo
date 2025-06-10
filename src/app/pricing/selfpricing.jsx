@@ -12,7 +12,7 @@ const SelfPricing = ({ data }) => {
                         <div className={styles.selfServicesContainer}>
 
                             {data.map((item, index) => (
-                                <div className={styles.selfItem}>
+                                <div className={styles.selfItem} key={index}>
                                     <div className={styles.selfImage}>
                                         <Image src={item.img} alt="banner Image" fill />
                                     </div>

@@ -4,14 +4,11 @@ import Image03 from "media/pricing/Image03.webp"
 
 export const ContentData = [
     {
+        subtitle: "Marketing Services",
         title: "Book Marketing",
-        txt: "We will help market your book so that it almost guarantees that you grow your audience drastically. Building custom marketing strategies is what we do best!",
-        img: Image01.src
-    },
-    {
-        title: "Book Marketing",
-        txt: "Our book publishers are the best in the business at what they do. We will make all your dreams come true by making you the next bestselling author.",
-        img: Image02.src
+        txt: "We specialize in custom book marketing strategies designed to grow your audience and elevate your author brand. Whether you're a first-time author or a seasoned writer, our targeted marketing campaigns are built to maximize your book’s visibility across digital platforms. From social media promotion to author branding and email marketing for authors, we tailor every step to your unique goals.",
+        img: Image02.src,
+        colum: true,
     },
     {
         subtitle: "Writing Services",
