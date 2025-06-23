@@ -7,13 +7,21 @@ export const BannerData = {
 import IMG01 from "media/blogs/posts/Post01.webp"
 import IMG02 from "media/blogs/posts/Post02.webp"
 import IMG03 from "media/blogs/posts/Post03.webp"
+import IMG04 from "media/blogs/posts/Post04.webp"
 
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Our Recent Blogs",
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
-
+        {
+            title: "How Expert Proofreading and Editing Make A Valuable Difference in Book Writing",
+            date: "23 June, 2025",
+            txt: "Writing a book, whether it’s a heartfelt memoir, a detailed nonfiction guide, or an exciting novel, is just the first step. Your first draft is rarely your final masterpiece.",
+            category: "Book Writing",
+            img: IMG04.src,
+            link: "/how-expert-proofreading-and-editing-polish-your-book",
+        },
         {
             title: "How To Hire Your First Book Writing Company",
             date: "26 May, 2025",
