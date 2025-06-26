@@ -415,8 +415,8 @@ export const BlogData = [
       </div>
       <div id="Section-5">
         <h2>Effective Strategies for Editing and Proofreading</h2>
+        <p>Even if you’re working with a professional editor or proofreader, you should still do a thorough self-review first. Here’s how:</p>
         <Image src={Post02.src} alt="Why Editing and Proofreading Matter in Book Writing" width={1600} height={890} />
-        <p>Even if you're working with a professional editor or proofreader, you should still do a thorough self-review first. Here’s how:</p>
       </div>
       <div id="Section-6">
         <h2>5-Step Self-Editing Checklist</h2>
