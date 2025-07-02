@@ -1,13 +1,15 @@
-# *
+
 User-agent: *
 Allow: /
 
-# ChatGPT-User
+User-agent: Google-Extended
+Allow: /
+
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
-# Host
-Host: https://www.bookwriting.us
+User-agent: CCBot
+Allow: /
 
-# Sitemaps
+User-agent:
 Sitemap: https://www.bookwriting.us/sitemap.xml
