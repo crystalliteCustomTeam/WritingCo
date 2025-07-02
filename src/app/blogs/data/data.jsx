@@ -8,12 +8,21 @@ import IMG01 from "media/blogs/posts/Post01.webp"
 import IMG02 from "media/blogs/posts/Post02.webp"
 import IMG03 from "media/blogs/posts/Post03.webp"
 import IMG04 from "media/blogs/posts/Post04.webp"
+import IMG05 from "media/blogs/posts/Post05.webp"
 
 export const BlgosData = {
     subtitle: "Our Blogs",
     title: "Our Recent Blogs",
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
+        {
+            title: "Launching Your First Children’s Book with Expert Book Writing Services",
+            date: "02 July, 2025",
+            txt: "You want to write a children’s book? At first glance, writing a children’s book might seem simple after all; they’re shorter and use simpler language than books for adults, right?",
+            category: "Book Writing",
+            img: IMG05.src,
+            link: "/how-to-write-a-childrens-book",
+        },
         {
             title: "How Expert Proofreading and Editing Make A Valuable Difference in Book Writing",
             date: "23 June, 2025",
