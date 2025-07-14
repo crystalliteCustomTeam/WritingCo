@@ -1,0 +1,170 @@
+.ctaBox {
+  padding: 50px;
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 20px 0px;
+  .subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.164664px;
+    color: #ff7f3e;
+    margin-bottom: 15px;
+  }
+  .titleTxt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: -0.238982px;
+    color: #000;
+    margin-bottom: 20px;
+    span {
+      background: #ff7f3e;
+      background: linear-gradient(9.84deg, #ffffff -12.54%, #ff7f3e 103.72%);
+      padding: 0px 20px;
+      display: inline-block;
+      line-height: 70px;
+      color: #000;
+      border-radius: 4px;
+    }
+  }
+  a {
+    color: #fff !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .ctaBox {
+    padding: 45px;
+    margin: 20px 0px;
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 50px;
+      line-height: 70px;
+      span {
+        padding: 0px 20px;
+        line-height: 60px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .ctaBox {
+    padding: 40px;
+    margin: 15px 0px;
+    .subtitle {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 45px;
+      line-height: 65px;
+      span {
+        padding: 0px 20px;
+        line-height: 55px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .ctaBox {
+    padding: 35px;
+    margin: 15px 0px;
+    .subtitle {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 40px;
+      line-height: 60px;
+      span {
+        padding: 0px 15px;
+        line-height: 50px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .ctaBox {
+    padding: 20px 10px;
+    margin: 10px 0px;
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 32px;
+      line-height: 50px;
+      span {
+        padding: 0px 15px;
+        line-height: 40px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .ctaBox {
+    padding: 20px 10px;
+    margin: 10px 0px;
+    .subtitle {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 26px;
+      line-height: 44px;
+      margin-bottom: 15px;
+      span {
+        padding: 0px 15px;
+        line-height: 40px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ctaBox {
+    padding: 30px;
+    margin: 10px 0px;
+    .subtitle {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 32px;
+      line-height: 55px;
+
+      span {
+        padding: 0px 20px;
+        line-height: 40px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .ctaBox {
+    padding: 20px 10px;
+    margin: 10px 0px;
+    .subtitle {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 10px;
+    }
+    .titleTxt {
+      font-size: 22px;
+      line-height: 40px;
+      margin-bottom: 15px;
+      span {
+        padding: 0px 15px;
+        line-height: 40px;
+      }
+    }
+  }
+}

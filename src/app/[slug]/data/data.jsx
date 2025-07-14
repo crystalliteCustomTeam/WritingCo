@@ -10,6 +10,7 @@ import Post02 from "media/blogs/post4/pic02.webp"
 import Post5_1 from "media/blogs/post5/image01.webp"
 
 import Image from "next/image";
+import CtatTitle from "../ctatitle"
 export const BlogData = [
   {
     tableContent: [
