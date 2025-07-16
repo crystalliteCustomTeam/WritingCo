@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Terms of use - Hire Professional Book Writing Experts in the US",
-    description: "",
+    title: "Terms of use - Book Writing Company in US",
+    description: "Review Book Writing's Terms of Use to understand site conditions, content rights, electronic communications, and important disclaimers for using our services.",
     //===== OG Tags =====
     openGraph: {
-        title: "Terms of use - Hire Professional Book Writing Experts in the US",
-        description: "",
+        title: "Terms of use - Book Writing Company in US",
+        description: "Review Book Writing's Terms of Use to understand site conditions, content rights, electronic communications, and important disclaimers for using our services.",
         url: '/terms-of-use',
         siteName: 'Book Writing',
         locale: 'en_US',
