@@ -87,8 +87,8 @@ const Footer = () => {
                         <Col md={12} lg={4} className="my-auto">
                             <div className={styles.copyItem}>
                                 <ul className={styles.copyLinks}>
-                                    <li><Link href="">Terms of Use</Link></li>
-                                    <li><Link href="">Privacy Policy</Link></li>
+                                    <li><Link href="/terms-of-use">Terms of Use</Link></li>
+                                    <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                                 </ul>
                             </div>
                         </Col>
