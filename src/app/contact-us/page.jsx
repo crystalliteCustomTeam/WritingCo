@@ -3,7 +3,6 @@ import { Col, Container, Form, Row } from "react-bootstrap";
 import styles from "@/styles/contact/contactus.module.scss";
 import CtaContact from "@/src/app/contact-us/ctacontact";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 
 export default function Page() {
   const [ip, setIP] = useState({});
