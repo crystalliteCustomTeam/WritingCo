@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Page() {
-  const [ip, setIP] = useState("");
+  const [ip, setIP] = useState({});
   const [pagenewurl, setPagenewurl] = useState("");
   const [isDisabled, setIsDisabled] = useState(false);
   const [formStatus, setFormStatus] = useState("Submit");
@@ -16,8 +16,6 @@ export default function Page() {
     const getIPData = async () => {
       try {
         const response = await fetch("https://ipinfo.io/?token=229b1c3fa2e54c");
-        if (!response.ok)
-          throw new Error(`HTTP error! Status: ${response.status}`);
         const data = await response.json();
         setIP(data);
       } catch (error) {
@@ -28,9 +26,6 @@ export default function Page() {
     setPagenewurl(window.location.href);
   }, []);
 
-  const router = usePathname();
-  const currentRoute = router;
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
@@ -40,7 +35,7 @@ export default function Page() {
     const name = e.target.name.value.trim();
     const email = e.target.email.value.trim();
     const phone = e.target.phone.value.trim();
-    const message = e.target.comment.value.trim();
+    const comment = e.target.comment.value.trim();
     const person = e.target.person?.value || "";
 
     if (!name || !email || !phone) {
@@ -50,52 +45,71 @@ export default function Page() {
       return;
     }
 
-    // Capture selected services as an array
     const selectedServices = Array.from(
-        document.querySelectorAll('input[type="checkbox"]:checked')
-    ).map(checkbox => checkbox.value).join(", ");
+      document.querySelectorAll('input[type="checkbox"]:checked')
+    )
+      .map((checkbox) => checkbox.value)
+      .join(", ");
 
-    const data = {
+    const location = {
+      ip: ip.ip || "",
+      country: ip.country || "",
+      city: ip.city || "",
+      state: ip.region || "",
+      zip: ip.postal || "",
+    };
+
+    const payload = {
+      name,
+      email,
+      phone,
+      comment,
+      person,
+      services: selectedServices,
+      location,
       page_url: pagenewurl,
-      user_ip: ip.ip || "",
-      lead_data: {
-        name,
-        email,
-        phone,
-        message,
-        person,
-        services: selectedServices,
-      },
     };
 
     try {
-      const response = await fetch(
-        "https://brandsapi.pulse-force.com/api/v1/leads",
-        {
-          method: "POST",
-          headers: {
-            Accept: "application/json, text/plain, */*",
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        }
-      );
+      // Submit to Google Sheets (internal API)
+      await fetch("/api/contact-from", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
 
-      if (response.ok) {
-        console.log("Response Successful", response);
-        window.location.href = "/thank-you";
-      } else {
-        console.error("Failed to submit", response.status);
-        setError("Something went wrong, please try again.");
-      }
+      // Submit to External Email API
+      await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          recipient: email,
+          brand_id: 2,
+          name: name,
+          phone: phone,
+          website: pagenewurl,
+          custom_data: {
+            message: comment,
+            service: selectedServices,
+            who: person,
+            ip: location.ip,
+            country: location.country,
+            city: location.city,
+            url: pagenewurl,
+          },
+        }),
+      });
+
+      window.location.href = "/thank-you";
     } catch (err) {
-      console.error("Error:", err);
-      setError("Something went wrong, please try again.");
+      console.error("Error submitting form:", err);
+      setError("Something went wrong. Please try again.");
     } finally {
       setFormStatus("Submit");
       setIsDisabled(false);
     }
   };
+
 
   return (
     <>

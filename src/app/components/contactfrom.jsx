@@ -3,90 +3,103 @@ import styles from "@/styles/components/contactform.module.scss"
 import Link from "next/link"
 import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
-import { usePathname } from 'next/navigation'
+
 
 const ContactFrom = ({ lp2, vertical, txt, popop }) => {
-    const [ip, setIP] = useState('');
-    const [pagenewurl, setPagenewurl] = useState('');
+    const [ip, setIP] = useState({});
+    const [pagenewurl, setPagenewurl] = useState("");
     const [isDisabled, setIsDisabled] = useState(false);
-    const [formStatus, setFormStatus] = useState('Get a quote');
-    const [error, setError] = useState('');
+    const [formStatus, setFormStatus] = useState("Submit");
+    const [error, setError] = useState("");
 
-    // Load IP address from the API
-    const getIPData = async () => {
-        try {
-            const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            const data = await response.json();
-            setIP(data);
-        } catch (error) {
-            console.error('Error fetching IP data:', error);
-        }
-    };
+
     useEffect(() => {
+        const getIPData = async () => {
+            try {
+                const response = await fetch("https://ipinfo.io/?token=229b1c3fa2e54c");
+                const data = await response.json();
+                setIP(data);
+            } catch (error) {
+                console.error("Error fetching IP data:", error);
+            }
+        };
         getIPData();
         setPagenewurl(window.location.href);
     }, []);
 
-    const router = usePathname();
-    const currentRoute = router;
-
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError('');
+        setError("");
         setFormStatus("Processing...");
         setIsDisabled(true);
 
-        // Validate fields
         const name = e.target.name.value.trim();
         const email = e.target.email.value.trim();
         const phone = e.target.phone.value.trim();
-        const message = e.target.comment ? e.target.comment.value.trim() : "";
-
+        const comment = e.target.comment?.value || "";
 
         if (!name || !email || !phone) {
-            setError('Please fill in all required fields.');
+            setError("Please fill in all required fields.");
             setFormStatus("Submit");
             setIsDisabled(false);
             return;
         }
 
-        const currentdate = new Date().toLocaleString();
 
-        const leadData = {
+        const location = {
+            ip: ip.ip || "",
+            country: ip.country || "",
+            city: ip.city || "",
+            state: ip.region || "",
+            zip: ip.postal || "",
+        };
+
+        const payload = {
             name,
             email,
             phone,
-          };
-          if (message) {
-            leadData.message = message;
-        }
-
-        const data = {
+            comment,
+            location,
             page_url: pagenewurl,
-            user_ip: `${ip.ip}`,
-            lead_data: leadData,
         };
-        const JSONdata = JSON.stringify(data);
-        // First API call to your server
-        await fetch('https://brandsapi.pulse-force.com/api/v1/leads', {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSONdata
-        }).then((res) => {
-            console.log(`Response received ${res}`);
-            window.location.href = '/thank-you';
-            if (res.status === 200) {
-                console.log(`Response Successed ${res}`);
-            }
-        });
-    };
 
+        try {
+            // Submit to Google Sheets (internal API)
+            await fetch("/api/contact-from", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload),
+            });
+
+            // Submit to External Email API
+            await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    recipient: email,
+                    brand_id: 2,
+                    name: name,
+                    phone: phone,
+                    website: pagenewurl,
+                    custom_data: {
+                        message: comment,
+                        ip: location.ip,
+                        country: location.country,
+                        city: location.city,
+                        url: pagenewurl,
+                    },
+                }),
+            });
+
+            window.location.href = "/thank-you";
+        } catch (err) {
+            console.error("Error submitting form:", err);
+            setError("Something went wrong. Please try again.");
+        } finally {
+            setFormStatus("Submit");
+            setIsDisabled(false);
+        }
+    };
 
 
 
@@ -113,8 +126,12 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
                     </>
                 ) : null}
                 <div className={styles.contactBtn}>
-                    <button type="submit" className="commonBtn" disabled={isDisabled}>
-                        {txt ? txt : formStatus}
+                    <button
+                        type="submit"
+                        className="commonBtn"
+                        disabled={isDisabled}
+                    >
+                        {formStatus}
                     </button>
                 </div>
             </div>
