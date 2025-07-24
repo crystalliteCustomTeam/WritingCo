@@ -71,16 +71,14 @@ export default function Page() {
 
     try {
       // Submit to Google Sheets (internal API)
-      await fetch("api/contact-from", {
-        body: JSON.stringify(payload),
+      await fetch("/api/contact-from", {
         method: "POST",
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
       });
 
       // Submit to External Email API
-      await fetch("https://api.infinitidigital.us/api/send-brandemail", {
+      await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -101,7 +99,7 @@ export default function Page() {
         }),
       });
 
-      // window.location.href = "/thank-you";
+      //   window.location.href = "/thank-you";
     } catch (err) {
       console.error("Error submitting form:", err);
       setError("Something went wrong. Please try again.");
