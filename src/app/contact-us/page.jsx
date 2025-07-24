@@ -101,7 +101,7 @@ export default function Page() {
         }),
       });
 
-      window.location.href = "/thank-you";
+      // window.location.href = "/thank-you";
     } catch (err) {
       console.error("Error submitting form:", err);
       setError("Something went wrong. Please try again.");
