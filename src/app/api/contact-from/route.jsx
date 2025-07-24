@@ -18,7 +18,7 @@ export async function POST(request) {
 
         const clientEmail = process.env.CLIENT_EMAIL;
         const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-        const privateKey = process.env.PRIVATE_KEY.replace(/\\n/g, '\n');
+        const privateKey = (process.env.PRIVATE_KEY || '').replace(/\\n/g, '\n');
 
         if (!privateKey || !clientEmail || !spreadsheetId) {
             return NextResponse.json(
