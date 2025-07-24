@@ -7,12 +7,7 @@ export const dynamic = 'force-dynamic'; // prevent caching
 function getPrivateKey() {
     const base64Key = process.env.PRIVATE_KEY_B64;
     if (!base64Key) return null;
-    try {
-        return Buffer.from(base64Key, 'base64').toString('utf8');
-    } catch (err) {
-        console.error('Error decoding PRIVATE_KEY_B64:', err);
-        return null;
-    }
+    return Buffer.from(base64Key, 'base64').toString('utf8');
 }
 
 export async function POST(request) {
@@ -32,7 +27,7 @@ export async function POST(request) {
         // --- ENV validation ---
         const privateKey = getPrivateKey();
         if (!privateKey) {
-            console.error('PRIVATE_KEY_B64 is missing or invalid!');
+            console.log("PRIVATE_KEY_B64 first 50 chars:", process.env.PRIVATE_KEY_B64?.substring(0, 50));
             return NextResponse.json(
                 { success: false, error: 'Missing or invalid PRIVATE_KEY_B64' },
                 { status: 500 }
