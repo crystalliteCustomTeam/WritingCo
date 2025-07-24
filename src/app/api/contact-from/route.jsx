@@ -1,11 +1,25 @@
 import { NextResponse } from 'next/server';
 import { google } from 'googleapis';
 
-export const runtime = 'nodejs'; // googleapis requires Node.js runtime
+export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 let sheetsClient;
 
+// Helper: Decode Private Key
+function decodePrivateKey() {
+    if (process.env.GOOGLE_PRIVATE_KEY_BASE64) {
+        try {
+            return Buffer.from(process.env.GOOGLE_PRIVATE_KEY_BASE64, 'base64').toString('utf8');
+        } catch (e) {
+            console.error('Failed to decode GOOGLE_PRIVATE_KEY_BASE64:', e);
+            return '';
+        }
+    }
+    return (process.env.GOOGLE_PRIVATE_KEY || '').replace(/\\n/g, '\n');
+}
+
+// Helper: Get current time in Karachi timezone
 function nowInKarachi() {
     try {
         const formatter = new Intl.DateTimeFormat('en-US', {
@@ -39,8 +53,7 @@ export async function POST(request) {
         } = body ?? {};
 
         // --- Validate Env Vars ---
-        const rawKey = process.env.GOOGLE_PRIVATE_KEY || '';
-        const privateKey = rawKey.replace(/\\n/g, '\n');
+        const privateKey = decodePrivateKey();
         const clientEmail = process.env.GOOGLE_CLIENT_EMAIL;
         const spreadsheetId = process.env.GOOGLE_SHEET_ID;
 
