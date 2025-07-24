@@ -71,11 +71,16 @@ export default function Page() {
 
     try {
       // Submit to Google Sheets (internal API)
-      await fetch("/api/contact-from", {
+      const res = await fetch("/api/contact-from", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+
+      const result = await res.json();
+      if (!result.success) {
+        throw new Error(result.error || "Failed to submit form");
+      }
 
       // Submit to External Email API
       await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
@@ -99,10 +104,11 @@ export default function Page() {
         }),
       });
 
-      //   window.location.href = "/thank-you";
+      // Success redirect or message
+      // window.location.href = "/thank-you";
     } catch (err) {
       console.error("Error submitting form:", err);
-      setError("Something went wrong. Please try again.");
+      setError(err.message || "Something went wrong. Please try again.");
     } finally {
       setFormStatus("Submit");
       setIsDisabled(false);
