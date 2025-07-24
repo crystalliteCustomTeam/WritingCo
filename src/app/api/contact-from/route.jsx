@@ -1,13 +1,18 @@
 import { NextResponse } from 'next/server';
 import { google } from 'googleapis';
 
-export const dynamic = 'force-dynamic'; // avoid caching in Next.js app router
+export const dynamic = 'force-dynamic'; // prevent caching
 
+// --- Decode Base64 private key ---
 function getPrivateKey() {
-    const pk = process.env.PRIVATE_KEY;
-    if (!pk) return null;
-    // If the key was saved with literal '\n', convert them back to real newlines
-    return pk.includes('\\n') ? pk.replace(/\\n/g, '\n') : pk;
+    const base64Key = process.env.PRIVATE_KEY_B64;
+    if (!base64Key) return null;
+    try {
+        return Buffer.from(base64Key, 'base64').toString('utf8');
+    } catch (err) {
+        console.error('Error decoding PRIVATE_KEY_B64:', err);
+        return null;
+    }
 }
 
 export async function POST(request) {
@@ -24,12 +29,12 @@ export async function POST(request) {
             page_url,
         } = body ?? {};
 
-        // --- ENV validation -----------------------------------------------------
+        // --- ENV validation ---
         const privateKey = getPrivateKey();
         if (!privateKey) {
-            console.error('PRIVATE_KEY is missing!');
+            console.error('PRIVATE_KEY_B64 is missing or invalid!');
             return NextResponse.json(
-                { success: false, error: 'Missing PRIVATE_KEY' },
+                { success: false, error: 'Missing or invalid PRIVATE_KEY_B64' },
                 { status: 500 }
             );
         }
@@ -52,47 +57,44 @@ export async function POST(request) {
             );
         }
 
-        // --- Auth ---------------------------------------------------------------
+        // --- Auth with Google ---
         const auth = new google.auth.JWT({
             email: clientEmail,
             key: privateKey,
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
 
-        // Optional: fail fast if auth can’t be established
+        // Test auth connection
         await auth.authorize();
 
         const sheets = google.sheets({ version: 'v4', auth });
 
-        // --- Payload to sheet ---------------------------------------------------
+        // --- Prepare data ---
         const values = [[
-            name || '',                       // Name
-            email || '',                      // Email
-            phone || '',                      // Phone
-            comment || '',                    // Comment
-            person || '',                     // Person
-            services || '',                   // Services
-            location.ip || '',                // IP
-            location.country || '',           // Country
-            location.city || '',              // City
-            location.state || '',             // State
-            location.zip || '',               // ZIP
-            page_url || '',                   // PageURL
-            new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' }) // Timestamp
+            name || '',
+            email || '',
+            phone || '',
+            comment || '',
+            person || '',
+            services || '',
+            location.ip || '',
+            location.country || '',
+            location.city || '',
+            location.state || '',
+            location.zip || '',
+            page_url || '',
+            new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' })
         ]];
 
+        // --- Append to Google Sheet ---
         const appendRes = await sheets.spreadsheets.values.append({
             spreadsheetId,
-            range: 'Sheet1!A2', // assuming headers are in row 1
+            range: 'Sheet1!A2',
             valueInputOption: 'USER_ENTERED',
             requestBody: { values },
         });
 
-        const ok =
-            appendRes?.status === 200 &&
-            appendRes?.data?.updates?.updatedRows === 1;
-
-        if (!ok) {
+        if (appendRes?.status !== 200) {
             console.error('Google Sheets append failed:', appendRes?.data);
             return NextResponse.json(
                 { success: false, error: 'Google Sheets append failed' },
