@@ -72,13 +72,15 @@ export default function Page() {
     try {
       // Submit to Google Sheets (internal API)
       await fetch("/api/contact-from", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
 
       // Submit to External Email API
-      await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
+      await fetch("https://api.infinitidigital.us/api/send-brandemail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

@@ -66,13 +66,15 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
         try {
             // Submit to Google Sheets (internal API)
             await fetch("/api/contact-from", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload),
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
             });
 
             // Submit to External Email API
-            await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
+            await fetch("https://api.infinitidigital.us/api/send-brandemail", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -121,7 +123,7 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
                             <textarea placeholder="Description" name="comment"></textarea>
                         </div>
                         <div className={styles.para}>
-                            We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
+                            We take your privacy seriously. Read our <Link href="/privacy-policy">Privacy Policy</Link>
                         </div>
                     </>
                 ) : null}
