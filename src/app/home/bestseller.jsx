@@ -53,6 +53,8 @@ export const IndustryItem1 = [
     { title: "Oscar's Adventures", Img: ImgInd07.src, url: "#" },
 ];
 
+
+
 const BestSeller = ({ innerPage, landing, data }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })]);
     const pathname = usePathname();
