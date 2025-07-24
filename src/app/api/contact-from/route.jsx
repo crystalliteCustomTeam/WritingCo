@@ -5,14 +5,8 @@ export const dynamic = 'force-dynamic'; // prevent caching in Next.js API routes
 
 // --- Decode Base64 private key ---
 function getPrivateKey() {
-    try {
-        const base64Key = process.env.PRIVATE_KEY_B64;
-        if (!base64Key) return null;
-        return Buffer.from(base64Key, 'base64').toString('utf8');
-    } catch (err) {
-        console.error("Failed to decode PRIVATE_KEY_B64:", err);
-        return null;
-    }
+    const base64Key = process.env.PRIVATE_KEY_B64;
+    return Buffer.from(base64Key, 'base64').toString('utf8');
 }
 
 export async function POST(request) {
