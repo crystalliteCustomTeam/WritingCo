@@ -71,7 +71,7 @@ export default function Page() {
 
     try {
       // Submit to Google Sheets (internal API)
-      await fetch("/api/contact-from", {
+      await fetch("api/contact-from", {
         body: JSON.stringify(payload),
         method: "POST",
         headers: {
