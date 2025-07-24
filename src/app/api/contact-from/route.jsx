@@ -6,23 +6,9 @@ export const dynamic = 'force-dynamic';
 
 let sheetsClient;
 
-// Helper: Decode Private Key
-function decodePrivateKey() {
-    if (process.env.GOOGLE_PRIVATE_KEY_BASE64) {
-        try {
-            return Buffer.from(process.env.GOOGLE_PRIVATE_KEY_BASE64, 'base64').toString('utf8');
-        } catch (e) {
-            console.error('Failed to decode GOOGLE_PRIVATE_KEY_BASE64:', e);
-            return '';
-        }
-    }
-    return (process.env.GOOGLE_PRIVATE_KEY || '').replace(/\\n/g, '\n');
-}
-
-// Helper: Get current time in Karachi timezone
 function nowInKarachi() {
     try {
-        const formatter = new Intl.DateTimeFormat('en-US', {
+        return new Intl.DateTimeFormat('en-US', {
             timeZone: 'Asia/Karachi',
             year: 'numeric',
             month: '2-digit',
@@ -30,8 +16,7 @@ function nowInKarachi() {
             hour: '2-digit',
             minute: '2-digit',
             second: '2-digit',
-        });
-        return formatter.format(new Date());
+        }).format(new Date());
     } catch {
         return new Date().toISOString();
     }
@@ -40,7 +25,6 @@ function nowInKarachi() {
 export async function POST(request) {
     try {
         const body = await request.json().catch(() => ({}));
-
         const {
             name = '',
             email = '',
@@ -52,43 +36,39 @@ export async function POST(request) {
             page_url = '',
         } = body ?? {};
 
-        // --- Validate Env Vars ---
-        const privateKey = decodePrivateKey();
+        // ---- ENV VARS ----
         const clientEmail = process.env.GOOGLE_CLIENT_EMAIL;
         const spreadsheetId = process.env.GOOGLE_SHEET_ID;
+        const privateKeyBase64 = process.env.GOOGLE_PRIVATE_KEY_BASE64;
 
-        if (!privateKey || !clientEmail || !spreadsheetId) {
+        if (!clientEmail || !spreadsheetId || !privateKeyBase64) {
             console.error('Missing required env vars:', {
-                hasPrivateKey: !!privateKey,
                 hasClientEmail: !!clientEmail,
                 hasSpreadsheetId: !!spreadsheetId,
+                hasPrivateKeyBase64: !!privateKeyBase64,
             });
-
             return NextResponse.json(
                 { success: false, error: 'Missing required env vars' },
                 { status: 500 }
             );
         }
 
-        // --- Google Auth (reuse if possible) ---
+        // Decode Base64 key
+        const privateKey = Buffer.from(privateKeyBase64, 'base64').toString('utf8');
+
+        // ---- Google Auth ----
         if (!sheetsClient) {
             const auth = new google.auth.JWT({
                 email: clientEmail,
                 key: privateKey,
                 scopes: ['https://www.googleapis.com/auth/spreadsheets'],
             });
-
             sheetsClient = google.sheets({ version: 'v4', auth });
         }
 
-        // --- Prepare Data ---
+        // ---- Data ----
         const values = [[
-            name,
-            email,
-            phone,
-            comment,
-            person,
-            services,
+            name, email, phone, comment, person, services,
             location.ip || '',
             location.country || '',
             location.city || '',
@@ -98,7 +78,6 @@ export async function POST(request) {
             nowInKarachi(),
         ]];
 
-        // --- Append Row ---
         const appendRes = await sheetsClient.spreadsheets.values.append({
             spreadsheetId,
             range: 'Sheet1!A2',
