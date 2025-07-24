@@ -53,7 +53,7 @@ export default function Page() {
                 },
                 sameAs: [],
               },
-               {
+              {
                 "@type": "Product",
                 name: "Top Illustrators for Your Children’s Book",
                 image: "https://www.bookwriting.us/logo.png",
