@@ -74,7 +74,7 @@ const ContactFrom = ({ lp2, vertical, txt, popop }) => {
             });
 
             // Submit to External Email API
-            await fetch("https://api.infinitidigital.us/api/send-brandemail", {
+            await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({

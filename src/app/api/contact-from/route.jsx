@@ -4,20 +4,16 @@ import { google } from 'googleapis';
 export async function POST(request) {
     try {
         const body = await request.json();
-        const {
-            name,
-            email,
-            phone,
-            comment,
-            person,
-            services,
-            location,
-            page_url
-        } = body;
+        const { name, email, phone, comment, person, services, location, page_url } = body;
+
+        if (!process.env.PRIVATE_KEY) {
+            console.error("PRIVATE_KEY is missing!");
+            return NextResponse.json({ success: false, error: "Missing PRIVATE_KEY" }, { status: 500 });
+        }
 
         const auth = new google.auth.JWT({
             email: process.env.CLIENT_EMAIL,
-            key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
+            key: process.env.PRIVATE_KEY,
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
 
@@ -25,18 +21,9 @@ export async function POST(request) {
         const spreadsheetId = process.env.GOOGLE_SHEET_ID;
 
         const values = [[
-            name || '',
-            email || '',
-            phone || '',
-            comment || '',
-            person || '',
-            services || '',
-            location.ip || '',
-            location.country || '',
-            location.city || '',
-            location.state || '',
-            location.zip || '',
-            page_url || '',
+            name || '', email || '', phone || '', comment || '', person || '',
+            services || '', location.ip || '', location.country || '', location.city || '',
+            location.state || '', location.zip || '', page_url || '',
             new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' })
         ]];
 
@@ -49,7 +36,7 @@ export async function POST(request) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        console.error("Google Sheets API Error:", error);
+        console.error("Google Sheets API Error:", error.message, error);
         return NextResponse.json({ success: false, error: error.message }, { status: 500 });
     }
 }
