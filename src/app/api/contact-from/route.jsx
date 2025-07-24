@@ -1,13 +1,18 @@
 import { NextResponse } from 'next/server';
 import { google } from 'googleapis';
 
-export const dynamic = 'force-dynamic'; // prevent caching
+export const dynamic = 'force-dynamic'; // prevent caching in Next.js API routes
 
 // --- Decode Base64 private key ---
 function getPrivateKey() {
-    const base64Key = process.env.PRIVATE_KEY_B64;
-    if (!base64Key) return null;
-    return Buffer.from(base64Key, 'base64').toString('utf8');
+    try {
+        const base64Key = process.env.PRIVATE_KEY_B64;
+        if (!base64Key) return null;
+        return Buffer.from(base64Key, 'base64').toString('utf8');
+    } catch (err) {
+        console.error("Failed to decode PRIVATE_KEY_B64:", err);
+        return null;
+    }
 }
 
 export async function POST(request) {
@@ -24,10 +29,10 @@ export async function POST(request) {
             page_url,
         } = body ?? {};
 
-        // --- ENV validation ---
+        // --- Validate Environment Variables ---
         const privateKey = getPrivateKey();
         if (!privateKey) {
-            console.log("PRIVATE_KEY_B64 first 50 chars:", process.env.PRIVATE_KEY_B64?.substring(0, 50));
+            console.error("PRIVATE_KEY_B64 missing or invalid:", process.env.PRIVATE_KEY_B64?.substring(0, 50));
             return NextResponse.json(
                 { success: false, error: 'Missing or invalid PRIVATE_KEY_B64' },
                 { status: 500 }
@@ -52,19 +57,26 @@ export async function POST(request) {
             );
         }
 
-        // --- Auth with Google ---
+        // --- Google Auth ---
         const auth = new google.auth.JWT({
             email: clientEmail,
             key: privateKey,
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
 
-        // Test auth connection
-        await auth.authorize();
+        try {
+            await auth.authorize();
+        } catch (authError) {
+            console.error("Google Auth failed:", authError.message);
+            return NextResponse.json(
+                { success: false, error: 'Google Authentication failed' },
+                { status: 500 }
+            );
+        }
 
         const sheets = google.sheets({ version: 'v4', auth });
 
-        // --- Prepare data ---
+        // --- Prepare Row Data ---
         const values = [[
             name || '',
             email || '',
@@ -81,7 +93,7 @@ export async function POST(request) {
             new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' })
         ]];
 
-        // --- Append to Google Sheet ---
+        // --- Append Row to Google Sheet ---
         const appendRes = await sheets.spreadsheets.values.append({
             spreadsheetId,
             range: 'Sheet1!A2',
@@ -89,10 +101,12 @@ export async function POST(request) {
             requestBody: { values },
         });
 
-        if (appendRes?.status !== 200) {
+        const success = appendRes?.status === 200 && appendRes?.data?.updates?.updatedRows >= 1;
+
+        if (!success) {
             console.error('Google Sheets append failed:', appendRes?.data);
             return NextResponse.json(
-                { success: false, error: 'Google Sheets append failed' },
+                { success: false, error: 'Failed to append data to Google Sheets' },
                 { status: 500 }
             );
         }
