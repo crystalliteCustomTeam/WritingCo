@@ -77,10 +77,10 @@ export default function Page() {
         body: JSON.stringify(payload),
       });
 
-      const result = await res.json();
-      if (!result.success) {
-        throw new Error(result.error || "Failed to submit form");
-      }
+      // const result = await res.json();
+      // if (!result.success) {
+      //   throw new Error(result.error || "Failed to submit form");
+      // }
 
       // Submit to External Email API
       await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
@@ -105,7 +105,7 @@ export default function Page() {
       });
 
       // Success redirect or message
-      // window.location.href = "/thank-you";
+      window.location.href = "/thank-you";
     } catch (err) {
       console.error("Error submitting form:", err);
       setError(err.message || "Something went wrong. Please try again.");
