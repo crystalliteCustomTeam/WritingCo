@@ -16,7 +16,7 @@ export async function POST(request) {
         } = body;
         // ✅ ENV Debugging
         console.log("✅ ENV DEBUG START");
-        console.log("CLIENT_EMAIL:", process.env.CLIENT_EMAIL);
+        console.log("GOOGLE_CLIENT_EMAIL:", process.env.GOOGLE_GOOGLE_CLIENT_EMAIL);
         console.log("GOOGLE_SHEET_ID:", process.env.GOOGLE_SHEET_ID);
         console.log("GOOGLE_PRIVATE_KEY starts with:", process.env.GOOGLE_PRIVATE_KEY?.slice(0, 30));
         console.log("GOOGLE_PRIVATE_KEY length:", process.env.GOOGLE_PRIVATE_KEY?.length);
@@ -25,7 +25,7 @@ export async function POST(request) {
 
 
         const auth = new google.auth.JWT({
-            email: process.env.CLIENT_EMAIL,
+            email: process.env.GOOGLE_CLIENT_EMAIL,
             key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
