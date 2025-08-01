@@ -77,10 +77,10 @@ export default function Page() {
         body: JSON.stringify(payload),
       });
 
-      // const result = await res.json();
-      // if (!result.success) {
-      //   throw new Error(result.error || "Failed to submit form");
-      // }
+      const result = await res.json();
+      if (!result.success) {
+        throw new Error(result.error || "Failed to submit form");
+      }
 
       // Submit to External Email API
       await fetch("https://api.infinitidigital.us/api/send-brandemail/", {
