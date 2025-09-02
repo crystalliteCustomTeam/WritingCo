@@ -14,13 +14,6 @@ export async function POST(request) {
             location,
             page_url
         } = body;
-        // ✅ ENV Debugging
-        console.log("✅ ENV DEBUG START");
-        console.log("GOOGLE_CLIENT_EMAIL:", process.env.GOOGLE_GOOGLE_CLIENT_EMAIL);
-        console.log("GOOGLE_SHEET_ID:", process.env.GOOGLE_SHEET_ID);
-        console.log("GOOGLE_PRIVATE_KEY starts with:", process.env.GOOGLE_PRIVATE_KEY?.slice(0, 30));
-        console.log("GOOGLE_PRIVATE_KEY length:", process.env.GOOGLE_PRIVATE_KEY?.length);
-        console.log("✅ ENV DEBUG END");
 
 
 

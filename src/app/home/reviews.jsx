@@ -8,7 +8,7 @@ import BookReviews from "./bookreview"
 
 
 const Reviews = ({ lp2 }) => {
-    const [activeReview, setActiveReview] = useState("book");
+    const [activeReview, setActiveReview] = useState("client");
     return (
         <section className={`${styles.clientsReviewsSection} pt-100`}>
             <Container>
@@ -19,7 +19,7 @@ const Reviews = ({ lp2 }) => {
                         <p>Authors are loving what we’ve done for their books.</p>
                     </Col>
                     <Col md={12} lg={4} className='my-auto'>
-                        <ul className={styles.tabReviews}>
+                        {/* <ul className={styles.tabReviews}>
 
                             <li
                                 onClick={() => setActiveReview("book")}
@@ -33,10 +33,10 @@ const Reviews = ({ lp2 }) => {
                             >
                                 Client Reviews
                             </li>
-                        </ul>
+                        </ul> */}
                     </Col>
                     <Col md={12}>
-                        {activeReview === "book" && <BookReviews />}
+                        {/* {activeReview === "book" && <BookReviews />} */}
                         {activeReview === "client" && <ClientReviews lp2={lp2} />}
                     </Col>
                 </Row>
