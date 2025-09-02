@@ -7,10 +7,17 @@ import Image from 'next/image'
 
 const Banner = () => {
     return (
-        <section className={styles.mainBanner} style={{ backgroundImage: `url(${BannerImg.src})` }}>
+        <section className={styles.mainBanner} >
+            <Image
+                src={BannerImg}
+                alt="Banner Background"
+                priority
+                sizes="100vw"
+                className={styles.bannerMainImage}
+            />
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={8} lg={6} className="my-auto">
+                    <Col md={7} lg={6} className="my-auto">
                         <div className={styles.bannerTxt}>
                             <h1>Don’t Stress the Writing,<br className="d-md-block d-none" />
                                 We’ll Make It Exciting!</h1>

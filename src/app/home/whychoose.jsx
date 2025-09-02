@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/whychoose.module.scss"
+import Image from "next/image"
 
 
 const WhyChoose = ({ data, spcring }) => {
@@ -15,7 +16,7 @@ const WhyChoose = ({ data, spcring }) => {
                     <Col md={12}>
                         <div className={`${spcring ? styles.Spcring : ""} ${styles.whychooseContainer}`}>
                             <div className={styles.whychooseImg}>
-                                <img src={data.img} alt="Book Image" width={1428} height={958} />
+                                <Image src={data.img} alt="Book Image" width={1428} height={958} />
                                 {data.ProcessDataItem.map((item, index) => (
                                     <div className={`${styles.whychooseBox} ${styles[`box${index + 1}`]}`} key={index}>
                                         {item.title}
