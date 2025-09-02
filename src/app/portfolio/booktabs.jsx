@@ -16,6 +16,14 @@ import Book09 from "media/portfolio/book/book9.webp"
 import Book10 from "media/portfolio/book/book10.webp"
 import Link from "next/link";
 
+import ImgInd01 from "media/portfolio/illustrator/1.webp";
+import ImgInd02 from "media/portfolio/illustrator/2.webp";
+import ImgInd03 from "media/portfolio/illustrator/3.webp";
+import ImgInd04 from "media/portfolio/illustrator/4.webp";
+import ImgInd05 from "media/portfolio/illustrator/5.webp";
+import ImgInd06 from "media/portfolio/illustrator/6.webp";
+import ImgInd07 from "media/portfolio/illustrator/7.webp";
+
 const data = {
     subtitle: "Our Gallery",
     title: "Our Latest Book Publishing Projects",
@@ -70,16 +78,16 @@ const data = {
         {
             tabtitle: "Children’s Books",
             images: [
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book10.src,
+                ImgInd01.src,
+                ImgInd02.src,
+                ImgInd03.src,
+                ImgInd04.src,
+                ImgInd05.src,
+                ImgInd06.src,
+                ImgInd07.src,
+                ImgInd01.src,
+                ImgInd02.src,
+                ImgInd03.src,
             ],
         },
         {
