@@ -57,9 +57,9 @@ export default function BlogPost({ params }) {
                         <Col md={12} lg={12} className="m-auto">
                             <div className={style.singleBlogBox}>
                                 <h1>{blog.title}</h1>
-                                <div className={style.blogInfo}>
+                                {/* <div className={style.blogInfo}>
                                     {blog.date} . <span>{getDaysAgo(blog.date)} days ago</span>
-                                </div>
+                                </div> */}
 
                             </div>
                         </Col>

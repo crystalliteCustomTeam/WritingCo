@@ -24,7 +24,7 @@ const Blogs = ({ data, blogPage }) => {
                                 </div>
                                 <div className={styles.blogTxt}>
                                     <h5><Link href={item.link}>{item.title}</Link></h5>
-                                    <div className={styles.datatime}>{item.date} | <span>{item.category}</span></div>
+                                    {/* <div className={styles.datatime}>{item.date} | <span>{item.category}</span></div> */}
                                     <p>{item.txt}</p>
                                     <Link href={item.link} className={styles.btnMore}>Read More</Link>
                                 </div>
