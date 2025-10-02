@@ -24,6 +24,69 @@ import ImgInd05 from "media/portfolio/illustrator/5.webp";
 import ImgInd06 from "media/portfolio/illustrator/6.webp";
 import ImgInd07 from "media/portfolio/illustrator/7.webp";
 
+//Personal Stories
+
+import PS1 from "media/portfolio/personal-stories/P1.webp";
+import PS2 from "media/portfolio/personal-stories/P2.webp";
+import PS3 from "media/portfolio/personal-stories/P3.webp";
+import PS4 from "media/portfolio/personal-stories/P4.webp";
+import PS5 from "media/portfolio/personal-stories/P5.webp";
+import PS6 from "media/portfolio/personal-stories/P6.webp";
+import PS8 from "media/portfolio/personal-stories/P8.webp";
+import PS9 from "media/portfolio/personal-stories/P9.webp";
+import PS10 from "media/portfolio/personal-stories/P10.webp";
+import PS11 from "media/portfolio/personal-stories/P11.webp";
+
+//Non-Fiction
+import NF1 from "media/portfolio/non-fiction/NF1.webp";
+import NF2 from "media/portfolio/non-fiction/NF2.webp";
+import NF3 from "media/portfolio/non-fiction/NF3.webp";
+import NF4 from "media/portfolio/non-fiction/NF4.webp";
+import NF5 from "media/portfolio/non-fiction/NF5.webp";
+import NF6 from "media/portfolio/non-fiction/NF6.webp";
+import NF7 from "media/portfolio/non-fiction/NF7.webp";
+import NF8 from "media/portfolio/non-fiction/NF8.webp";
+import NF9 from "media/portfolio/non-fiction/NF9.webp";
+import NF10 from "media/portfolio/non-fiction/NF10.webp";
+import NF11 from "media/portfolio/non-fiction/NF11.webp";
+import NF12 from "media/portfolio/non-fiction/NF12.webp";
+
+//Fiction
+
+import F1 from "media/portfolio/fiction/F1.webp";
+import F2 from "media/portfolio/fiction/F2.webp";
+import F3 from "media/portfolio/fiction/F3.webp";
+import F4 from "media/portfolio/fiction/F4.webp";
+import F5 from "media/portfolio/fiction/F5.webp";
+import F6 from "media/portfolio/fiction/F6.webp";
+import F7 from "media/portfolio/fiction/F7.webp";
+import F8 from "media/portfolio/fiction/F8.webp";
+import F9 from "media/portfolio/fiction/F9.webp";
+import F10 from "media/portfolio/fiction/F10.webp";
+import F11 from "media/portfolio/fiction/F11.webp";
+import F12 from "media/portfolio/fiction/F12.webp";
+
+//Children’s Books
+import C1 from "media/portfolio/children-books/C1.webp";
+import C2 from "media/portfolio/children-books/C2.webp";
+import C3 from "media/portfolio/children-books/C3.webp";
+import C4 from "media/portfolio/children-books/C4.webp";
+import C5 from "media/portfolio/children-books/C5.webp";
+import C6 from "media/portfolio/children-books/C6.webp";
+import C7 from "media/portfolio/children-books/C7.webp";
+import C8 from "media/portfolio/children-books/C8.webp";
+
+
+//Biographies 
+
+import A1 from "media/portfolio/Biographies/A1.webp";
+import A2 from "media/portfolio/Biographies/A2.webp";
+import A3 from "media/portfolio/Biographies/A3.webp";
+import A4 from "media/portfolio/Biographies/A4.webp";
+import A5 from "media/portfolio/Biographies/A5.webp";
+import A6 from "media/portfolio/Biographies/A6.webp";
+import A7 from "media/portfolio/Biographies/A7.webp";
+
 const data = {
     subtitle: "Our Gallery",
     title: "Our Latest Book Publishing Projects",
@@ -33,76 +96,76 @@ const data = {
         {
             tabtitle: "Fiction",
             images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
+                F1.src,
+                F2.src,
+                F3.src,
+                F4.src,
+                F5.src,
+                F6.src,
+                F7.src,
+                F8.src,
+                F9.src,
+                F10.src,
+                F11.src,
+                F12.src,
             ],
         },
         {
             tabtitle: "Non-Fiction",
             images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
+                NF1.src,
+                NF2.src,
+                NF3.src,
+                NF4.src,
+                NF5.src,
+                NF6.src,
+                NF7.src,
+                NF8.src,
+                NF9.src,
+                NF10.src,
+                NF11.src,
+                NF12.src,
             ],
         },
         {
             tabtitle: "Biographies",
             images: [
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book04.src,
-                Book05.src,
-                Book06.src,
-                Book07.src,
+                A1.src,
+                A2.src,
+                A3.src,
+                A4.src,
+                A5.src,
+                A6.src,
+                A7.src,
             ],
         },
         {
             tabtitle: "Children’s Books",
             images: [
-                ImgInd01.src,
-                ImgInd02.src,
-                ImgInd03.src,
-                ImgInd04.src,
-                ImgInd05.src,
-                ImgInd06.src,
-                ImgInd07.src,
-                ImgInd01.src,
-                ImgInd02.src,
-                ImgInd03.src,
+                C1.src,
+                C2.src,
+                C3.src,
+                C4.src,
+                C5.src,
+                C6.src,
+                C7.src,
+                C8.src,
+
             ],
         },
         {
             tabtitle: "Personal Stories",
             images: [
-                Book06.src,
-                Book07.src,
-                Book08.src,
-                Book09.src,
-                Book10.src,
-                Book01.src,
-                Book02.src,
-                Book03.src,
-                Book04.src,
-                Book05.src,
+                PS1.src,
+                PS2.src,
+                PS3.src,
+                PS4.src,
+                PS5.src,
+                PS6.src,
+                PS8.src,
+                PS9.src,
+                PS10.src,
+                PS11.src,
             ],
         },
     ]
