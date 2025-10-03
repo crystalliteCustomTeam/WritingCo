@@ -79,13 +79,13 @@ import C8 from "media/portfolio/children-books/C8.webp";
 
 //Biographies 
 
-import A1 from "media/portfolio/Biographies/A1.webp";
-import A2 from "media/portfolio/Biographies/A2.webp";
-import A3 from "media/portfolio/Biographies/A3.webp";
-import A4 from "media/portfolio/Biographies/A4.webp";
-import A5 from "media/portfolio/Biographies/A5.webp";
-import A6 from "media/portfolio/Biographies/A6.webp";
-import A7 from "media/portfolio/Biographies/A7.webp";
+import A1 from "media/portfolio/biographies/A1.webp";
+import A2 from "media/portfolio/biographies/A2.webp";
+import A3 from "media/portfolio/biographies/A3.webp";
+import A4 from "media/portfolio/biographies/A4.webp";
+import A5 from "media/portfolio/biographies/A5.webp";
+import A6 from "media/portfolio/biographies/A6.webp";
+import A7 from "media/portfolio/biographies/A7.webp";
 
 const data = {
     subtitle: "Our Gallery",
