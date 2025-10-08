@@ -4,39 +4,60 @@ import { useEffect } from "react";
 const Scripts = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
-            // ✅ Google Tag Manager
+            /* ----------------------------
+             ✅ Google Tag Manager
+            ----------------------------- */
             const gtmScript = document.createElement("script");
             gtmScript.async = true;
             gtmScript.src =
                 "https://www.googletagmanager.com/gtm.js?id=GTM-K9S7GGNQ";
             document.head.appendChild(gtmScript);
 
-            // ✅ GTM noscript
+            // GTM noscript
             const noscriptDiv = document.createElement("noscript");
             noscriptDiv.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9S7GGNQ"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
             document.body.insertBefore(noscriptDiv, document.body.firstChild);
 
-            // ✅ Google Analytics
-            const analyticsScript = document.createElement("script");
-            analyticsScript.src =
+            /* ----------------------------
+             ✅ Google Analytics (GA4)
+            ----------------------------- */
+            const gaScript = document.createElement("script");
+            gaScript.async = true;
+            gaScript.src =
                 "https://www.googletagmanager.com/gtag/js?id=G-EK1JCS1WF5";
-            analyticsScript.async = true;
-            analyticsScript.defer = true;
-            document.head.appendChild(analyticsScript);
+            document.head.appendChild(gaScript);
 
-            window.gtag =
-                window.gtag ||
-                function () {
-                    (window.dataLayer = window.dataLayer || []).push(arguments);
-                };
-
-            analyticsScript.onload = () => {
+            gaScript.onload = () => {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    window.dataLayer.push(arguments);
+                }
                 gtag("js", new Date());
                 gtag("config", "G-EK1JCS1WF5");
             };
 
-            // ✅ LiveChat
+            /* ----------------------------
+             ✅ Google Ads (bookwriting.us)
+            ----------------------------- */
+            const adsScript = document.createElement("script");
+            adsScript.async = true;
+            adsScript.src =
+                "https://www.googletagmanager.com/gtag/js?id=AW-338427708";
+            document.head.appendChild(adsScript);
+
+            adsScript.onload = () => {
+                window.dataLayer = window.dataLayer || [];
+                function gtag() {
+                    window.dataLayer.push(arguments);
+                }
+                gtag("js", new Date());
+                gtag("config", "AW-338427708");
+            };
+
+            /* ----------------------------
+             ✅ LiveChat
+            ----------------------------- */
             window.__lc = window.__lc || {};
             window.__lc.license = 19288255;
             window.__lc.integration_name = "manual_onboarding";
@@ -70,15 +91,15 @@ const Scripts = () => {
                         i(["call", c.call(arguments)]);
                     },
                     init: function () {
-                        var n = t.createElement("script");
-                        n.async = !0;
+                        const n = t.createElement("script");
+                        n.async = true;
                         n.type = "text/javascript";
                         n.src = "https://cdn.livechatinc.com/tracking.js";
                         t.head.appendChild(n);
                     },
                 };
-                !n.__lc.asyncInit && e.init(),
-                    (n.LiveChatWidget = n.LiveChatWidget || e);
+                !n.__lc.asyncInit && e.init();
+                n.LiveChatWidget = n.LiveChatWidget || e;
             })(window, document, [].slice);
         }, 100);
 
