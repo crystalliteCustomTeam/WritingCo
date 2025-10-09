@@ -76,12 +76,12 @@ const Footer = () => {
                         <Col md={12} lg={4} className="my-auto">
                             <div className={styles.copyItem}>
                                 <h6>Head Office</h6>
-                                <p>418 Broadway STE R Albany NY 12207, United States</p>
+                                <p>One World Trade Center, 285 Fulton St <br />85th floor suite 8500, New York, NY 10007</p>
                             </div>
                         </Col>
                         <Col md={12} lg={4} className="my-auto text-center">
                             <div className={styles.copyItem}>
-                                <p>© 2025 - All Rights Reserved Dreamweave Media INC</p>
+                                <p>© 2025 - All Rights Reserved Infiniti Media INC</p>
                             </div>
                         </Col>
                         <Col md={12} lg={4} className="my-auto">
