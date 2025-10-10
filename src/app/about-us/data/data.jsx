@@ -10,7 +10,6 @@ export const ContentBox1 = {
 }
 
 import Img02 from "media/about/txtImage02.webp"
-
 export const ContentBox2 = {
     title: "Partner with Experts",
     txt: (<>
