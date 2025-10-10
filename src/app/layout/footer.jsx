@@ -81,7 +81,7 @@ const Footer = () => {
                         </Col>
                         <Col md={12} lg={4} className="my-auto text-center">
                             <div className={styles.copyItem}>
-                                <p>© 2025 - All Rights Reserved Infiniti Media INC</p>
+                                <p>© 2025 - All Rights Reserved Bhaooinc</p>
                             </div>
                         </Col>
                         <Col md={12} lg={4} className="my-auto">
